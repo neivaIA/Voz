@@ -1,22 +1,18 @@
-import json,urllib.request,urllib.parse,collections
-API="https://apidatalake.tesouro.gov.br/ords/siconfi/tt"
-def api(p,**q):
-    u=API+p+"?"+urllib.parse.urlencode(q)
-    try:
-        with urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"contas-publicas"}),timeout=90) as r: return json.load(r)
-    except Exception as e: return {"erro":repr(e)}
+import urllib.request,zipfile,io,json
 out={}
-for cod in (3108909,3140407,4108205,3525003):
-    for tipo in ("RREO","RREO Simplificado"):
-        for per in (6,):
-            j=api("/rreo",an_exercicio=2025,nr_periodo=per,co_tipo_demonstrativo=tipo,id_ente=cod)
-            it=j.get("items",[])
-            out[f"rreo {cod} {tipo} {per}"]=[j.get("erro"),dict(collections.Counter(i.get("anexo") for i in it))]
-            a14=[i for i in it if "14" in (i.get("anexo") or "") or "Simplif" in (i.get("anexo") or "")]
-            out[f"rreo {cod} {tipo} {per} a14amostra"]=[(i.get("anexo"),i.get("cod_conta"),i.get("coluna"),i.get("valor")) for i in a14 if "Saude" in (i.get("cod_conta") or "") or "Ensino" in (i.get("cod_conta") or "")][:20]
-    for tipo in ("RGF","RGF Simplificado"):
-        for per,n in (("Q",3),("S",2)):
-            j=api("/rgf",an_exercicio=2025,in_periodicidade=per,nr_periodo=n,co_tipo_demonstrativo=tipo,co_esfera="M",co_poder="E",id_ente=cod)
-            it=j.get("items",[])
-            out[f"rgf {cod} {tipo} {per}{n}"]=[j.get("erro"),dict(collections.Counter(i.get("anexo") for i in it)),[(i.get("cod_conta"),i.get("coluna"),i.get("valor")) for i in it if "Pessoal" in (i.get("cod_conta") or "") and "RCL" in (i.get("coluna") or "")][:6]]
+for et in ("anos_iniciais","anos_finais","ensino_medio"):
+  for y in (2025,2023):
+    for u in (f"https://download.inep.gov.br/ideb/resultados/divulgacao_{et}_municipios_{y}.zip",
+              f"https://download.inep.gov.br/educacao_basica/portal_ideb/planilhas_para_download/{y}/divulgacao_{et}_municipios_{y}.zip"):
+        try:
+            b=urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=120).read()
+            z=zipfile.ZipFile(io.BytesIO(b)); out[u]=[len(b),z.namelist()]
+            if y==2025:
+                import openpyxl
+                n=[x for x in z.namelist() if x.endswith(('.xlsx','.xls'))][0]
+                wb=openpyxl.load_workbook(io.BytesIO(z.read(n)),read_only=True)
+                ws=wb.active; rows=[[c for c in r] for _,r in zip(range(14),ws.iter_rows(values_only=True))]
+                out[u].append([[str(c)[:40] for c in r] for r in rows])
+            break
+        except Exception as e: out[u]=repr(e)[:200]
 json.dump(out,open("sonda/res.json","w"),ensure_ascii=False,indent=1)
