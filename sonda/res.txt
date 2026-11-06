@@ -1,38 +1,11 @@
-+ H=download.inep.gov.br
-+ echo
-+ openssl s_client -connect download.inep.gov.br:443 -servername download.inep.gov.br -showcerts
-+ grep -E 's:|i:|CA Issuers'
-+ head
-+ echo
-+ openssl s_client -connect download.inep.gov.br:443 -servername download.inep.gov.br
-+ openssl x509 -noout -text
-+ grep -A2 'Authority Information'
-            Authority Information Access: 
-                CA Issuers - URI:http://secure.globalsign.com/cacert/rnpicpedugr46ovtlsca2025.crt
-                OCSP - URI:http://ocsp.globalsign.com/rnpicpedugr46ovtlsca2025
-+ for u in https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2025.zip https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2023.zip
-+ curl -sS -o /dev/null -w '%{http_code} %{size_download}\n' -A Mozilla/5.0 https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2025.zip
-curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20)
-More details here: https://curl.se/docs/sslcerts.html
-
-curl failed to verify the legitimacy of the server and therefore could not
-establish a secure connection to it. To learn more about this situation and
-how to fix it, please visit the webpage mentioned above.
-000 0
-+ curl -sSk -o /dev/null -w 'insecure %{http_code} %{size_download}\n' -A Mozilla/5.0 https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2025.zip
-insecure 200 25308289
-+ for u in https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2025.zip https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2023.zip
-+ curl -sS -o /dev/null -w '%{http_code} %{size_download}\n' -A Mozilla/5.0 https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2023.zip
-curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20)
-More details here: https://curl.se/docs/sslcerts.html
-
-curl failed to verify the legitimacy of the server and therefore could not
-establish a secure connection to it. To learn more about this situation and
-how to fix it, please visit the webpage mentioned above.
-000 0
-+ curl -sSk -o /dev/null -w 'insecure %{http_code} %{size_download}\n' -A Mozilla/5.0 https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2023.zip
-insecure 200 23245955
-+ curl -sSL -A Mozilla/5.0 https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados
-+ grep -oE 'https?://[^"]+\.(zip|xlsx)'
-+ sort -u
-+ head -40
+subject=C=BR, O=REDE NACIONAL DE ENSINO E PESQUISA - RNP, CN=RNP ICPEdu GR46 OV TLS CA 2025
+issuer=C=BE, O=GlobalSign nv-sa, CN=GlobalSign Root R46
+curl: (28) Failed to connect to download.inep.gov.br port 443 after 135363 ms: Could not connect to server
+curl: (28) Failed to connect to download.inep.gov.br port 443 after 135157 ms: Could not connect to server
+curl: (28) Failed to connect to download.inep.gov.br port 443 after 135157 ms: Could not connect to server
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/usr/lib/python3.14/zipfile/__init__.py", line 1453, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'anos_iniciais.zip'
