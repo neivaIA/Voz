@@ -1,0 +1,59 @@
+{
+ "tema": "deputado",
+ "sementes": [
+  11,
+  22,
+  33
+ ],
+ "vocabulario": "Câmara dos Deputados, deputado federal, cota parlamentar, verba de gabinete, contaspublicasbrasil.com.br",
+ "frases": [
+  {
+   "id": "n1",
+   "fala": "Quanto custa um deputado federal pros cofres públicos?",
+   "leg": "Quanto custa um deputado federal para os cofres públicos?",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n2",
+   "fala": "Somando tudo, pode passar de três milhões de reais por ano.",
+   "leg": "Somando tudo, pode passar de R$ 3 milhões por ano.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n3",
+   "fala": "O salário é de quarenta e seis mil por mês, treze vezes no ano.",
+   "leg": "O salário é de R$ 46 mil por mês, 13 vezes no ano.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n4",
+   "fala": "A maior parte é a verba de gabinete: até cento e sessenta e cinco mil por mês, pros assessores.",
+   "leg": "A maior parte é a verba de gabinete: até R$ 165 mil por mês, para os assessores.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n5",
+   "fala": "A cota parlamentar custou, em média, quatrocentos e dezesseis mil por deputado.",
+   "leg": "A cota parlamentar custou, em média, R$ 416 mil por deputado em 2025.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n6",
+   "fala": "De cada cem reais, sessenta e cinco vão pro gabinete, e vinte pro salário.",
+   "leg": "De cada R$ 100, R$ 65 vão para o gabinete e R$ 20 para o salário.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n7",
+   "fala": "Os quinhentos e treze juntos passam de um bilhão e meio por ano, fora os prédios e servidores da Câmara.",
+   "leg": "Os 513 juntos passam de R$ 1,5 bilhão por ano, fora os prédios e servidores da Câmara.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n8",
+   "fala": "Veja os gastos de cada deputado em contas públicas brasil, ponto com, ponto bê érre.",
+   "leg": "Veja os gastos de cada deputado em contaspublicasbrasil.com.br",
+   "fim": "ponto"
+  }
+ ]
+}

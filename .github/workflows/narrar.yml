@@ -1,0 +1,101 @@
+name: narrar
+# Um pedido = um arquivo em pedidos/<tema>.json. Cada (frase x semente) vira uma tarefa em paralelo.
+# Resultado no ramo saida-<tema>: WAV de cada tomada + JSON com a conferência (transcrição, ritmo, pausas, entonação).
+on:
+  push:
+    branches: [main]
+    paths: ["pedidos/**.json"]
+  workflow_dispatch:
+    inputs:
+      pedido: { description: "caminho do pedido (ex.: pedidos/deputado.json)", required: true }
+
+permissions: { contents: write }
+concurrency: { group: "narrar-${{ github.ref }}-${{ github.event.inputs.pedido || github.sha }}", cancel-in-progress: false }
+
+env:
+  CHAVE_CACHE: venv-cb-v1-py311
+
+jobs:
+  planejar:
+    runs-on: ubuntu-latest
+    outputs:
+      matriz: ${{ steps.m.outputs.matriz }}
+      pedido: ${{ steps.m.outputs.pedido }}
+      tema: ${{ steps.m.outputs.tema }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: m
+        run: |
+          P="${{ github.event.inputs.pedido }}"
+          if [ -z "$P" ]; then P=$(git diff --name-only HEAD~1 HEAD -- pedidos | grep '\.json$' | tail -1); fi
+          echo "pedido=$P" >> "$GITHUB_OUTPUT"
+          python3 - "$P" >> "$GITHUB_OUTPUT" <<'EOF'
+          import json, sys
+          P = json.load(open(sys.argv[1]))
+          ids = P.get("refazer") or [f["id"] for f in P["frases"]]
+          seeds = P.get("sementes", [11, 22, 33])
+          print("tema=" + P["tema"])
+          print("matriz=" + json.dumps({"include": [{"id": i, "seed": s} for i in ids for s in seeds]}))
+          EOF
+
+  preparar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - id: c
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/venv
+            ~/.cache/huggingface
+          key: ${{ env.CHAVE_CACHE }}
+      - if: steps.c.outputs.cache-hit != 'true'
+        run: |
+          python -m venv ~/venv
+          ~/venv/bin/pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          ~/venv/bin/pip install -q chatterbox-tts faster-whisper librosa num2words
+          ~/venv/bin/python -c "from chatterbox.mtl_tts import ChatterboxMultilingualTTS as M; M.from_pretrained(device='cpu')"
+          ~/venv/bin/python -c "from faster_whisper import WhisperModel as W; W('small', device='cpu', compute_type='int8')"
+          ~/venv/bin/pip cache purge || true
+
+  gerar:
+    needs: [planejar, preparar]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJson(needs.planejar.outputs.matriz) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/venv
+            ~/.cache/huggingface
+          key: ${{ env.CHAVE_CACHE }}
+          fail-on-cache-miss: true
+      - run: ~/venv/bin/python gerar.py "${{ needs.planejar.outputs.pedido }}" "${{ matrix.id }}" "${{ matrix.seed }}"
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: "t-${{ matrix.id }}-${{ matrix.seed }}", path: out, if-no-files-found: ignore }
+
+  publicar:
+    needs: [planejar, gerar]
+    if: always() && needs.planejar.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { pattern: "t-*", path: novo, merge-multiple: true }
+      - run: |
+          T="${{ needs.planejar.outputs.tema }}"; B="saida-$T"
+          R="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"
+          mkdir saida && cd saida && git init -q -b "$B"
+          git fetch -q --depth 1 "$R" "$B" && git checkout -q FETCH_HEAD -- . 2>/dev/null || true
+          cp -r ../novo/"$T"/. . 2>/dev/null || true
+          git add -A && git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "tomadas $(date -u +%H:%M)" && git push -qf "$R" "HEAD:$B"
+          ls | head -50
