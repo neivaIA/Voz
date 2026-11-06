@@ -1,0 +1,13 @@
+{
+ "id": "n1",
+ "seed": 22,
+ "arq": "n1_s22.wav",
+ "ok": false,
+ "wer": 0.25,
+ "faltam": [],
+ "cps": 18.1,
+ "pausa": 0.0,
+ "f0_st": 5.02,
+ "dur": 2.98,
+ "txt": "Quanto custa um deputado federal para os cofes públicos?"
+}

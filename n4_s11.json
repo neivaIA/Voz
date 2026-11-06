@@ -1,0 +1,15 @@
+{
+ "id": "n4",
+ "seed": 11,
+ "arq": "n4_s11.wav",
+ "ok": false,
+ "wer": 0.125,
+ "faltam": [
+  "sessenta"
+ ],
+ "cps": 19.4,
+ "pausa": 0.42,
+ "f0_st": 4.28,
+ "dur": 4.9,
+ "txt": "A maior parte é a verba de gabinete até 175 mil por mês pros acessores."
+}

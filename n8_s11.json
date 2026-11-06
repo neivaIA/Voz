@@ -1,0 +1,15 @@
+{
+ "id": "n8",
+ "seed": 11,
+ "arq": "n8_s11.wav",
+ "ok": false,
+ "wer": 0.533,
+ "faltam": [
+  "veja"
+ ],
+ "cps": 18.3,
+ "pausa": 0.22,
+ "f0_st": 4.56,
+ "dur": 4.6,
+ "txt": "Eja os gastos de cada deputado em contaspublicasbrasil.com.br."
+}

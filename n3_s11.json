@@ -1,0 +1,13 @@
+{
+ "id": "n3",
+ "seed": 11,
+ "arq": "n3_s11.wav",
+ "ok": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.7,
+ "pausa": 0.03,
+ "f0_st": 5.21,
+ "dur": 3.55,
+ "txt": "O salário é de 46 mil por mês, 13 vezes no ano."
+}
