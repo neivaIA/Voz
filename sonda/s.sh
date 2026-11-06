@@ -1,8 +1,13 @@
-B=https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas
-for f in prestacao_de_contas_eleitorais_candidatos_2024.zip prestacao_de_contas_eleitorais_orgaos_partidarios_2024.zip; do
-  curl -sSI $B/$f | grep -iE "^HTTP|content-length|last-modified"
-done
-curl -sS -o pc.zip $B/prestacao_de_contas_eleitorais_candidatos_2024.zip && unzip -l pc.zip | head -80
-for p in receitas_candidatos_2024_BA despesas_contratadas_candidatos_2024_BA despesas_pagas_candidatos_2024_BA receitas_candidatos_doador_originario_2024_BA; do
-  n=$(unzip -l pc.zip | grep -o "$p.csv" | head -1); [ -n "$n" ] && { echo "== $n"; unzip -p pc.zip "$n" | iconv -f latin1 -t utf8 | head -3; unzip -p pc.zip "$n" | wc -l; }
-done
+python3 - <<'P'
+import json,urllib.request,urllib.parse,collections
+API="https://apidatalake.tesouro.gov.br/ords/siconfi/tt"
+def api(p,**q):
+    u=API+p+"?"+urllib.parse.urlencode(q)
+    with urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"contas-publicas"}),timeout=90) as r: return json.load(r)
+for cod,tipo,per,n in ((2933307,"RGF","Q",3),(3108909,"RGF Simplificado","S",2)):
+    it=api("/rgf",an_exercicio=2025,in_periodicidade=per,nr_periodo=n,co_tipo_demonstrativo=tipo,co_esfera="M",co_poder="E",id_ente=cod).get("items",[])
+    print("==",cod,tipo,len(it),collections.Counter(i["anexo"] for i in it))
+    for i in it:
+        if i["anexo"] in ("RGF-Anexo 02","RGF-Anexo 05","RGF-Anexo 06"):
+            print(i["anexo"],"|",i.get("cod_conta"),"|",(i.get("conta") or "")[:70],"|",i.get("coluna"),"|",i.get("valor"))
+P
