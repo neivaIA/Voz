@@ -1,13 +1,110 @@
-curl: (35) Recv failure: Connection reset by peer
-Archive:  anos_iniciais.zip
-  inflating: sonda/x/divulgacao_anos_iniciais_municipios_2025.xlsx  
-Archive:  anos_finais.zip
-  inflating: sonda/x/divulgacao_anos_finais_municipios_2025.xlsx  
-Archive:  ensino_medio.zip
-  inflating: sonda/x/divulgacao_ensino_medio_municipios_2025.xlsx  
-total 27192
-drwxr-xr-x 2 runner runner     4096 Nov  6 18:04 .
-drwxr-xr-x 3 runner runner     4096 Nov  6 18:03 ..
--rw-r--r-- 1 runner runner 11507820 Jul 24 17:57 divulgacao_anos_finais_municipios_2025.xlsx
--rw-r--r-- 1 runner runner 12184943 Jul 24 17:54 divulgacao_anos_iniciais_municipios_2025.xlsx
--rw-r--r-- 1 runner runner  4137862 Jul 24 18:02 divulgacao_ensino_medio_municipios_2025.xlsx
+HTTP/2 200 
+last-modified: Fri, 06 Nov 2026 02:51:54 GMT
+content-length: 1331544673
+HTTP/2 200 
+last-modified: Fri, 06 Nov 2026 02:42:33 GMT
+content-length: 62463396
+Archive:  pc.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+ 41353374  2026-11-06 02:09   despesas_pagas_candidatos_2024_CE.csv
+ 42636621  2026-11-06 02:09   despesas_contratadas_candidatos_2024_AL.csv
+  4818867  2026-11-06 02:09   despesas_pagas_candidatos_2024_AP.csv
+ 57507767  2026-11-06 02:09   despesas_pagas_candidatos_2024_BA.csv
+ 13786279  2026-11-06 02:09   despesas_contratadas_candidatos_2024_AC.csv
+ 56949262  2026-11-06 02:09   despesas_contratadas_candidatos_2024_AM.csv
+ 10755290  2026-11-06 02:09   despesas_contratadas_candidatos_2024_AP.csv
+148592658  2026-11-06 02:10   despesas_contratadas_candidatos_2024_BA.csv
+ 87959629  2026-11-06 02:10   despesas_contratadas_candidatos_2024_CE.csv
+ 55088182  2026-11-06 02:10   despesas_contratadas_candidatos_2024_ES.csv
+144225332  2026-11-06 02:11   despesas_contratadas_candidatos_2024_GO.csv
+ 73965004  2026-11-06 02:11   despesas_contratadas_candidatos_2024_MA.csv
+337272772  2026-11-06 02:13   despesas_contratadas_candidatos_2024_MG.csv
+ 63765306  2026-11-06 02:11   despesas_contratadas_candidatos_2024_MS.csv
+ 89278929  2026-11-06 02:11   despesas_contratadas_candidatos_2024_MT.csv
+2685464722  2026-11-06 02:36   despesas_contratadas_candidatos_2024_BRASIL.csv
+ 89269836  2026-11-06 02:15   despesas_contratadas_candidatos_2024_PA.csv
+ 52659067  2026-11-06 02:16   despesas_contratadas_candidatos_2024_PB.csv
+ 88785669  2026-11-06 02:16   despesas_contratadas_candidatos_2024_PE.csv
+ 53724953  2026-11-06 02:16   despesas_contratadas_candidatos_2024_PI.csv
+179210307  2026-11-06 02:17   despesas_contratadas_candidatos_2024_PR.csv
+186385955  2026-11-06 02:17   despesas_contratadas_candidatos_2024_RJ.csv
+ 55434818  2026-11-06 02:16   despesas_contratadas_candidatos_2024_RN.csv
+ 36931494  2026-11-06 02:17   despesas_contratadas_candidatos_2024_RO.csv
+ 17134844  2026-11-06 02:19   despesas_contratadas_candidatos_2024_RR.csv
+178708178  2026-11-06 02:20   despesas_contratadas_candidatos_2024_RS.csv
+103120969  2026-11-06 02:19   despesas_contratadas_candidatos_2024_SC.csv
+ 37412230  2026-11-06 02:19   despesas_contratadas_candidatos_2024_SE.csv
+427869628  2026-11-06 02:24   despesas_contratadas_candidatos_2024_SP.csv
+ 54565735  2026-11-06 02:20   despesas_contratadas_candidatos_2024_TO.csv
+  6785876  2026-11-06 02:20   despesas_pagas_candidatos_2024_AC.csv
+ 21295018  2026-11-06 02:20   despesas_pagas_candidatos_2024_AL.csv
+ 31353787  2026-11-06 02:21   despesas_pagas_candidatos_2024_AM.csv
+ 24881130  2026-11-06 02:21   despesas_pagas_candidatos_2024_ES.csv
+ 59372392  2026-11-06 02:21   despesas_pagas_candidatos_2024_GO.csv
+ 29749400  2026-11-06 02:21   despesas_pagas_candidatos_2024_MA.csv
+1266226613  2026-11-06 02:33   despesas_pagas_candidatos_2024_BRASIL.csv
+146754431  2026-11-06 02:22   despesas_pagas_candidatos_2024_MG.csv
+ 38404531  2026-11-06 02:22   despesas_pagas_candidatos_2024_MS.csv
+ 41924105  2026-11-06 02:22   despesas_pagas_candidatos_2024_MT.csv
+ 40269786  2026-11-06 02:24   despesas_pagas_candidatos_2024_PA.csv
+ 19309794  2026-11-06 02:24   despesas_pagas_candidatos_2024_PB.csv
+  4399153  2026-11-06 02:25   receitas_candidatos_2024_AC.csv
+ 16466920  2026-11-06 02:25   receitas_candidatos_2024_AL.csv
+ 21279923  2026-11-06 02:26   receitas_candidatos_2024_AM.csv
+  3894277  2026-11-06 02:25   receitas_candidatos_2024_AP.csv
+ 42405391  2026-11-06 02:26   despesas_pagas_candidatos_2024_PE.csv
+ 19605175  2026-11-06 02:26   despesas_pagas_candidatos_2024_PI.csv
+ 83456860  2026-11-06 02:26   despesas_pagas_candidatos_2024_PR.csv
+114765512  2026-11-06 02:27   despesas_pagas_candidatos_2024_RJ.csv
+ 20995782  2026-11-06 02:26   despesas_pagas_candidatos_2024_RN.csv
+ 16453754  2026-11-06 02:26   despesas_pagas_candidatos_2024_RO.csv
+  9609823  2026-11-06 02:26   despesas_pagas_candidatos_2024_RR.csv
+ 84425470  2026-11-06 02:27   despesas_pagas_candidatos_2024_RS.csv
+ 49220863  2026-11-06 02:27   despesas_pagas_candidatos_2024_SC.csv
+ 17380304  2026-11-06 02:27   despesas_pagas_candidatos_2024_SE.csv
+213314589  2026-11-06 02:29   despesas_pagas_candidatos_2024_SP.csv
+ 30825057  2026-11-06 02:27   despesas_pagas_candidatos_2024_TO.csv
+   529138  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_AC.csv
+  1082552  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_AL.csv
+  1572139  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_AM.csv
+   305624  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_AP.csv
+  7045836  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_BA.csv
+  2926782  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_CE.csv
+  2334557  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_ES.csv
+  3173280  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_MA.csv
+  4317188  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_GO.csv
+ 15464552  2026-11-06 02:28   receitas_candidatos_doador_originario_2024_MG.csv
+  2969252  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_MT.csv
+  1633986  2026-11-06 02:27   receitas_candidatos_doador_originario_2024_MS.csv
+111373232  2026-11-06 02:29   receitas_candidatos_doador_originario_2024_BRASIL.csv
+ 73427439  2026-11-06 02:28   receitas_candidatos_2024_BA.csv
+ 28068477  2026-11-06 02:28   receitas_candidatos_2024_CE.csv
+1407368174  2026-11-06 02:40   receitas_candidatos_2024_BRASIL.csv
+  3529199  2026-11-06 02:28   receitas_candidatos_doador_originario_2024_PA.csv
+  2125780  2026-11-06 02:28   receitas_candidatos_doador_originario_2024_PB.csv
+  3485958  2026-11-06 02:28   receitas_candidatos_doador_originario_2024_PE.csv
+== receitas_candidatos_2024_BA.csv
+"DT_GERACAO";"HH_GERACAO";"AA_ELEICAO";"CD_TIPO_ELEICAO";"NM_TIPO_ELEICAO";"CD_ELEICAO";"DS_ELEICAO";"DT_ELEICAO";"ST_TURNO";"TP_PRESTACAO_CONTAS";"DT_PRESTACAO_CONTAS";"SQ_PRESTADOR_CONTAS";"SG_UF";"SG_UE";"NM_UE";"NR_CNPJ_PRESTADOR_CONTA";"CD_CARGO";"DS_CARGO";"SQ_CANDIDATO";"NR_CANDIDATO";"NM_CANDIDATO";"NR_CPF_CANDIDATO";"NR_CPF_VICE_CANDIDATO";"NR_PARTIDO";"SG_PARTIDO";"NM_PARTIDO";"CD_FONTE_RECEITA";"DS_FONTE_RECEITA";"CD_ORIGEM_RECEITA";"DS_ORIGEM_RECEITA";"CD_NATUREZA_RECEITA";"DS_NATUREZA_RECEITA";"CD_ESPECIE_RECEITA";"DS_ESPECIE_RECEITA";"CD_CNAE_DOADOR";"DS_CNAE_DOADOR";"NR_CPF_CNPJ_DOADOR";"NM_DOADOR";"NM_DOADOR_RFB";"CD_ESFERA_PARTIDARIA_DOADOR";"DS_ESFERA_PARTIDARIA_DOADOR";"SG_UF_DOADOR";"CD_MUNICIPIO_DOADOR";"NM_MUNICIPIO_DOADOR";"SQ_CANDIDATO_DOADOR";"NR_CANDIDATO_DOADOR";"CD_CARGO_CANDIDATO_DOADOR";"DS_CARGO_CANDIDATO_DOADOR";"NR_PARTIDO_DOADOR";"SG_PARTIDO_DOADOR";"NM_PARTIDO_DOADOR";"NR_RECIBO_DOACAO";"NR_DOCUMENTO_DOACAO";"SQ_RECEITA";"DT_RECEITA";"DS_RECEITA";"VR_RECEITA";"DS_NATUREZA_RECURSO_ESTIMAVEL";"DS_GENERO";"DS_COR_RACA"
+"05/11/2026";"23:00:30";2024;2;"ORDINÁRIA";619;"Eleições Municipais 2024";"06/10/2024";"1";"FINAL";"03/11/2024";5245766440;"BA";"37958";"PIRIPÁ";"56164151000130";11;"Prefeito";"50001905236";70;"ADRIANO PEREIRA BILAC";"-4";"-4";70;"AVANTE";"AVANTE";2;"FUNDO ESPECIAL";10020000;"Recursos de partido político";1;"FINANCEIRO";19;"PIX";"94928";"Atividades de organizações políticas";"59933952000100";"Direção Nacional";"AVANTE DIRETORIO NACIONAL";"N";"Nacional";"BR";-1;"#NULO";-1;-1;-1;"#NULO";70;"AVANTE";"AVANTE";"000701137958BA000001E";"140427";43858954;"26/08/2024";"#NULO";"100000,00";"#NULO";"Masculino";"Parda"
+"05/11/2026";"23:00:30";2024;2;"ORDINÁRIA";619;"Eleições Municipais 2024";"06/10/2024";"1";"FINAL";"09/12/2024";5268260798;"BA";"37117";"MARACÁS";"56471366000101";11;"Prefeito";"50002060364";13;"NELSON LUIZ DOS ANJOS PORTELA";"-4";"-4";13;"PT";"Partido dos Trabalhadores";1;"OUTROS RECURSOS";10010200;"Recursos de pessoas físicas";1;"FINANCEIRO";19;"PIX";"-1";"#NULO";"20549210504";"ELIAS ANTONIO DOS ANJOS";"ELIAS ANTONIO DOS ANJOS";"-1";"#NULO";"#NULO#";-1;"#NULO";-1;-1;-1;"#NULO";-1;"#NULO";"#NULO";"000131137117BA000010E";"0850002";45971812;"05/11/2024";"#NULO";"5000,00";"#NULO";"Masculino";"Branca"
+iconv: conversion stopped due to problem in writing the output: Broken pipe
+107635
+== despesas_contratadas_candidatos_2024_BA.csv
+"DT_GERACAO";"HH_GERACAO";"AA_ELEICAO";"CD_TIPO_ELEICAO";"NM_TIPO_ELEICAO";"CD_ELEICAO";"DS_ELEICAO";"DT_ELEICAO";"ST_TURNO";"TP_PRESTACAO_CONTAS";"DT_PRESTACAO_CONTAS";"SQ_PRESTADOR_CONTAS";"SG_UF";"SG_UE";"NM_UE";"NR_CNPJ_PRESTADOR_CONTA";"CD_CARGO";"DS_CARGO";"SQ_CANDIDATO";"NR_CANDIDATO";"NM_CANDIDATO";"NR_CPF_CANDIDATO";"NR_CPF_VICE_CANDIDATO";"NR_PARTIDO";"SG_PARTIDO";"NM_PARTIDO";"CD_TIPO_FORNECEDOR";"DS_TIPO_FORNECEDOR";"CD_CNAE_FORNECEDOR";"DS_CNAE_FORNECEDOR";"NR_CPF_CNPJ_FORNECEDOR";"NM_FORNECEDOR";"NM_FORNECEDOR_RFB";"CD_ESFERA_PART_FORNECEDOR";"DS_ESFERA_PART_FORNECEDOR";"SG_UF_FORNECEDOR";"CD_MUNICIPIO_FORNECEDOR";"NM_MUNICIPIO_FORNECEDOR";"SQ_CANDIDATO_FORNECEDOR";"NR_CANDIDATO_FORNECEDOR";"CD_CARGO_FORNECEDOR";"DS_CARGO_FORNECEDOR";"NR_PARTIDO_FORNECEDOR";"SG_PARTIDO_FORNECEDOR";"NM_PARTIDO_FORNECEDOR";"DS_TIPO_DOCUMENTO";"NR_DOCUMENTO";"CD_ORIGEM_DESPESA";"DS_ORIGEM_DESPESA";"SQ_DESPESA";"DT_DESPESA";"DS_DESPESA";"VR_DESPESA_CONTRATADA"
+"05/11/2026";"23:00:18";2024;2;"Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"1";"Final";"05/11/2024";5256320416;"BA";"38059";"POJUCA";"56276733000108";13;"Vereador";"50001949081";25123;"GERUSA DIAS LAUDANO";"-4";"-4";25;"PRD";"Partido Renovação Democrática";0;"PESSOA FÍSICA";"-1";"#NULO";"06610427585";"IRANILDES NASCIMENTO DOS SANTOS";"IRANILDES NASCIMENTO DOS SANTOS";"-1";"#NULO";"#NULO#";-1;"#NULO";-1;-1;-1;"#NULO";-1;"#NULO";"#NULO";"Outro";"SN";20800000;"Atividades de militância e mobilização de rua";65662060;"09/09/2024";"ATIVIDADE DE MILITANCIA E MOBILIZAÇÃO DE RUA";"450,00"
+"05/11/2026";"23:00:18";2024;2;"Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"1";"Final";"02/11/2024";5277479387;"BA";"35130";"EUCLIDES DA CUNHA";"56581639000162";11;"Prefeito";"50002155096";45;"RUBENILSON SILVA CAMPOS";"-4";"-4";45;"PSDB";"Partido da Social Democracia Brasileira";0;"PESSOA FÍSICA";"-1";"#NULO";"06019947521";"ANA PAULA BISPO RAMOS";"ANA PAULA BISPO RAMOS";"-1";"#NULO";"#NULO#";-1;"#NULO";-1;-1;-1;"#NULO";-1;"#NULO";"#NULO";"Recibo";"SN";20800000;"Atividades de militância e mobilização de rua";65625832;"16/08/2024";"BANDEIRINHA";"1026,67"
+iconv: conversion stopped due to problem in writing the output: Broken pipe
+244843
+== despesas_pagas_candidatos_2024_BA.csv
+"DT_GERACAO";"HH_GERACAO";"AA_ELEICAO";"CD_TIPO_ELEICAO";"NM_TIPO_ELEICAO";"CD_ELEICAO";"DS_ELEICAO";"DT_ELEICAO";"ST_TURNO";"TP_PRESTACAO_CONTAS";"DT_PRESTACAO_CONTAS";"SQ_PRESTADOR_CONTAS";"SG_UF";"DS_TIPO_DOCUMENTO";"NR_DOCUMENTO";"CD_FONTE_DESPESA";"DS_FONTE_DESPESA";"CD_ORIGEM_DESPESA";"DS_ORIGEM_DESPESA";"CD_NATUREZA_DESPESA";"DS_NATUREZA_DESPESA";"CD_ESPECIE_RECURSO";"DS_ESPECIE_RECURSO";"SQ_DESPESA";"SQ_PARCELAMENTO_DESPESA";"DT_PAGTO_DESPESA";"DS_DESPESA";"VR_PAGTO_DESPESA"
+"05/11/2026";"23:00:19";2024;2;"Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"1";"Final";"05/11/2024";5246936999;"BA";"Outro";"PIX";2;"Fundo Especial de Financiamento de Campanha";20800000;"Atividades de militância e mobilização de rua";1;"Financeiro";19;"PIX";67674861;50190994;"14/09/2024";"SERVIÇO DE MILITÂNCIA COM DIVULGAÇÃO DE BANDEIRAS";"70,00"
+"05/11/2026";"23:00:19";2024;2;"Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"1";"Final";"05/11/2024";5246936999;"BA";"Outro";"091611";2;"Fundo Especial de Financiamento de Campanha";20800000;"Atividades de militância e mobilização de rua";1;"Financeiro";19;"PIX";67674861;50190995;"14/09/2024";"SERVIÇO DE MILITÂNCIA COM DIVULGAÇÃO DE BANDEIRAS";"70,00"
+iconv: conversion stopped due to problem in writing the output: Broken pipe
+165818
+== receitas_candidatos_doador_originario_2024_BA.csv
+"DT_GERACAO";"HH_GERACAO";"AA_ELEICAO";"CD_TIPO_ELEICAO";"NM_TIPO_ELEICAO";"CD_ELEICAO";"DS_ELEICAO";"DT_ELEICAO";"ST_TURNO";"TP_PRESTACAO_CONTAS";"DT_PRESTACAO_CONTAS";"SQ_PRESTADOR_CONTAS";"SG_UF";"NR_CPF_CNPJ_DOADOR_ORIGINARIO";"NM_DOADOR_ORIGINARIO";"NM_DOADOR_ORIGINARIO_RFB";"TP_DOADOR_ORIGINARIO";"CD_CNAE_DOADOR_ORIGINARIO";"DS_CNAE_DOADOR_ORIGINARIO";"SQ_RECEITA";"DT_RECEITA";"DS_RECEITA";"VR_RECEITA"
+"05/11/2026";"23:00:16";2024;2;"Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"1";"Final";"12/12/2024";5263470582;"BA";"-1";"#NULO";"#NULO";"#NULO";"-1";"#NULO";-1;"";"#NULO";"0,00"
+"05/11/2026";"23:00:16";2024;2;"Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"1";"Final";"31/01/2025";5268974766;"BA";"-1";"#NULO";"#NULO";"#NULO";"-1";"#NULO";-1;"";"#NULO";"0,00"
+iconv: conversion stopped due to problem in writing the output: Broken pipe
+35592
