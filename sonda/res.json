@@ -1,0 +1,436 @@
+{
+ "rreo 3108909 RREO 6": [
+  null,
+  {}
+ ],
+ "rreo 3108909 RREO 6 a14amostra": [],
+ "rreo 3108909 RREO Simplificado 6": [
+  null,
+  {
+   "RREO-Anexo 01": 402,
+   "RREO-Anexo 02": 765,
+   "RREO-Anexo 03": 422,
+   "RREO-Anexo 04": 24,
+   "RREO-Anexo 06": 154,
+   "RREO-Anexo 07": 24,
+   "RREO-Anexo 09": 15,
+   "RREO-Anexo 14": 44
+  }
+ ],
+ "rreo 3108909 RREO Simplificado 6 a14amostra": [
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "Valor Apurado Até o Bimestre",
+   12310653.51
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "% Mínimo a Aplicar no Exercício",
+   25
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "% Aplicado Até o Bimestre",
+   25.45
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "Valor Apurado Até o Bimestre",
+   9983969.32
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "% Mínimo a Aplicar no Exercício",
+   70
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "% Aplicado Até o Bimestre",
+   88.65
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "Valor Apurado Até o Bimestre",
+   10282430.97
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "% Mínimo a Aplicar no Exercício",
+   15
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "% Aplicado Até o Bimestre",
+   23.05
+  ]
+ ],
+ "rgf 3108909 RGF Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3108909 RGF S2": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3108909 RGF Simplificado Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3108909 RGF Simplificado S2": [
+  null,
+  {
+   "RGF-Anexo 01": 186,
+   "RGF-Anexo 02": 52,
+   "RGF-Anexo 03": 7,
+   "RGF-Anexo 04": 9,
+   "RGF-Anexo 05": 107,
+   "RGF-Anexo 06": 14
+  },
+  [
+   [
+    "DespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    39.97
+   ],
+   [
+    "LimiteMaximoDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    54
+   ],
+   [
+    "LimitePrudencialDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    51.3
+   ],
+   [
+    "LimiteDeAlertaDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    48.6
+   ],
+   [
+    "DespesaTotalComPessoalDemonstrativoSimplificado",
+    "% SOBRE A RCL AJUSTADA",
+    39.97
+   ],
+   [
+    "LimiteMaximoDespesaComPessoalDemonstrativoSimplificado",
+    "% SOBRE A RCL AJUSTADA",
+    54
+   ]
+  ]
+ ],
+ "rreo 3140407 RREO 6": [
+  null,
+  {}
+ ],
+ "rreo 3140407 RREO 6 a14amostra": [],
+ "rreo 3140407 RREO Simplificado 6": [
+  null,
+  {
+   "RREO-Anexo 01": 309,
+   "RREO-Anexo 02": 650,
+   "RREO-Anexo 03": 370,
+   "RREO-Anexo 06": 156,
+   "RREO-Anexo 07": 30,
+   "RREO-Anexo 09": 14,
+   "RREO-Anexo 14": 44
+  }
+ ],
+ "rreo 3140407 RREO Simplificado 6 a14amostra": [
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "Valor Apurado Até o Bimestre",
+   2389941.2
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "% Mínimo a Aplicar no Exercício",
+   70
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "% Aplicado Até o Bimestre",
+   89.17
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "Valor Apurado Até o Bimestre",
+   6715924.32
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "% Mínimo a Aplicar no Exercício",
+   25
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "% Aplicado Até o Bimestre",
+   26.04
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "Valor Apurado Até o Bimestre",
+   5276071.37
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "% Mínimo a Aplicar no Exercício",
+   15
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "% Aplicado Até o Bimestre",
+   22.42
+  ]
+ ],
+ "rgf 3140407 RGF Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3140407 RGF S2": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3140407 RGF Simplificado Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3140407 RGF Simplificado S2": [
+  null,
+  {
+   "RGF-Anexo 01": 181,
+   "RGF-Anexo 02": 41,
+   "RGF-Anexo 03": 12,
+   "RGF-Anexo 04": 18,
+   "RGF-Anexo 05": 89,
+   "RGF-Anexo 06": 25
+  },
+  [
+   [
+    "DespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    44.36
+   ],
+   [
+    "LimiteMaximoDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    54
+   ],
+   [
+    "LimitePrudencialDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    51.3
+   ],
+   [
+    "LimiteDeAlertaDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    48.6
+   ],
+   [
+    "DespesaTotalComPessoalDemonstrativoSimplificado",
+    "% SOBRE A RCL AJUSTADA",
+    44.36
+   ],
+   [
+    "LimiteMaximoDespesaComPessoalDemonstrativoSimplificado",
+    "% SOBRE A RCL AJUSTADA",
+    54
+   ]
+  ]
+ ],
+ "rreo 4108205 RREO 6": [
+  null,
+  {}
+ ],
+ "rreo 4108205 RREO 6 a14amostra": [],
+ "rreo 4108205 RREO Simplificado 6": [
+  null,
+  {
+   "RREO-Anexo 01": 309,
+   "RREO-Anexo 02": 508,
+   "RREO-Anexo 03": 364,
+   "RREO-Anexo 06": 156,
+   "RREO-Anexo 07": 44,
+   "RREO-Anexo 09": 18,
+   "RREO-Anexo 14": 58
+  }
+ ],
+ "rreo 4108205 RREO Simplificado 6 a14amostra": [
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "Valor Apurado Até o Bimestre",
+   13024297.99
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "% Mínimo a Aplicar no Exercício",
+   25
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDasReceitasDeImpostosNaManutencaoEDesenvolvimentoDoEnsinoDemonstrativoSimplificado",
+   "% Aplicado Até o Bimestre",
+   28.26
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "Valor Apurado Até o Bimestre",
+   5945674.34
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "% Mínimo a Aplicar no Exercício",
+   70
+  ],
+  [
+   "RREO-Anexo 14",
+   "MinimoAnualDoFUNDEBNaRemuneracaoDoMagisterioComEducacaoInfantilEnsinoFundamentalEMedioDemonstrativoSimplificado",
+   "% Aplicado Até o Bimestre",
+   91.44
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "Valor Apurado Até o Bimestre",
+   9696488.45
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "% Mínimo a Aplicar no Exercício",
+   15
+  ],
+  [
+   "RREO-Anexo 14",
+   "AplicacaoTotalDasDespesasComAcoesEServicosPublicosDeSaude",
+   "% Aplicado Até o Bimestre",
+   22.16
+  ]
+ ],
+ "rgf 4108205 RGF Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 4108205 RGF S2": [
+  null,
+  {},
+  []
+ ],
+ "rgf 4108205 RGF Simplificado Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 4108205 RGF Simplificado S2": [
+  null,
+  {
+   "RGF-Anexo 01": 170,
+   "RGF-Anexo 02": 61,
+   "RGF-Anexo 03": 13,
+   "RGF-Anexo 04": 19,
+   "RGF-Anexo 05": 121,
+   "RGF-Anexo 06": 23
+  },
+  [
+   [
+    "DespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    35.92
+   ],
+   [
+    "LimiteMaximoDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    54
+   ],
+   [
+    "LimitePrudencialDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    51.3
+   ],
+   [
+    "LimiteDeAlertaDespesaComPessoalTotal",
+    "% sobre a RCL Ajustada",
+    48.6
+   ],
+   [
+    "DespesaTotalComPessoalDemonstrativoSimplificado",
+    "% SOBRE A RCL AJUSTADA",
+    35.92
+   ],
+   [
+    "LimiteMaximoDespesaComPessoalDemonstrativoSimplificado",
+    "% SOBRE A RCL AJUSTADA",
+    54
+   ]
+  ]
+ ],
+ "rreo 3525003 RREO 6": [
+  null,
+  {
+   "RREO-Anexo 01": 409,
+   "RREO-Anexo 02": 1111,
+   "RREO-Anexo 03": 391,
+   "RREO-Anexo 04": 92,
+   "RREO-Anexo 06": 170,
+   "RREO-Anexo 07": 69,
+   "RREO-Anexo 09": 17,
+   "RREO-Anexo 11": 16,
+   "RREO-Anexo 14": 51
+  }
+ ],
+ "rreo 3525003 RREO 6 a14amostra": [],
+ "rreo 3525003 RREO Simplificado 6": [
+  null,
+  {}
+ ],
+ "rreo 3525003 RREO Simplificado 6 a14amostra": [],
+ "rgf 3525003 RGF Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3525003 RGF S2": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3525003 RGF Simplificado Q3": [
+  null,
+  {},
+  []
+ ],
+ "rgf 3525003 RGF Simplificado S2": [
+  null,
+  {},
+  []
+ ]
+}
