@@ -28,7 +28,7 @@ jobs:
       - id: m
         run: |
           P="${{ github.event.inputs.pedido }}"
-          if [ -z "$P" ]; then P=$(git diff --name-only HEAD~1 HEAD -- pedidos | grep '\.json$' | tail -1); fi
+          if [ -z "$P" ]; then P=$(git diff-tree --root --no-commit-id --name-only -r HEAD -- pedidos | grep '\.json$' | tail -1); fi
           echo "pedido=$P" >> "$GITHUB_OUTPUT"
           python3 - "$P" >> "$GITHUB_OUTPUT" <<'EOF'
           import json, sys
