@@ -1,10 +1,10 @@
 name: sonda
-on: { push: { branches: [sonda] , paths: [sonda/s.py, .github/workflows/sonda.yml]} }
+on: { push: { branches: [sonda] , paths: [sonda/s.sh, .github/workflows/sonda.yml]} }
 permissions: { contents: write }
 jobs:
   s:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install -q openpyxl && python3 sonda/s.py
-      - run: git add sonda/res.json && git -c user.name=bot -c user.email=bot@x commit -qm res && git push
+      - run: bash sonda/s.sh > sonda/res.txt 2>&1 || true
+      - run: git add sonda/res.txt && git -c user.name=bot -c user.email=bot@x commit -qm res && git push
