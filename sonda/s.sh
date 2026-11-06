@@ -1,9 +1,15 @@
-set -x
-H=download.inep.gov.br
-echo | openssl s_client -connect $H:443 -servername $H -showcerts 2>/dev/null | grep -E "s:|i:|CA Issuers" | head
-echo | openssl s_client -connect $H:443 -servername $H 2>/dev/null | openssl x509 -noout -text | grep -A2 "Authority Information" 
-for u in https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2025.zip https://download.inep.gov.br/ideb/resultados/divulgacao_anos_iniciais_municipios_2023.zip; do
-  curl -sS -o /dev/null -w "%{http_code} %{size_download}\n" -A Mozilla/5.0 "$u"
-  curl -sSk -o /dev/null -w "insecure %{http_code} %{size_download}\n" -A Mozilla/5.0 "$u"
+curl -sS http://secure.globalsign.com/cacert/rnpicpedugr46ovtlsca2025.crt -o inter.der && openssl x509 -inform der -in inter.der -out inter.pem && cat /etc/ssl/certs/ca-certificates.crt inter.pem > bundle.pem
+openssl x509 -in inter.pem -noout -subject -issuer
+for et in anos_iniciais anos_finais ensino_medio; do
+  curl -sS --cacert bundle.pem -A Mozilla/5.0 -o $et.zip https://download.inep.gov.br/ideb/resultados/divulgacao_${et}_municipios_2025.zip && echo "ok $et" && unzip -l $et.zip
 done
-curl -sSL -A Mozilla/5.0 https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados | grep -oE 'https?://[^"]+\.(zip|xlsx)' | sort -u | head -40
+pip install -q openpyxl
+python3 - <<'P'
+import zipfile,openpyxl,io
+for et in ("anos_iniciais","anos_finais","ensino_medio"):
+    z=zipfile.ZipFile(et+".zip"); n=[x for x in z.namelist() if x.endswith("xlsx")][0]
+    wb=openpyxl.load_workbook(io.BytesIO(z.read(n)),read_only=True); ws=wb.active
+    print("==",et,n,wb.sheetnames,ws.max_row,ws.max_column)
+    for i,r in enumerate(ws.iter_rows(values_only=True)):
+        if i<12 or (i<4000 and r and r[1]=="BA" and "Conquista" in str(r[3])): print(i,[str(c)[:30] for c in r])
+P
