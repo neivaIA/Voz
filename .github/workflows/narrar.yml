@@ -34,7 +34,7 @@ jobs:
           import json, sys
           P = json.load(open(sys.argv[1]))
           ids = P.get("refazer") or [f["id"] for f in P["frases"]]
-          seeds = P.get("sementes", [11, 22, 33])
+          seeds = P.get("sementes", [11, 22])
           print("tema=" + P["tema"])
           print("matriz=" + json.dumps({"include": [{"id": i, "seed": s} for i in ids for s in seeds]}))
           EOF
@@ -51,6 +51,7 @@ jobs:
             ~/venv
             ~/.cache/huggingface
           key: ${{ env.CHAVE_CACHE }}
+          lookup-only: true
       - if: steps.c.outputs.cache-hit != 'true'
         run: |
           python -m venv ~/venv
