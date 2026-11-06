@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: bash sonda/s.sh > sonda/res.txt 2>&1 || true
-      - run: git add sonda/res.txt sonda/x && git -c user.name=bot -c user.email=bot@x commit -qm res && git push
+      - run: git add -A sonda && git -c user.name=bot -c user.email=bot@x commit -qm res && git push
