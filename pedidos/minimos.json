@@ -1,0 +1,72 @@
+{
+ "tema": "minimos",
+ "sementes": [
+  11,
+  22
+ ],
+ "vocabulario": "Constituição, Tesouro, prefeituras, saúde, educação, Rankings, contaspublicasbrasil.com.br",
+ "params": {
+  "exaggeration": 0.55,
+  "cfg_weight": 0.35,
+  "temperature": 0.8
+ },
+ "frases": [
+  {
+   "id": "n1",
+   "fala": "Será que a sua prefeitura gastou o mínimo obrigatório em saúde e educação?",
+   "leg": "Sua prefeitura gastou o mínimo obrigatório em saúde e educação?",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n2",
+   "fala": "A Constituição manda: pelo menos quinze por cento dos impostos vão pra saúde.",
+   "leg": "A Constituição manda: pelo menos 15% dos impostos vão para a saúde.",
+   "fim": "virgula"
+  },
+  {
+   "id": "n3",
+   "fala": "E pelo menos vinte e cinco por cento vão pra educação.",
+   "leg": "E pelo menos 25% vão para a educação.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n4",
+   "fala": "O Tesouro já tem as contas de dois mil e vinte e cinco de três mil duzentas e noventa cidades.",
+   "leg": "O Tesouro já tem as contas de 2025 de 3.290 cidades.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n5",
+   "fala": "Na saúde, quarenta prefeituras declararam menos que o mínimo.",
+   "leg": "Na saúde, 40 prefeituras declararam menos que o mínimo.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n6",
+   "fala": "Na educação, foram cento e sessenta e duas prefeituras.",
+   "leg": "Na educação, foram 162 prefeituras.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n7",
+   "fala": "Olha só: a cidade do meio da lista aplica quase vinte e dois por cento em saúde,",
+   "leg": "A cidade do meio da lista aplica quase 22% em saúde",
+   "fim": "virgula"
+  },
+  {
+   "id": "n8",
+   "fala": "e quase vinte e sete por cento em educação.",
+   "leg": "e quase 27% em educação.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n9",
+   "fala": "Quer ver a sua cidade? Tá tudo na aba rênkins, em contas públicas brasil, ponto com, ponto bê érre.",
+   "leg": "Veja a sua cidade na aba Rankings em contaspublicasbrasil.com.br",
+   "fim": "ponto",
+   "chaves": [
+    "cidade"
+   ]
+  }
+ ]
+}
