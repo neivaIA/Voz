@@ -1,0 +1,15 @@
+{
+ "id": "n9",
+ "seed": 11,
+ "arq": "n9_s11.wav",
+ "ok": false,
+ "wer": 0.474,
+ "faltam": [
+  "ta"
+ ],
+ "cps": 17.4,
+ "pausa": 0.29,
+ "f0_st": 3.49,
+ "dur": 5.7,
+ "txt": "Quer ver a sua cidade?  Está tudo na Aba Rankings, em contaspublicasbrasil.com.br"
+}

@@ -1,0 +1,13 @@
+{
+ "id": "n1",
+ "seed": 11,
+ "arq": "n1_s11.wav",
+ "ok": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.1,
+ "pausa": 0.0,
+ "f0_st": 3.85,
+ "dur": 4.1,
+ "txt": "Será que a sua prefeitura gastou o mínimo obrigatório em saúde e educação?"
+}

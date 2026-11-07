@@ -1,0 +1,13 @@
+{
+ "id": "n3",
+ "seed": 11,
+ "arq": "n3_s11.wav",
+ "ok": false,
+ "wer": 0.125,
+ "faltam": [],
+ "cps": 14.0,
+ "pausa": 0.32,
+ "f0_st": 3.96,
+ "dur": 3.86,
+ "txt": "E pelo menos 25% vão para a educação."
+}

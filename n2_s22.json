@@ -1,0 +1,13 @@
+{
+ "id": "n2",
+ "seed": 22,
+ "arq": "n2_s22.wav",
+ "ok": true,
+ "wer": 0.083,
+ "faltam": [],
+ "cps": 16.4,
+ "pausa": 0.26,
+ "f0_st": 5.67,
+ "dur": 4.7,
+ "txt": "A Constituição manda pelo menos 15% dos impostos vão para a saúde."
+}
