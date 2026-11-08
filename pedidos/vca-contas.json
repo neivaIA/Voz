@@ -1,0 +1,103 @@
+{
+ "tema": "vca-contas",
+ "sementes": [
+  11,
+  22
+ ],
+ "vocabulario": "Vitória da Conquista, Bahia, prefeitura, Fundeb, União, Constituição, IDEB, contaspublicasbrasil.com.br",
+ "params": {
+  "exaggeration": 0.55,
+  "cfg_weight": 0.35,
+  "temperature": 0.8
+ },
+ "frases": [
+  {
+   "id": "n1",
+   "fala": "Hoje a gente vai abrir as contas de Vitória da Conquista, no sudoeste da Bahia.",
+   "leg": "Hoje a gente vai abrir as contas de Vitória da Conquista, no sudoeste da Bahia.",
+   "fim": "ponto",
+   "chaves": [
+    "Conquista",
+    "Bahia"
+   ]
+  },
+  {
+   "id": "n2",
+   "fala": "São quase quatrocentos mil moradores, a terceira maior cidade do estado.",
+   "leg": "São quase 400 mil moradores, a terceira maior cidade do estado.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n3",
+   "fala": "Em dois mil e vinte e cinco, entrou mais de um bilhão e seiscentos milhões de reais no caixa da prefeitura.",
+   "leg": "Em 2025, entrou mais de R$ 1,6 bilhão no caixa da prefeitura.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n4",
+   "fala": "De cada cem reais, vinte e dois vêm de impostos e taxas da própria cidade.",
+   "leg": "De cada R$ 100, R$ 22 vêm de impostos e taxas da própria cidade.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n5",
+   "fala": "O resto chega de fora: trinta e nove da União, dezenove do estado, e vinte do Fundeb e outros repasses.",
+   "leg": "O resto chega de fora: R$ 39 da União, R$ 19 do estado e R$ 20 do Fundeb e outros repasses.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n6",
+   "fala": "Na hora de gastar, a educação levou trinta e cinco reais de cada cem, e a saúde, vinte e cinco.",
+   "leg": "Na hora de gastar, a educação levou R$ 35 de cada R$ 100, e a saúde, R$ 25.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n7",
+   "fala": "A Constituição exige quinze por cento dos impostos na saúde. A prefeitura aplicou dezesseis vírgula quatro.",
+   "leg": "A Constituição exige 15% dos impostos na saúde. A prefeitura aplicou 16,4%.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n8",
+   "fala": "Na educação, o mínimo é vinte e cinco por cento, e foram vinte e cinco vírgula um.",
+   "leg": "Na educação, o mínimo é 25%, e foram 25,1%.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n9",
+   "fala": "Com pessoal, foram quarenta e seis vírgula sete por cento da receita. O limite da lei é cinquenta e quatro.",
+   "leg": "Com pessoal, foram 46,7% da receita. O limite da lei é 54%.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n10",
+   "fala": "E a dívida líquida ficou em doze por cento da receita, abaixo do limite de cento e vinte.",
+   "leg": "E a dívida líquida ficou em 12% da receita, abaixo do limite de 120%.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n11",
+   "fala": "Nas escolas da prefeitura, a nota do IDEB nos anos iniciais foi de três vírgula dois, em dois mil e cinco, pra seis vírgula um em dois mil e vinte e cinco.",
+   "leg": "Nas escolas da prefeitura, o IDEB dos anos iniciais foi de 3,2 em 2005 para 6,1 em 2025.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n12",
+   "fala": "A mortalidade infantil ficou em cerca de catorze por mil nascidos vivos. Na Bahia, cerca de quinze, e no Brasil, perto de treze.",
+   "leg": "A mortalidade infantil ficou em cerca de 14 por mil nascidos vivos. Na Bahia, cerca de 15, e no Brasil, perto de 13.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n13",
+   "fala": "E oitenta e um por cento das casas têm esgoto ligado à rede.",
+   "leg": "E 81% das casas têm esgoto ligado à rede.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n14",
+   "fala": "Comenta qual cidade a gente mostra no próximo vídeo! E veja a sua em contas públicas brasil, ponto com, ponto bê érre.",
+   "leg": "Comenta qual cidade a gente mostra no próximo vídeo! E veja a sua em contaspublicasbrasil.com.br",
+   "fim": "ponto"
+  }
+ ]
+}
