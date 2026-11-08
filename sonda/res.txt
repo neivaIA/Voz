@@ -1,20 +1,88 @@
-curl: (28) Connection timed out after 120001 milliseconds
+== https://apisidra.ibge.gov.br/values/t/6805/n6/2927408
+200 781
+[
+  {
+    "NC": "Nível Territorial (Código)",
+    "NN": "Nível Territorial",
+    "MC": "Unidade de Medida (Código)",
+    "MN": "Unidade de Medida",
+    "V": "Valor",
+    "D1C": "Município (Código)",
+    "D1N": "Município",
+    "D2C": "Ano (Código)",
+    "D2N": "Ano",
+    "D3C": "Variável (Código)",
+    "D3N": "Variável",
+    "D4C": "Tipo de esgotamento sanitário (Código)"
+== https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/
+200 25632
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /Censos/Censo_Demografico_2022</title>
+ </head>
+ <body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div>
+    <div class="max-width topo">
+        <a href="https://www.ibge.gov.br/">
+            <img class="logo" src="https://www.ibge.gov.br/explica/images/logo.jpg" alt="Logo IBGE" 
+== https://servicodados.ibge.gov.br/api/v1/localidades/estados/29
+curl: (28) Connection timed out after 40002 milliseconds
 000 0
-head: cannot open 'ag.json' for reading: No such file or directory
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /Censos/Censo_Demografico_2022</title>
+ </head>
+ <body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-erro [Errno 2] No such file or directory: 'ag.json'
-
-
-
-
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ModuleNotFoundError: No module named 'pyreaddbc'
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ModuleNotFoundError: No module named 'pyreaddbc'
-DOAC2024.dbc
-DOAL2024.dbc
-DOAM2024.dbc
-Last-Modified: Tue, 23 Dec 2025 18:47:40 GMT
-Content-Length: 137713772
+<div>
+    <div class="max-width topo">
+        <a href="https://www.ibge.gov.br/">
+            <img class="logo" src="https://www.ibge.gov.br/explica/images/logo.jpg" alt="Logo IBGE" 
+== https://sidra.ibge.gov.br/
+403 5354
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39
+href="https://www.ibge.gov.br/"
+href="?C=N;O=D"
+href="?C=M;O=A"
+href="?C=S;O=A"
+href="?C=D;O=A"
+href="/Censos/"
+href="Agregados_por_Setores_Censitarios/"
+href="Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/"
+href="Agregados_por_Setores_Censitarios_Registro_de_Nascimento/"
+href="Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/"
+href="Agregados_por_Setores_Censitarios_preliminares/"
+href="Dados_percentuais_das_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/"
+href="Etnias_e_Linguas_Indigenas_principais_caracteristicas_sociodemograficas_Resultados_do_universo/"
+href="Favelas_e_comunidades_urbanas_Caracteristicas_do_entorno/"
+href="Favelas_e_comunidades_urbanas_Resultados_do_universo/"
+href="Indigenas_Primeiros_resultados_do_universo/"
+href="Indigenas_alfabetizacao_registros_de_nascimento_caracteristicas_dos_domicilios_Resultados_do_universo/"
+href="Indigenas_principais_caracteristicas_pessoas_domicilios_urbana_rural_Resultados_do_universo/"
+href="Microdados_e_Areas_de_Ponderacao/"
+href="Mulheres/"
+href="Populacao_e_domicilios_Primeiros_resultados/"
+href="Populacao_por_cor_ou_raca_Resultados_do_universo/"
+href="Previa_da_Populacao/"
+href="Quilombolas_Primeiros_resultados_do_universo/"
+href="Quilombolas_alfabetizacao_e_caracteristicas_dos_domic%c3%adlios_Resultados_do_universo/"
+href="Quilombolas_alfabetizacao_e_caracteristicas_dos_domicilios_Resultados_do_universo/"
+href="Quilombolas_e_Indigenas_por_sexo_e_idade_Resultados_do_universo/"
+href="Quilombolas_principais_caracteristicas_das_pessoas_e_dos_domicilios_Resultados_do_universo/"
+href="Religioes/"
+href="Unidades_de_Conservacao/"
+href="https://www.ibge.gov.br/"
+href="http://www.facebook.com/ibgeoficial"
+href="https://instagram.com/ibgeoficial"
+href="https://www.tiktok.com/@ibgeoficial"
+href="https://twitter.com/ibgecomunica"
+href="http://www.youtube.com/ibgeoficial"
+dn 13101 ['ORIGEM', 'CODESTAB', 'CODMUNNASC', 'LOCNASC', 'IDADEMAE', 'ESTCIVMAE', 'ESCMAE', 'CODOCUPMAE', 'QTDFILVIVO', 'QTDFILMORT', 'CODMUNRES', 'GESTACAO', 'GRAVIDEZ', 'PARTO', 'CONSULTAS', 'DTNASC', 'HORANASC', 'SEXO', 'APGAR1', 'APGAR5', 'RACACOR', 'PESO', 'IDANOMAL', 'DTCADASTRO', 'CODANOMAL', 'NUMEROLOTE', 'VERSAOSIST', 'DTRECEBIM', 'DIFDATA', 'DTRECORIGA', 'NATURALMAE', 'CODMUNNATU', 'CODUFNATU', 'ESCMAE2010', 'SERIESCMAE', 'DTNASCMAE', 'RACACORMAE', 'QTDGESTANT', 'QTDPARTNOR', 'QTDPARTCES', 'IDADEPAI', 'DTULTMENST', 'SEMAGESTAC', 'TPMETESTIM', 'CONSPRENAT', 'MESPRENAT', 'TPAPRESENT', 'STTRABPART', 'STCESPARTO', 'TPNASCASSI', 'TPFUNCRESP', 'TPDOCRESP', 'DTDECLARAC', 'ESCMAEAGR1', 'STDNEPIDEM', 'STDNNOVA', 'CODPAISRES', 'TPROBSON', 'PARIDADE', 'KOTELCHUCK', 'CONTADOR']
+{'ORIGEM': '1', 'CODESTAB': '2496046', 'CODMUNNASC': '110004', 'LOCNASC': '1', 'IDADEMAE': '21', 'ESTCIVMAE': '2', 'ESCMAE': '4', 'CODOCUPMAE': '999992', 'QTDFILVIVO': '01', 'QTDFILMORT': '00', 'CODMUNRES': '120070', 'GESTACAO': '6', 'GRAVIDEZ': '1', 'PARTO': '2', 'CONSULTAS': '4', 'DTNASC': '09022024', 'HORANASC': '0910', 'SEXO': '2', 'APGAR1': '08', 'APGAR5': '08', 'RACACOR': '4', 'PESO': '2904', 'IDANOMAL': '2', 'DTCADASTRO': '15022024', 'CODANOMAL': '', 'NUMEROLOTE': '20240006', 'VERSAOSIST': '3.2.50', 'DTRECEBIM': '16022024', 'DIFDATA': '007', 'DTRECORIGA': '', 'NATURALMAE': '851', 'CODMUNNATU': '510675', 'CODUFNATU': '51', 'ESCMAE2010': '2', 'SERIESCMAE': '8', 'DTNASCMAE': '24052002', 'RACACORMAE': '4', 'QTDGESTANT': '01', 'QTDPARTNOR': '00', 'QTDPARTCES': '01', 'IDADEPAI': '37', 'DTULTMENST': '18042023', 'SEMAGESTAC': '42', 'TPMETESTIM': '8', 'CONSPRENAT': '07'}
+do 4267 ['ORIGEM', 'TIPOBITO', 'DTOBITO', 'HORAOBITO', 'NATURAL', 'CODMUNNATU', 'DTNASC', 'IDADE', 'SEXO', 'RACACOR', 'ESTCIV', 'ESC', 'ESC2010', 'SERIESCFAL', 'OCUP', 'CODMUNRES', 'LOCOCOR', 'CODESTAB', 'ESTABDESCR', 'CODMUNOCOR', 'IDADEMAE', 'ESCMAE', 'ESCMAE2010', 'SERIESCMAE', 'OCUPMAE', 'QTDFILVIVO', 'QTDFILMORT', 'GRAVIDEZ', 'SEMAGESTAC', 'GESTACAO', 'PARTO', 'OBITOPARTO', 'PESO', 'TPMORTEOCO', 'OBITOGRAV', 'OBITOPUERP', 'ASSISTMED', 'EXAME', 'CIRURGIA', 'NECROPSIA', 'LINHAA', 'LINHAB', 'LINHAC', 'LINHAD', 'LINHAII', 'CAUSABAS', 'CB_PRE', 'COMUNSVOIM', 'DTATESTADO', 'CIRCOBITO', 'ACIDTRAB', 'FONTE', 'NUMEROLOTE', 'TPPOS', 'DTINVESTIG', 'CAUSABAS_O', 'DTCADASTRO', 'ATESTANTE', 'STCODIFICA', 'CODIFICADO', 'VERSAOSIST', 'VERSAOSCB', 'FONTEINV', 'DTRECEBIM', 'ATESTADO', 'DTRECORIGA', 'CAUSAMAT', 'ESCMAEAGR1', 'ESCFALAGR1', 'STDOEPIDEM', 'STDONOVA', 'DIFDATA', 'NUDIASOBCO', 'NUDIASOBIN', 'DTCADINV', 'TPOBITOCOR', 'DTCONINV', 'FONTES', 'TPRESGINFO', 'TPNIVELINV', 'NUDIASINF', 'DTCADINF', 'MORTEPARTO', 'DTCONCASO', 'FONTESINF', 'ALTCAUSA', 'CONTADOR']
+{'ORIGEM': '1', 'TIPOBITO': '2', 'DTOBITO': '01012024', 'HORAOBITO': '1111', 'NATURAL': '812', 'CODMUNNATU': '120010', 'DTNASC': '04061924', 'IDADE': '499', 'SEXO': '2', 'RACACOR': '4', 'ESTCIV': '2', 'ESC': '1', 'ESC2010': '0', 'SERIESCFAL': '', 'OCUP': '999993', 'CODMUNRES': '120040', 'LOCOCOR': '1', 'CODESTAB': '7530684', 'ESTABDESCR': '', 'CODMUNOCOR': '120040', 'IDADEMAE': '', 'ESCMAE': '', 'ESCMAE2010': '', 'SERIESCMAE': '', 'OCUPMAE': '', 'QTDFILVIVO': '', 'QTDFILMORT': '', 'GRAVIDEZ': '', 'SEMAGESTAC': '', 'GESTACAO': '', 'PARTO': '', 'OBITOPARTO': '', 'PESO': '', 'TPMORTEOCO': '', 'OBITOGRAV': '', 'OBITOPUERP': '', 'ASSISTMED': '1', 'EXAME': '', 'CIRURGIA': '', 'NECROPSIA': '2', 'LINHAA': '*J960', 'LINHAB': '*J069', 'LINHAC': '*B342*U071', 'LINHAD': '', 'LINHAII': ''}
