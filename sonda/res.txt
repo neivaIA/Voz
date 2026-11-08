@@ -1,69 +1,20 @@
-+ F=ftp://ftp.datasus.gov.br/dissemin/publicos
-+ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
-+ echo '== SIM/CID10/DORES/'
-== SIM/CID10/DORES/
-+ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES/
-+ grep -E 'BA|BR'
-+ tail -6
-DOBR2019.dbc
-DOBR2020.dbc
-DOBR2021.dbc
-DOBR2022.dbc
-DOBR2023.dbc
-DOBR2024.dbc
-+ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
-+ echo '== SIM/PRELIM/DORES/'
-== SIM/PRELIM/DORES/
-+ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/PRELIM/DORES/
-+ grep -E 'BA|BR'
-+ tail -6
-DOBA2025.dbc
-DOBA2026.dbc
-DOBR2025.dbc
-DOBR2026.dbc
-+ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
-+ echo '== SINASC/1996_/Dados/DNRES/'
-== SINASC/1996_/Dados/DNRES/
-+ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SINASC/1996_/Dados/DNRES/
-+ grep -E 'BA|BR'
-+ tail -6
-DNBR2019.dbc
-DNBR2020.dbc
-DNBR2021.dbc
-DNBR2022.dbc
-DNBR2023.dbc
-DNBR2024.dbc
-+ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
-+ echo '== SINASC/PRELIM/DNRES/'
-== SINASC/PRELIM/DNRES/
-+ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SINASC/PRELIM/DNRES/
-+ grep -E 'BA|BR'
-+ tail -6
-DNBA2025.dbc
-DNBA2026.dbc
-DNBR2025.dbc
-DNBR2026.dbc
-+ pip install -q pyreaddbc
-+ tail -2
-+ python -c 'import pyreaddbc;print('\''pyreaddbc ok'\'')'
-pyreaddbc ok
-+ curl -s --max-time 120 https://servicodados.ibge.gov.br/api/v3/agregados
-+ python3 -c $'\nimport json,sys\nfor p in json.load(sys.stdin):\n  if \'Censo Demogr\' in p[\'nome\'] and \'2022\' in p[\'nome\']:\n    for a in p[\'agregados\']:\n      n=a[\'nome\'].lower()\n      if any(k in n for k in [\'esgot\',\'abastecimento de\',\'lixo\',\'banheiro\',\'sanit\']): print(p[\'nome\'],\'|\',a[\'id\'],a[\'nome\'])\n'
+curl: (28) Connection timed out after 120001 milliseconds
+000 0
+head: cannot open 'ag.json' for reading: No such file or directory
+
+erro [Errno 2] No such file or directory: 'ag.json'
+
+
+
+
 Traceback (most recent call last):
-  File "<string>", line 3, in <module>
-    for p in json.load(sys.stdin):
-             ~~~~~~~~~^^^^^^^^^^^
-  File "/usr/lib/python3.14/json/__init__.py", line 298, in load
-    return loads(fp.read(),
-        cls=cls, object_hook=object_hook,
-        parse_float=parse_float, parse_int=parse_int,
-        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
-  File "/usr/lib/python3.14/json/__init__.py", line 352, in loads
-    return _default_decoder.decode(s)
-           ~~~~~~~~~~~~~~~~~~~~~~~^^^
-  File "/usr/lib/python3.14/json/decoder.py", line 345, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.14/json/decoder.py", line 363, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pyreaddbc'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pyreaddbc'
+DOAC2024.dbc
+DOAL2024.dbc
+DOAM2024.dbc
+Last-Modified: Tue, 23 Dec 2025 18:47:40 GMT
+Content-Length: 137713772
