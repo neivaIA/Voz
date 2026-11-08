@@ -1,39 +1,58 @@
-6800 | sem titulo 5459
-6801 | sem titulo 5459
-6802 | sem titulo 5459
-6803 | sem titulo 5459
-6804 | sem titulo 5459
-6805 | sem titulo 5459
-6806 | sem titulo 5459
-6807 | sem titulo 5459
-6808 | sem titulo 5459
-6809 | sem titulo 5459
-6810 | sem titulo 5459
-6811 | sem titulo 5459
-6812 | sem titulo 5459
-6813 | sem titulo 5459
-6814 | sem titulo 5459
-6815 | sem titulo 5459
-6816 | sem titulo 5459
-6817 | sem titulo 5459
-6818 | sem titulo 5459
-6819 | sem titulo 5459
-6820 | sem titulo 5459
-6821 | sem titulo 5459
-6822 | sem titulo 5459
-6823 | sem titulo 5459
-6824 | sem titulo 5459
-6825 | sem titulo 5459
-6826 | sem titulo 5459
-6827 | sem titulo 5459
-6828 | sem titulo 5459
-6829 | sem titulo 5459
-6830 | sem titulo 5459
-6892 | sem titulo 5459
-6893 | sem titulo 5459
-6894 | sem titulo 5459
-6895 | sem titulo 5459
-9542 | sem titulo 5459
-9543 | sem titulo 5459
-9544 | sem titulo 5459
- Just a moment... *{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width Enable JavaScript and cookies to continue (function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'rdqHlC5U8VEqdp8NoL_RIkkyxCCVOGosg0xqLNYOHNY-1794143108-1.2.1.1-8Vfjq_.KcjSOvBdeKORGxkHYWP0I8tyn2nah5osf5ALE4wZnReY3qfcjSyQ_e59E',cITimeS: '1794143108',cN: 'QBTdNsSSirZPltMcFoBmAh',cRay: 'a574c99a8e64a724',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/desctabapi.aspx?c=6805\u0026__cf_chl_tk=2HagKIDrYUt04tfI.5TSOf1kLPdKmvJAnk2nEFT3UM4-1794143108-1.0.1.1-FpKRFQSfUE6tgTwSuWZpAFXbycP0YTqYqsTPY_ddqRM",cvId: '3',cZone: 'apisidra.ibge.gov.br',fa:"/desctabapi.aspx?c=6805\u0026__cf_chl_f_tk=2HagKIDrYUt04tfI.5TSOf1kLPdKmvJAnk2nEFT3UM4-1794143108-1.0.1.1-FpKRFQSfUE6tgTwSuWZpAFXbycP0YTqYqsTPY_ddqRM",md: '2NWS5NCXf84u5Y49npvDkKcJarckufCaKO89.Nc1fhk-1794143108-1.2.1.1-qLxaVeIycINM40Y9ClfuQA.ZaHQEqbkAYgvPuG_HeI_SSCerrrhKyI09gf.6avy_Kj_L5VlaODAzr93KY.om6S0E1oXlsSmtZ6keXO4JmnWJWb46al99tauomDpzr5TF.UQEKnESHR.6AEkbv7fRwuuybTEUi4Ar2BYFo.6yERR5yhLsaGYMrLzRcklIYzaayzxty2hAWzf_gBE02RxHhYaIY3mQJFjdAsWQGyXfO9fw99rTkbR1_JroT2HeeQwdvpFlJmpuT51VZtImJ8hj_U6AQuPcxhJzHWA0qDEziTXuyXco_C1Z.hi_hrhtDpeYwoIdg8qGzjNjV_0eH2PwwvjBoDmCvdMctQq.9Po7zZO0CR.EcFg_cVlIpGOMHHZseZWwURnl0c1GASwfY62i3dWXjHgrmivS7yClc3I_kQM3LCwJHx5yMJolkAHYmVyVEmwqr8ay5thSh_CZXKUg8LcNWFUvUzlVWiIYPsT7D.dXP3ZGdmgy2i0bDtQZCK6NA4JABLoNloNni0EyvIO1cwWY9lJJdtyqvWiYOe9quOURWijX0k4MhaqgxmnZwa9lxDbJPXVT19PufualV21NyeHmIis4FAg0xqzhVus.KmAnkVA1_teGo2.rRMEh49EKvnQ16V.LsJ5Nj4qejzvOCZul9n_C9fY0AY7rSw2yh4l4ZCV5aBGd.BVlNjQb5UEyUgVYFG.OYCycy9YFu4Zd9IqpcHMGpWFX4pI6ILiRAJqJvySUD8vHVoo8wR2z8KCQXM4pM2ESwPqtofCrF8lEfDcFVM3xhMTCawnuV6QWBVZFEQ7avHk.FDBLq7lxhtppePeCAnIRMgH0DdJs32kZbmQzrJSVC6VaEZsX_MPjpJA5V9fyzXVSTznhuhmaY7610mXKj.CqSpGe8YdtDRKXKBcejIc.sx6.ZZX8z9Ll9zisgxlq6JjO396S1suc6KDtSbn4AZj0WUrRE.jCK_xudGHFg58YD9KIF3q.TDJSD.J61y2Iufh.4m3mkMIbu.EMkBMU5hIpTHoF5vBjPpuu2Jt9Jn.qh7jLlczouc_VLalIFE6CTi9LkH7ZQNy1IBwB',mdrd: 'e25qByVnUdBgW5wbRHXwo8TNutY0UJdZoVnR1o8sNF4-1794143108-1.2.1.1-nlnI5uPC7Uvb.lGECWGa35KM3wy2aNqV1Bo3fS.9IhPhrTEsQNGwRKHiKu.b6FZjo1LJpIBtSQhtGTn8_QEJ2MEuxwRDbLJLjlqR.d1B58WhBHfpOa55XtS3CX5IeZusTqK3ZLVNYj0vk5c0eTguePVOYnbxyQZOvaXc0YWCxjd.8w1Pi9shETD2XE4maX2RDhf9WNMq1tSwJWCh6D.uD7CTCzT2rSKhn4OrFEdkLvE',};var a = document.createElement('script');a.nonce = 'QBTdNsSSirZPltMcFoBmAh';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a574c99a8e64a724';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.leng
+== t/6805/n6/2927408/v/all/p/all
+[
+  {
+    "NC": "Nível Territorial (Código)",
+    "NN": "Nível Territorial",
+    "MC": "Unidade de Medida (Código)",
+    "MN": "Unidade de Medida",
+    "V": "Valor",
+    "D1C": "Município (Código)",
+    "D1N": "Município",
+    "D2C": "Variável (Código)",
+    "D2N": "Variável",
+    "D3C": "Ano (Código)",
+    "D3N": "Ano",
+    "D4C": "Tipo de esgotamento sanitário (Código)",
+    "D4N": "Tipo de esgotamento sanitário"
+  },
+  {
+    "NC": "6",
+    "NN": "Município",
+    "MC": "1020",
+    "MN": "Unidades",
+    "V": "958575",
+    "D1C": "2927408",
+    "D1N": "Salvador (BA)",
+    "D2C": "381",
+    "D2N": "Domicílios particulares permanentes ocupados",
+    "D3C": "2022",
+    "D3N": "2022",
+    "D4C": "46292",
+    "D4N": "Total"
+  },
+  {
+    "NC": "6",
+    "NN": "Município",
+    "MC": "2",
+    "MN": "Percentual",
+    "V": "100.00",
+    "D1C": "2927408",
+    "D1N": "Salvador (BA)",
+    "D2C": "1000381",
+    "D2N": "Domicílios particulares permanentes ocupados - percentual do total geral",
+    "D3C": "2022",
+    "D3N": "2022",
+    "D4C": "46292",
+    "D4N": "Total"
+  }
+]
+== t/6805/n6/2927408/v/all/p/all/c999/all
+Parâmetro C999 (Classificação) incompatível com a tabela
+== t/6803/n6/2927408/v/all/p/all/c999/all
+Parâmetro C999 (Classificação) incompatível com a tabela
+== t/6892/n6/2927408/v/all/p/all/c999/all
+Parâmetro C999 (Classificação) incompatível com a tabela
+== t/6804/n6/2927408/v/all/p/all/c999/all
+Parâmetro C999 (Classificação) incompatível com a tabela
+== t/6806/n6/2927408/v/all/p/all/c999/all
+Parâmetro C999 (Classificação) incompatível com a tabela
