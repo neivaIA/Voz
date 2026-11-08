@@ -1,0 +1,13 @@
+{
+ "id": "n2",
+ "seed": 11,
+ "arq": "n2_s11.wav",
+ "ok": true,
+ "wer": 0.083,
+ "faltam": [],
+ "cps": 17.0,
+ "pausa": 0.67,
+ "f0_st": 6.24,
+ "dur": 4.42,
+ "txt": "A Lei de Responsabilidade Fiscal põe um teto de 54%."
+}

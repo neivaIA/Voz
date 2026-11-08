@@ -1,0 +1,13 @@
+{
+ "id": "n1",
+ "seed": 11,
+ "arq": "n1_s11.wav",
+ "ok": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 20.2,
+ "pausa": 0.16,
+ "f0_st": 4.04,
+ "dur": 3.18,
+ "txt": "Quanto da receita da sua prefeitura vai para pagar os servidores?"
+}

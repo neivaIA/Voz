@@ -1,0 +1,13 @@
+{
+ "id": "n4",
+ "seed": 11,
+ "arq": "n4_s11.wav",
+ "ok": true,
+ "wer": 0.059,
+ "faltam": [],
+ "cps": 18.5,
+ "pausa": 0.42,
+ "f0_st": 4.24,
+ "dur": 5.82,
+ "txt": "O Tesouro tem as contas de 2025 de 5.468 prefeituras."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "n1",
+ "seed": 22,
+ "arq": "n1_s22.wav",
+ "ok": false,
+ "wer": 0.2,
+ "faltam": [],
+ "cps": 20.6,
+ "pausa": 0.0,
+ "f0_st": 5.33,
+ "dur": 3.1,
+ "txt": "Quanto da receita da sua perfeitura vai propagar os servidores?"
+}
