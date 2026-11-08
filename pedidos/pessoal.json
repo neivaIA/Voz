@@ -1,0 +1,57 @@
+{
+ "tema": "pessoal",
+ "sementes": [
+  11,
+  22
+ ],
+ "vocabulario": "Lei de Responsabilidade Fiscal, Tesouro, prefeituras, servidores, encargos, aposentadorias",
+ "params": {
+  "exaggeration": 0.55,
+  "cfg_weight": 0.35,
+  "temperature": 0.8
+ },
+ "frases": [
+  {
+   "id": "n1",
+   "fala": "Quanto da receita da sua prefeitura vai pra pagar os servidores?",
+   "leg": "Quanto da receita da sua prefeitura vai para pagar os servidores?",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n2",
+   "fala": "A Lei de Responsabilidade Fiscal põe um teto: cinquenta e quatro por cento.",
+   "leg": "A Lei de Responsabilidade Fiscal põe um teto: 54%.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n3",
+   "fala": "Esse total inclui salários, encargos e aposentadorias.",
+   "leg": "Esse total inclui salários, encargos e aposentadorias.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n4",
+   "fala": "O Tesouro tem as contas de dois mil e vinte e cinco de cinco mil quatrocentas e sessenta e oito prefeituras.",
+   "leg": "O Tesouro tem as contas de 2025 de 5.468 prefeituras.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n5",
+   "fala": "Dessas, quatrocentas e vinte e sete passaram do limite.",
+   "leg": "Dessas, 427 passaram do limite.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n6",
+   "fala": "Em dois mil e vinte e quatro, tinham sido trezentas e cinquenta.",
+   "leg": "Em 2024, tinham sido 350.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n7",
+   "fala": "E a cidade do meio da lista gasta quarenta e cinco por cento da receita com pessoal.",
+   "leg": "E a cidade do meio da lista gasta 45% da receita com pessoal.",
+   "fim": "pergunta"
+  }
+ ]
+}
