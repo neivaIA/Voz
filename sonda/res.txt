@@ -1,411 +1,69 @@
-== 2933307 RGF 402 Counter({'RGF-Anexo 05': 125, 'RGF-Anexo 01': 117, 'RGF-Anexo 02': 84, 'RGF-Anexo 03': 34, 'RGF-Anexo 06': 27, 'RGF-Anexo 04': 15})
-RGF-Anexo 02 | DividaConsolidada | DÍVIDA CONSOLIDADA - DC (I) | SALDO DO EXERCÍCIO ANTERIOR | 303584451.8
-RGF-Anexo 02 | DividaConsolidada | DÍVIDA CONSOLIDADA - DC (I) | Até o 1º Quadrimestre | 292939776.78
-RGF-Anexo 02 | DividaConsolidada | DÍVIDA CONSOLIDADA - DC (I) | Até o 2º Quadrimestre | 280969321.36
-RGF-Anexo 02 | DividaConsolidada | DÍVIDA CONSOLIDADA - DC (I) | Até o 3º Quadrimestre | 284358074.65
-RGF-Anexo 02 | DividaContratual | Dívida Contratual | SALDO DO EXERCÍCIO ANTERIOR | 303584451.8
-RGF-Anexo 02 | DividaContratual | Dívida Contratual | Até o 1º Quadrimestre | 292939776.78
-RGF-Anexo 02 | DividaContratual | Dívida Contratual | Até o 2º Quadrimestre | 280969321.36
-RGF-Anexo 02 | DividaContratual | Dívida Contratual | Até o 3º Quadrimestre | 284358074.65
-RGF-Anexo 02 | RGF2Emprestimos | Empréstimos | SALDO DO EXERCÍCIO ANTERIOR | 279395905.02
-RGF-Anexo 02 | RGF2Emprestimos | Empréstimos | Até o 1º Quadrimestre | 272790473.38
-RGF-Anexo 02 | RGF2Emprestimos | Empréstimos | Até o 2º Quadrimestre | 265583947.44
-RGF-Anexo 02 | RGF2Emprestimos | Empréstimos | Até o 3º Quadrimestre | 271875655.94
-RGF-Anexo 02 | RGF2EmprestimosInternos | Internos | SALDO DO EXERCÍCIO ANTERIOR | 279395905.02
-RGF-Anexo 02 | RGF2EmprestimosInternos | Internos | Até o 1º Quadrimestre | 272790473.38
-RGF-Anexo 02 | RGF2EmprestimosInternos | Internos | Até o 2º Quadrimestre | 265583947.44
-RGF-Anexo 02 | RGF2EmprestimosInternos | Internos | Até o 3º Quadrimestre | 271875655.94
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividas | Parcelamento e Renegociação de Dívidas | SALDO DO EXERCÍCIO ANTERIOR | 24188546.78
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividas | Parcelamento e Renegociação de Dívidas | Até o 1º Quadrimestre | 20149303.4
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividas | Parcelamento e Renegociação de Dívidas | Até o 2º Quadrimestre | 15385373.92
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividas | Parcelamento e Renegociação de Dívidas | Até o 3º Quadrimestre | 12482418.71
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisPrevidenciarias | De Contribuições Previdenciárias | SALDO DO EXERCÍCIO ANTERIOR | 11706128.07
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisPrevidenciarias | De Contribuições Previdenciárias | Até o 1º Quadrimestre | 8465047.13
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisPrevidenciarias | De Contribuições Previdenciárias | Até o 2º Quadrimestre | 3898586.49
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisDemaisContribuicoesSociais | De Demais Contribuições Sociais | SALDO DO EXERCÍCIO ANTERIOR | 12482418.71
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisDemaisContribuicoesSociais | De Demais Contribuições Sociais | Até o 1º Quadrimestre | 11684256.27
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisDemaisContribuicoesSociais | De Demais Contribuições Sociais | Até o 2º Quadrimestre | 11486787.43
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisDemaisContribuicoesSociais | De Demais Contribuições Sociais | Até o 3º Quadrimestre | 12482418.71
-RGF-Anexo 02 | DeducoesDaDividaConsolidada | DEDUÇÕES (II) | SALDO DO EXERCÍCIO ANTERIOR | 68576666.49
-RGF-Anexo 02 | DeducoesDaDividaConsolidada | DEDUÇÕES (II) | Até o 1º Quadrimestre | 84482833.35
-RGF-Anexo 02 | DeducoesDaDividaConsolidada | DEDUÇÕES (II) | Até o 2º Quadrimestre | 115722195.15
-RGF-Anexo 02 | DeducoesDaDividaConsolidada | DEDUÇÕES (II) | Até o 3º Quadrimestre | 100611821.37
-RGF-Anexo 02 | RGF2DisponibilidadeDeCaixa | Disponibilidade de Caixa | SALDO DO EXERCÍCIO ANTERIOR | 68576666.49
-RGF-Anexo 02 | RGF2DisponibilidadeDeCaixa | Disponibilidade de Caixa | Até o 1º Quadrimestre | 84482833.35
-RGF-Anexo 02 | RGF2DisponibilidadeDeCaixa | Disponibilidade de Caixa | Até o 2º Quadrimestre | 115722195.15
-RGF-Anexo 02 | RGF2DisponibilidadeDeCaixa | Disponibilidade de Caixa | Até o 3º Quadrimestre | 100611821.37
-RGF-Anexo 02 | DisponibilidadeDeCaixaBrutaAnexo02 | Disponibilidade de Caixa Bruta | SALDO DO EXERCÍCIO ANTERIOR | 103236600.97
-RGF-Anexo 02 | DisponibilidadeDeCaixaBrutaAnexo02 | Disponibilidade de Caixa Bruta | Até o 1º Quadrimestre | 106513976.15
-RGF-Anexo 02 | DisponibilidadeDeCaixaBrutaAnexo02 | Disponibilidade de Caixa Bruta | Até o 2º Quadrimestre | 129893475.72
-RGF-Anexo 02 | DisponibilidadeDeCaixaBrutaAnexo02 | Disponibilidade de Caixa Bruta | Até o 3º Quadrimestre | 148134109.13
-RGF-Anexo 02 | RestosAPagarProcessadosExcetoPrecatorios | (-) Restos a Pagar Processados | SALDO DO EXERCÍCIO ANTERIOR | 24857284.27
-RGF-Anexo 02 | RestosAPagarProcessadosExcetoPrecatorios | (-) Restos a Pagar Processados | Até o 1º Quadrimestre | 47306.35
-RGF-Anexo 02 | RestosAPagarProcessadosExcetoPrecatorios | (-) Restos a Pagar Processados | Até o 2º Quadrimestre | 32892.75
-RGF-Anexo 02 | RestosAPagarProcessadosExcetoPrecatorios | (-) Restos a Pagar Processados | Até o 3º Quadrimestre | 39938797.17
-RGF-Anexo 02 | DepositosRestituiveisEValoresVinculados | (-) Depósitos Restituíveis e Valores Vinculados | SALDO DO EXERCÍCIO ANTERIOR | 9802650.21
-RGF-Anexo 02 | DepositosRestituiveisEValoresVinculados | (-) Depósitos Restituíveis e Valores Vinculados | Até o 1º Quadrimestre | 21983836.45
-RGF-Anexo 02 | DepositosRestituiveisEValoresVinculados | (-) Depósitos Restituíveis e Valores Vinculados | Até o 2º Quadrimestre | 14138387.82
-RGF-Anexo 02 | DepositosRestituiveisEValoresVinculados | (-) Depósitos Restituíveis e Valores Vinculados | Até o 3º Quadrimestre | 7583490.59
-RGF-Anexo 02 | DividaConsolidadaLiquida | DÍVIDA CONSOLIDADA LÍQUIDA (DCL) (III) = (I - II) | SALDO DO EXERCÍCIO ANTERIOR | 235007785.31
-RGF-Anexo 02 | DividaConsolidadaLiquida | DÍVIDA CONSOLIDADA LÍQUIDA (DCL) (III) = (I - II) | Até o 1º Quadrimestre | 208456943.43
-RGF-Anexo 02 | DividaConsolidadaLiquida | DÍVIDA CONSOLIDADA LÍQUIDA (DCL) (III) = (I - II) | Até o 2º Quadrimestre | 165247126.21
-RGF-Anexo 02 | DividaConsolidadaLiquida | DÍVIDA CONSOLIDADA LÍQUIDA (DCL) (III) = (I - II) | Até o 3º Quadrimestre | 183746253.28
-RGF-Anexo 02 | RGF2ReceitaCorrenteLiquida | RECEITA CORRENTE LÍQUIDA - RCL (IV) | SALDO DO EXERCÍCIO ANTERIOR | 1369938207.82
-RGF-Anexo 02 | RGF2ReceitaCorrenteLiquida | RECEITA CORRENTE LÍQUIDA - RCL (IV) | Até o 1º Quadrimestre | 1411208557.38
-RGF-Anexo 02 | RGF2ReceitaCorrenteLiquida | RECEITA CORRENTE LÍQUIDA - RCL (IV) | Até o 2º Quadrimestre | 1401251177.23
-RGF-Anexo 02 | RGF2ReceitaCorrenteLiquida | RECEITA CORRENTE LÍQUIDA - RCL (IV) | Até o 3º Quadrimestre | 1500432876.91
-RGF-Anexo 02 | TransferenciasObrigatoriasDaUniaoRelativasAsEmendasIndividuais | (-) Transferências Obrigatórias da União Relativas às Emendas Individu | SALDO DO EXERCÍCIO ANTERIOR | 1700000
-RGF-Anexo 02 | TransferenciasObrigatoriasDaUniaoRelativasAsEmendasIndividuais | (-) Transferências Obrigatórias da União Relativas às Emendas Individu | Até o 3º Quadrimestre | 3600000
-RGF-Anexo 02 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamento | RECEITA CORRENTE LÍQUIDA AJUSTADA PARA CÁLCULO DOS LIMITES DE ENDIVIDA | SALDO DO EXERCÍCIO ANTERIOR | 1368238207.82
-RGF-Anexo 02 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamento | RECEITA CORRENTE LÍQUIDA AJUSTADA PARA CÁLCULO DOS LIMITES DE ENDIVIDA | Até o 1º Quadrimestre | 1411208557.38
-RGF-Anexo 02 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamento | RECEITA CORRENTE LÍQUIDA AJUSTADA PARA CÁLCULO DOS LIMITES DE ENDIVIDA | Até o 2º Quadrimestre | 1401251177.23
-RGF-Anexo 02 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamento | RECEITA CORRENTE LÍQUIDA AJUSTADA PARA CÁLCULO DOS LIMITES DE ENDIVIDA | Até o 3º Quadrimestre | 1496832876.91
-RGF-Anexo 02 | PercentualDaDCSobreARCL | % da DC sobre a RCL AJUSTADA (I/VI) | SALDO DO EXERCÍCIO ANTERIOR | 22.19
-RGF-Anexo 02 | PercentualDaDCSobreARCL | % da DC sobre a RCL AJUSTADA (I/VI) | Até o 1º Quadrimestre | 20.76
-RGF-Anexo 02 | PercentualDaDCSobreARCL | % da DC sobre a RCL AJUSTADA (I/VI) | Até o 2º Quadrimestre | 20.05
-RGF-Anexo 02 | PercentualDaDCSobreARCL | % da DC sobre a RCL AJUSTADA (I/VI) | Até o 3º Quadrimestre | 19
-RGF-Anexo 02 | PercentualDaDCLSobreARCL | % da DCL sobre a RCL AJUSTADA (III/VI) | SALDO DO EXERCÍCIO ANTERIOR | 17.18
-RGF-Anexo 02 | PercentualDaDCLSobreARCL | % da DCL sobre a RCL AJUSTADA (III/VI) | Até o 1º Quadrimestre | 14.77
-RGF-Anexo 02 | PercentualDaDCLSobreARCL | % da DCL sobre a RCL AJUSTADA (III/VI) | Até o 2º Quadrimestre | 11.79
-RGF-Anexo 02 | PercentualDaDCLSobreARCL | % da DCL sobre a RCL AJUSTADA (III/VI) | Até o 3º Quadrimestre | 12.28
-RGF-Anexo 02 | LimiteDefinidoPorResolucaoDoSenadoFederal | LIMITE DEFINIDO POR RESOLUÇÃO DO SENADO FEDERAL | SALDO DO EXERCÍCIO ANTERIOR | 1641885849.38
-RGF-Anexo 02 | LimiteDefinidoPorResolucaoDoSenadoFederal | LIMITE DEFINIDO POR RESOLUÇÃO DO SENADO FEDERAL | Até o 1º Quadrimestre | 1693450268.86
-RGF-Anexo 02 | LimiteDefinidoPorResolucaoDoSenadoFederal | LIMITE DEFINIDO POR RESOLUÇÃO DO SENADO FEDERAL | Até o 2º Quadrimestre | 1681501412.68
-RGF-Anexo 02 | LimiteDefinidoPorResolucaoDoSenadoFederal | LIMITE DEFINIDO POR RESOLUÇÃO DO SENADO FEDERAL | Até o 3º Quadrimestre | 1796199452.29
-RGF-Anexo 02 | LimiteDeAlerta | LIMITE DE ALERTA (inciso III do § 1º do art. 59 da LRF) | SALDO DO EXERCÍCIO ANTERIOR | 1477697264.45
-RGF-Anexo 02 | LimiteDeAlerta | LIMITE DE ALERTA (inciso III do § 1º do art. 59 da LRF) | Até o 1º Quadrimestre | 1524105241.97
-RGF-Anexo 02 | LimiteDeAlerta | LIMITE DE ALERTA (inciso III do § 1º do art. 59 da LRF) | Até o 2º Quadrimestre | 1513351271.41
-RGF-Anexo 02 | LimiteDeAlerta | LIMITE DE ALERTA (inciso III do § 1º do art. 59 da LRF) | Até o 3º Quadrimestre | 1616579507.06
-RGF-Anexo 02 | PrecatoriosAPartirDe05052000 | Precatórios Posteriores a 05/05/2000 (Não incluídos na DC) | SALDO DO EXERCÍCIO ANTERIOR | 6379893.21
-RGF-Anexo 02 | PrecatoriosAPartirDe05052000 | Precatórios Posteriores a 05/05/2000 (Não incluídos na DC) | Até o 1º Quadrimestre | 2636062.11
-RGF-Anexo 02 | PrecatoriosAPartirDe05052000 | Precatórios Posteriores a 05/05/2000 (Não incluídos na DC) | Até o 2º Quadrimestre | 6028017.49
-RGF-Anexo 02 | RPNaoProcessadosDeExerciciosAnteriores | RP Não-Processados | SALDO DO EXERCÍCIO ANTERIOR | 13716832.71
-RGF-Anexo 02 | RPNaoProcessadosDeExerciciosAnteriores | RP Não-Processados | Até o 1º Quadrimestre | 7604551.2
-RGF-Anexo 02 | RPNaoProcessadosDeExerciciosAnteriores | RP Não-Processados | Até o 2º Quadrimestre | 5737317.74
-RGF-Anexo 02 | RPNaoProcessadosDeExerciciosAnteriores | RP Não-Processados | Até o 3º Quadrimestre | 17001279.89
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | DISPONIBILIDADE DE CAIXA BRUTA (a) | 11737514.62
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Não Vinculados de Impostos | DISPONIBILIDADE DE CAIXA BRUTA (a) | 11201615.22
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outros Recursos não Vinculados | DISPONIBILIDADE DE CAIXA BRUTA (a) | 535899.4
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | DISPONIBILIDADE DE CAIXA BRUTA (a) | 134636492.3
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA BRUTA (a) | 79482759.74
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Transferências do FUNDEB | DISPONIBILIDADE DE CAIXA BRUTA (a) | 57989912.46
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outros Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA BRUTA (a) | 21492847.28
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA BRUTA (a) | 27780316.98
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Transferências Fundo a Fundo de Recursos do SUS | DISPONIBILIDADE DE CAIXA BRUTA (a) | 22507435.15
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outros Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA BRUTA (a) | 5272881.83
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados à Assistência Social | DISPONIBILIDADE DE CAIXA BRUTA (a) | 5234834.04
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Demais Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA BRUTA (a) | 6940179.16
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | DISPONIBILIDADE DE CAIXA BRUTA (a) | 1153408.92
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outras Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA BRUTA (a) | 5786770.24
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Demais Vinculações Legais | DISPONIBILIDADE DE CAIXA BRUTA (a) | 15187369.01
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos de Operações de Crédito (exceto vinculados à Educação e à Saú | DISPONIBILIDADE DE CAIXA BRUTA (a) | 9989557.08
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos de Alienação de Bens/Ativos | DISPONIBILIDADE DE CAIXA BRUTA (a) | 23507.55
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | DISPONIBILIDADE DE CAIXA BRUTA (a) | 3091024.98
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outras Vinculações Legais | DISPONIBILIDADE DE CAIXA BRUTA (a) | 2083279.4
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Extraorçamentários | DISPONIBILIDADE DE CAIXA BRUTA (a) | 11033.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | TOTAL (IV) = (I + II + III) | DISPONIBILIDADE DE CAIXA BRUTA (a) | 146374006.92
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDeExerciciosAnteriores | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | De Exercícios Anteriores (b) | 32696.95
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDeExerciciosAnteriores | Recursos Vinculados à Saúde | De Exercícios Anteriores (b) | 32696.95
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDeExerciciosAnteriores | Transferências Fundo a Fundo de Recursos do SUS | De Exercícios Anteriores (b) | 2212.8
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDeExerciciosAnteriores | Outros Recursos Vinculados à Saúde | De Exercícios Anteriores (b) | 30484.15
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDeExerciciosAnteriores | TOTAL (IV) = (I + II + III) | De Exercícios Anteriores (b) | 32696.95
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | Do Exercício (c) | 3089232.13
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Não Vinculados de Impostos | Do Exercício (c) | 3085742.12
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Outros Recursos não Vinculados | Do Exercício (c) | 3490.01
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | Do Exercício (c) | 36100334.93
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Vinculados à Educação | Do Exercício (c) | 34898854.54
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Transferências do FUNDEB | Do Exercício (c) | 28267367.55
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Outros Recursos Vinculados à Educação | Do Exercício (c) | 6631486.99
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Vinculados à Saúde | Do Exercício (c) | 642698.62
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Transferências Fundo a Fundo de Recursos do SUS | Do Exercício (c) | 591373.96
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Outros Recursos Vinculados à Saúde | Do Exercício (c) | 51324.66
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Vinculados à Assistência Social | Do Exercício (c) | 28646.53
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Demais Vinculações Decorrentes de Transferências | Do Exercício (c) | 296448.04
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | Do Exercício (c) | 61759.09
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Outras Vinculações Decorrentes de Transferências | Do Exercício (c) | 234688.95
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Demais Vinculações Legais | Do Exercício (c) | 233687.2
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | Do Exercício (c) | 50893.23
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Outras Vinculações Legais | Do Exercício (c) | 182793.97
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | TOTAL (IV) = (I + II + III) | Do Exercício (c) | 39189567.06
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 27968.62
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Recursos Não Vinculados de Impostos | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 27968.62
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 5353766.73
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Recursos Vinculados à Saúde | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 101187.01
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Transferências Fundo a Fundo de Recursos do SUS | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 88495.78
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Outros Recursos Vinculados à Saúde | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 12691.23
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Demais Vinculações Decorrentes de Transferências | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 322910.19
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 322910.19
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Demais Vinculações Legais | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 4929669.53
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Recursos de Operações de Crédito (exceto vinculados à Educação e à Saú | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 2555932.71
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 2373736.82
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | TOTAL (IV) = (I + II + III) | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 5381735.35
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | Demais Obrigações Financeiras (e) | 87529.73
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Recursos Não Vinculados de Impostos | Demais Obrigações Financeiras (e) | 87529.73
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | Demais Obrigações Financeiras (e) | 7091136.42
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Recursos Vinculados à Educação | Demais Obrigações Financeiras (e) | 1559989.77
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Transferências do FUNDEB | Demais Obrigações Financeiras (e) | 1399979.47
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Outros Recursos Vinculados à Educação | Demais Obrigações Financeiras (e) | 160010.3
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Recursos Vinculados à Saúde | Demais Obrigações Financeiras (e) | 5528859.95
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Transferências Fundo a Fundo de Recursos do SUS | Demais Obrigações Financeiras (e) | 1206490.63
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Outros Recursos Vinculados à Saúde | Demais Obrigações Financeiras (e) | 4322369.32
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Recursos Vinculados à Assistência Social | Demais Obrigações Financeiras (e) | 2286.7
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | TOTAL (IV) = (I + II + III) | Demais Obrigações Financeiras (e) | 7178666.15
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 8532784.14
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Não Vinculados de Impostos | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 8000374.75
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outros Recursos não Vinculados | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 532409.39
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 86058557.27
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 43023915.43
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Transferências do FUNDEB | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 28322565.44
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outros Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 14701349.99
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 21474874.45
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Transferências Fundo a Fundo de Recursos do SUS | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 20618861.98
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outros Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 856012.47
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados à Assistência Social | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 5203900.81
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Demais Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 6320820.93
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 768739.64
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outras Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 5552081.29
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Demais Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 10024012.28
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos de Operações de Crédito (exceto vinculados à Educação e à Saú | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 7433624.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos de Alienação de Bens/Ativos | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 23507.55
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 666394.93
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outras Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 1900485.43
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Extraorçamentários | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 11033.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | TOTAL (IV) = (I + II + III) | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 94591341.41
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 2110230.38
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Não Vinculados de Impostos | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 2110230.38
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 8897796.61
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados à Educação | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 1097152.49
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Outros Recursos Vinculados à Educação | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 1097152.49
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados à Saúde | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 1031012.31
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Transferências Fundo a Fundo de Recursos do SUS | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 308110.05
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Outros Recursos Vinculados à Saúde | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 722902.26
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados à Assistência Social | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 1309412.28
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Demais Vinculações Decorrentes de Transferências | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 987201.56
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 724451.06
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Outras Vinculações Decorrentes de Transferências | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 262750.5
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Demais Vinculações Legais | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 4473017.97
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos de Operações de Crédito (exceto vinculados à Educação e à Saú | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 4435393.97
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 37624
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | TOTAL (IV) = (I + II + III) | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 11008026.99
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 6422553.76
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Não Vinculados de Impostos | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 5890144.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outros Recursos não Vinculados | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 532409.39
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 77160760.66
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 41926762.94
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Transferências do FUNDEB | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 28322565.44
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outros Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 13604197.5
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 20443862.14
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Transferências Fundo a Fundo de Recursos do SUS | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 20310751.93
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outros Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 133110.21
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados à Assistência Social | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 3894488.53
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Demais Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 5333619.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 44288.58
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outras Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 5289330.79
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Demais Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 5550994.31
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos de Operações de Crédito (exceto vinculados à Educação e à Saú | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 2998230.4
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos de Alienação de Bens/Ativos | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 23507.55
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 628770.93
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outras Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 1900485.43
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Extraorçamentários | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 11033.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | TOTAL (IV) = (I + II + III) | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 83583314.42
-RGF-Anexo 06 | ReceitaCorrenteLiquida | Receita Corrente Líquida | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 1500432876.91
-RGF-Anexo 06 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamentoDemonstrativoSimplificado | Receita Corrente Líquida Ajustada para Cálculo dos Limites de Endivida | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 1496832876.91
-RGF-Anexo 06 | ReceitaCorrenteLiquidaAjustada | Receita Corrente Líquida Ajustada para Cálculo dos Limites da Despesa  | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 1467209096.91
-RGF-Anexo 06 | DespesaTotalComPessoalDemonstrativoSimplificado | Despesa Total com Pessoal - DTP | VALOR | 685496138.44
-RGF-Anexo 06 | DespesaTotalComPessoalDemonstrativoSimplificado | Despesa Total com Pessoal - DTP | % SOBRE A RCL AJUSTADA | 46.72
-RGF-Anexo 06 | LimiteMaximoDespesaComPessoalDemonstrativoSimplificado | Limite Máximo (incisos I, II e III art. 20 da LRF) - <%> | VALOR | 792292912.33
-RGF-Anexo 06 | LimiteMaximoDespesaComPessoalDemonstrativoSimplificado | Limite Máximo (incisos I, II e III art. 20 da LRF) - <%> | % SOBRE A RCL AJUSTADA | 54
-RGF-Anexo 06 | LimitePrudencialDespesaComPessoalDemonstrativoSimplificado | Limite Prudencial (parágrafo único art. 22 da LRF) - <%> | VALOR | 752678266.71
-RGF-Anexo 06 | LimitePrudencialDespesaComPessoalDemonstrativoSimplificado | Limite Prudencial (parágrafo único art. 22 da LRF) - <%> | % SOBRE A RCL AJUSTADA | 51.3
-RGF-Anexo 06 | LimiteDeAlertaDespesaComPessoalDemonstrativoSimplificado | Limite de Alerta (inciso II do §1º do art. 59 da LRF) - <%> | VALOR | 713063621.1
-RGF-Anexo 06 | LimiteDeAlertaDespesaComPessoalDemonstrativoSimplificado | Limite de Alerta (inciso II do §1º do art. 59 da LRF) - <%> | % SOBRE A RCL AJUSTADA | 48.6
-RGF-Anexo 06 | DividaConsolidadaLiquidaDemonstrativoSimplificado | Dívida Consolidada Líquida | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 183746253.28
-RGF-Anexo 06 | DividaConsolidadaLiquidaDemonstrativoSimplificado | Dívida Consolidada Líquida | % SOBRE A RCL AJUSTADA | 12.28
-RGF-Anexo 06 | LimiteDefinidoPorResolucaoDoSenadoFederalDividaConsolidadaDemonstrativoSimplificado | Limite Definido por Resolução do Senado Federal | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 1796199452.29
-RGF-Anexo 06 | LimiteDefinidoPorResolucaoDoSenadoFederalDividaConsolidadaDemonstrativoSimplificado | Limite Definido por Resolução do Senado Federal | % SOBRE A RCL AJUSTADA | 120
-RGF-Anexo 06 | TotalDasGarantiasConcedidasDemonstrativoSimplificado | Total das Garantias Concedidas | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 214124518.09
-RGF-Anexo 06 | TotalDasGarantiasConcedidasDemonstrativoSimplificado | Total das Garantias Concedidas | % SOBRE A RCL AJUSTADA | 14.31
-RGF-Anexo 06 | LimiteDefinidoPorResolucaoDoSenadoFederalGarantiasDemonstrativoSimplificado | Limite Definido por Resolução do Senado Federal | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 329303232.92
-RGF-Anexo 06 | LimiteDefinidoPorResolucaoDoSenadoFederalGarantiasDemonstrativoSimplificado | Limite Definido por Resolução do Senado Federal | % SOBRE A RCL AJUSTADA | 22
-RGF-Anexo 06 | OperacoesDeCreditoInternasEExternasDemonstrativoSimplificado | Operações de Crédito Internas e Externas | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 10000000
-RGF-Anexo 06 | OperacoesDeCreditoInternasEExternasDemonstrativoSimplificado | Operações de Crédito Internas e Externas | % SOBRE A RCL AJUSTADA | 0.67
-RGF-Anexo 06 | LimiteDefinidoPeloSenadoFederalParaOperacoesDeCreditoExternasEInternasDemonstrativoSimplificado | Limite Definido pelo Senado Federal para Operações de Crédito Externas | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 239493260.31
-RGF-Anexo 06 | LimiteDefinidoPeloSenadoFederalParaOperacoesDeCreditoExternasEInternasDemonstrativoSimplificado | Limite Definido pelo Senado Federal para Operações de Crédito Externas | % SOBRE A RCL AJUSTADA | 16
-RGF-Anexo 06 | LimiteDefinidoPeloSenadoFederalParaOperacoesDeCreditoPorAntecipacaoDaReceitaDemonstrativoSimplificado | Limite Definido pelo Senado Federal para Operações de Crédito por Ante | VALOR ATÉ O QUADRIMESTRE DE REFERÊNCIA | 104778301.38
-RGF-Anexo 06 | LimiteDefinidoPeloSenadoFederalParaOperacoesDeCreditoPorAntecipacaoDaReceitaDemonstrativoSimplificado | Limite Definido pelo Senado Federal para Operações de Crédito por Ante | % SOBRE A RCL AJUSTADA | 7
-RGF-Anexo 06 | ValorTotalRestosAPagarDemonstrativoSimplificado | Valor Total | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO | 11008026.99
-RGF-Anexo 06 | ValorTotalRestosAPagarDemonstrativoSimplificado | Valor Total | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) | 83583314.42
-== 3108909 RGF Simplificado 375 Counter({'RGF-Anexo 01': 186, 'RGF-Anexo 05': 107, 'RGF-Anexo 02': 52, 'RGF-Anexo 06': 14, 'RGF-Anexo 04': 9, 'RGF-Anexo 03': 7})
-RGF-Anexo 02 | DividaConsolidada | DÍVIDA CONSOLIDADA - DC (I) | SALDO DO EXERCÍCIO ANTERIOR | 296581.99
-RGF-Anexo 02 | DividaConsolidada | DÍVIDA CONSOLIDADA - DC (I) | Até o 1º Semestre | 245838.41
-RGF-Anexo 02 | DividaConsolidada | DÍVIDA CONSOLIDADA - DC (I) | Até o 2º Semestre | 227422.15
-RGF-Anexo 02 | DividaContratual | Dívida Contratual | SALDO DO EXERCÍCIO ANTERIOR | 296581.99
-RGF-Anexo 02 | DividaContratual | Dívida Contratual | Até o 1º Semestre | 245838.41
-RGF-Anexo 02 | DividaContratual | Dívida Contratual | Até o 2º Semestre | 227422.15
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividas | Parcelamento e Renegociação de Dívidas | SALDO DO EXERCÍCIO ANTERIOR | 296581.99
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividas | Parcelamento e Renegociação de Dívidas | Até o 1º Semestre | 245838.41
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividas | Parcelamento e Renegociação de Dívidas | Até o 2º Semestre | 227422.15
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisPrevidenciarias | De Contribuições Previdenciárias | SALDO DO EXERCÍCIO ANTERIOR | 296581.99
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisPrevidenciarias | De Contribuições Previdenciárias | Até o 1º Semestre | 245838.41
-RGF-Anexo 02 | RGF2ParcelamentoERenegociacaoDeDividasDeContribuicoesSociaisPrevidenciarias | De Contribuições Previdenciárias | Até o 2º Semestre | 227422.15
-RGF-Anexo 02 | DeducoesDaDividaConsolidada | DEDUÇÕES (II) | SALDO DO EXERCÍCIO ANTERIOR | 21359351.52
-RGF-Anexo 02 | DeducoesDaDividaConsolidada | DEDUÇÕES (II) | Até o 1º Semestre | 29235927.58
-RGF-Anexo 02 | DeducoesDaDividaConsolidada | DEDUÇÕES (II) | Até o 2º Semestre | 28681199.39
-RGF-Anexo 02 | RGF2DisponibilidadeDeCaixa | Disponibilidade de Caixa | SALDO DO EXERCÍCIO ANTERIOR | 21359351.52
-RGF-Anexo 02 | RGF2DisponibilidadeDeCaixa | Disponibilidade de Caixa | Até o 1º Semestre | 29235927.58
-RGF-Anexo 02 | RGF2DisponibilidadeDeCaixa | Disponibilidade de Caixa | Até o 2º Semestre | 28634207.25
-RGF-Anexo 02 | DisponibilidadeDeCaixaBrutaAnexo02 | Disponibilidade de Caixa Bruta | SALDO DO EXERCÍCIO ANTERIOR | 21618547.87
-RGF-Anexo 02 | DisponibilidadeDeCaixaBrutaAnexo02 | Disponibilidade de Caixa Bruta | Até o 1º Semestre | 29495123.93
-RGF-Anexo 02 | DisponibilidadeDeCaixaBrutaAnexo02 | Disponibilidade de Caixa Bruta | Até o 2º Semestre | 28971846.48
-RGF-Anexo 02 | RestosAPagarProcessadosExcetoPrecatorios | (-) Restos a Pagar Processados | SALDO DO EXERCÍCIO ANTERIOR | 13662.69
-RGF-Anexo 02 | RestosAPagarProcessadosExcetoPrecatorios | (-) Restos a Pagar Processados | Até o 2º Semestre | 195207.88
-RGF-Anexo 02 | DepositosRestituiveisEValoresVinculados | (-) Depósitos Restituíveis e Valores Vinculados | SALDO DO EXERCÍCIO ANTERIOR | 245533.66
-RGF-Anexo 02 | DepositosRestituiveisEValoresVinculados | (-) Depósitos Restituíveis e Valores Vinculados | Até o 1º Semestre | 259196.35
-RGF-Anexo 02 | DepositosRestituiveisEValoresVinculados | (-) Depósitos Restituíveis e Valores Vinculados | Até o 2º Semestre | 142431.35
-RGF-Anexo 02 | DemaisHaveresFinanceiros | Demais Haveres Financeiros | Até o 2º Semestre | 46992.14
-RGF-Anexo 02 | DividaConsolidadaLiquida | DÍVIDA CONSOLIDADA LÍQUIDA (DCL) (III) = (I - II) | SALDO DO EXERCÍCIO ANTERIOR | -21062769.53
-RGF-Anexo 02 | DividaConsolidadaLiquida | DÍVIDA CONSOLIDADA LÍQUIDA (DCL) (III) = (I - II) | Até o 1º Semestre | -28990089.17
-RGF-Anexo 02 | DividaConsolidadaLiquida | DÍVIDA CONSOLIDADA LÍQUIDA (DCL) (III) = (I - II) | Até o 2º Semestre | -28453777.24
-RGF-Anexo 02 | RGF2ReceitaCorrenteLiquida | RECEITA CORRENTE LÍQUIDA - RCL (IV) | SALDO DO EXERCÍCIO ANTERIOR | 28864218.28
-RGF-Anexo 02 | RGF2ReceitaCorrenteLiquida | RECEITA CORRENTE LÍQUIDA - RCL (IV) | Até o 1º Semestre | 29158542.22
-RGF-Anexo 02 | RGF2ReceitaCorrenteLiquida | RECEITA CORRENTE LÍQUIDA - RCL (IV) | Até o 2º Semestre | 67241450.55
-RGF-Anexo 02 | TransferenciasObrigatoriasDaUniaoRelativasAsEmendasIndividuais | (-) Transferências Obrigatórias da União Relativas às Emendas Individu | Até o 2º Semestre | 675000
-RGF-Anexo 02 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamento | = RECEITA CORRENTE LÍQUIDA AJUSTADA PARA CÁLCULO DOS LIMITES DE ENDIVI | SALDO DO EXERCÍCIO ANTERIOR | 28864218.28
-RGF-Anexo 02 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamento | = RECEITA CORRENTE LÍQUIDA AJUSTADA PARA CÁLCULO DOS LIMITES DE ENDIVI | Até o 1º Semestre | 29158542.22
-RGF-Anexo 02 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamento | = RECEITA CORRENTE LÍQUIDA AJUSTADA PARA CÁLCULO DOS LIMITES DE ENDIVI | Até o 2º Semestre | 66566450.55
-RGF-Anexo 02 | PercentualDaDCSobreARCL | % da DC sobre a RCL AJUSTADA (I/VI) | SALDO DO EXERCÍCIO ANTERIOR | 1.03
-RGF-Anexo 02 | PercentualDaDCSobreARCL | % da DC sobre a RCL AJUSTADA (I/VI) | Até o 1º Semestre | 0.84
-RGF-Anexo 02 | PercentualDaDCSobreARCL | % da DC sobre a RCL AJUSTADA (I/VI) | Até o 2º Semestre | 0.34
-RGF-Anexo 02 | PercentualDaDCLSobreARCL | % da DCL sobre a RCL AJUSTADA (III/VI) | SALDO DO EXERCÍCIO ANTERIOR | -72.97
-RGF-Anexo 02 | PercentualDaDCLSobreARCL | % da DCL sobre a RCL AJUSTADA (III/VI) | Até o 1º Semestre | -99.42
-RGF-Anexo 02 | PercentualDaDCLSobreARCL | % da DCL sobre a RCL AJUSTADA (III/VI) | Até o 2º Semestre | -42.74
-RGF-Anexo 02 | LimiteDefinidoPorResolucaoDoSenadoFederal | LIMITE DEFINIDO POR RESOLUÇÃO DO SENADO FEDERAL | SALDO DO EXERCÍCIO ANTERIOR | 34637061.94
-RGF-Anexo 02 | LimiteDefinidoPorResolucaoDoSenadoFederal | LIMITE DEFINIDO POR RESOLUÇÃO DO SENADO FEDERAL | Até o 1º Semestre | 34990250.66
-RGF-Anexo 02 | LimiteDefinidoPorResolucaoDoSenadoFederal | LIMITE DEFINIDO POR RESOLUÇÃO DO SENADO FEDERAL | Até o 2º Semestre | 79879740.66
-RGF-Anexo 02 | LimiteDeAlerta | LIMITE DE ALERTA (inciso III do § 1º do art. 59 da LRF) | SALDO DO EXERCÍCIO ANTERIOR | 31173355.74
-RGF-Anexo 02 | LimiteDeAlerta | LIMITE DE ALERTA (inciso III do § 1º do art. 59 da LRF) | Até o 1º Semestre | 31491225.6
-RGF-Anexo 02 | LimiteDeAlerta | LIMITE DE ALERTA (inciso III do § 1º do art. 59 da LRF) | Até o 2º Semestre | 71891766.59
-RGF-Anexo 02 | RPNaoProcessadosDeExerciciosAnteriores | RP Não-Processados | SALDO DO EXERCÍCIO ANTERIOR | 2425459.28
-RGF-Anexo 02 | RPNaoProcessadosDeExerciciosAnteriores | RP Não-Processados | Até o 1º Semestre | 987856.85
-RGF-Anexo 02 | RPNaoProcessadosDeExerciciosAnteriores | RP Não-Processados | Até o 2º Semestre | 2216368.08
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | DISPONIBILIDADE DE CAIXA BRUTA (a) | 13126196.1
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Não Vinculados de Impostos | DISPONIBILIDADE DE CAIXA BRUTA (a) | 12590424.95
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outros Recursos não Vinculados | DISPONIBILIDADE DE CAIXA BRUTA (a) | 535771.15
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | DISPONIBILIDADE DE CAIXA BRUTA (a) | 15845650.38
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA BRUTA (a) | 2182766.9
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Transferências do FUNDEB | DISPONIBILIDADE DE CAIXA BRUTA (a) | 1022974.35
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outros Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA BRUTA (a) | 1159792.55
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA BRUTA (a) | 7168859.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Transferências Fundo a Fundo de Recursos do SUS | DISPONIBILIDADE DE CAIXA BRUTA (a) | 7153302.72
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outros Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA BRUTA (a) | 15556.65
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados à Assistência Social | DISPONIBILIDADE DE CAIXA BRUTA (a) | 261654.42
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Demais Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA BRUTA (a) | 5562998.01
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | DISPONIBILIDADE DE CAIXA BRUTA (a) | 1289574.8
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outras Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA BRUTA (a) | 4273423.21
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Demais Vinculações Legais | DISPONIBILIDADE DE CAIXA BRUTA (a) | 669371.68
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos de Alienação de Bens/Ativos | DISPONIBILIDADE DE CAIXA BRUTA (a) | 3938.17
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | DISPONIBILIDADE DE CAIXA BRUTA (a) | 339414.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Outras Vinculações Legais | DISPONIBILIDADE DE CAIXA BRUTA (a) | 326019.14
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | TOTAL DOS RECURSOS VINCULADOS AO RPPS (III) | DISPONIBILIDADE DE CAIXA BRUTA (a) | 2867598.86
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados ao RPPS - Fundo em Capitalização (Plano Previdenci | DISPONIBILIDADE DE CAIXA BRUTA (a) | 2631893.71
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | Recursos Vinculados ao RPPS - Taxa de Administração | DISPONIBILIDADE DE CAIXA BRUTA (a) | 235705.15
-RGF-Anexo 05 | DisponibilidadeDeCaixaBruta | TOTAL (IV) = (I + II + III) | DISPONIBILIDADE DE CAIXA BRUTA (a) | 31839445.34
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | Do Exercício (c) | 167483.75
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Não Vinculados de Impostos | Do Exercício (c) | 167483.75
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | Do Exercício (c) | 27574.13
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Vinculados à Educação | Do Exercício (c) | 27574.13
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Transferências do FUNDEB | Do Exercício (c) | 27574.13
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | TOTAL DOS RECURSOS VINCULADOS AO RPPS (III) | Do Exercício (c) | 150
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | Recursos Vinculados ao RPPS - Taxa de Administração | Do Exercício (c) | 150
-RGF-Anexo 05 | RestosAPagarLiquidadosENaoPagosDoExercicio | TOTAL (IV) = (I + II + III) | Do Exercício (c) | 195207.88
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 620643.72
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Recursos Vinculados à Saúde | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 479555.27
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Transferências Fundo a Fundo de Recursos do SUS | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 479555.27
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Demais Vinculações Decorrentes de Transferências | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 141088.45
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 19784.81
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | Outras Vinculações Decorrentes de Transferências | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 121303.64
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDeExerciciosAnteriores | TOTAL (IV) = (I + II + III) | Restos a Pagar Empenhados e Não Liquidados de Exercícios Anteriores (d) | 620643.72
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | Demais Obrigações Financeiras (e) | 145696.86
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Recursos Extraorçamentários | Demais Obrigações Financeiras (e) | 145696.86
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | TOTAL DOS RECURSOS VINCULADOS AO RPPS (III) | Demais Obrigações Financeiras (e) | 26333.36
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Recursos Vinculados ao RPPS - Fundo em Capitalização (Plano Previdenci | Demais Obrigações Financeiras (e) | 24631.48
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | Recursos Vinculados ao RPPS - Taxa de Administração | Demais Obrigações Financeiras (e) | 1701.88
-RGF-Anexo 05 | DemaisObrigacoesFinanceiras | TOTAL (IV) = (I + II + III) | Demais Obrigações Financeiras (e) | 172030.22
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 12958712.35
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Não Vinculados de Impostos | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 12422941.2
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outros Recursos não Vinculados | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 535771.15
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 15051735.67
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 2155192.77
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Transferências do FUNDEB | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 995400.22
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outros Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 1159792.55
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 6689304.1
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Transferências Fundo a Fundo de Recursos do SUS | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 6673747.45
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outros Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 15556.65
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados à Assistência Social | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 261654.42
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Demais Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 5421909.56
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 1269789.99
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outras Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 4152119.57
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Demais Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 669371.68
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos de Alienação de Bens/Ativos | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 3938.17
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 339414.37
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Outras Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 326019.14
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Extraorçamentários | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | -145696.86
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | TOTAL DOS RECURSOS VINCULADOS AO RPPS (III) | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 2841115.5
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados ao RPPS - Fundo em Capitalização (Plano Previdenci | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 2607262.23
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | Recursos Vinculados ao RPPS - Taxa de Administração | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 233853.27
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquida | TOTAL (IV) = (I + II + III) | DISPONIBILIDADE DE CAIXA LÍQUIDA (ANTES DA INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (g)=(a-(b+c+d+e)-f) | 30851563.52
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 703704.6
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Não Vinculados de Impostos | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 693904.6
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Outros Recursos não Vinculados | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 9800
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 1457511.94
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados à Educação | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 137795
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Transferências do FUNDEB | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 14795
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Outros Recursos Vinculados à Educação | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 123000
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados à Saúde | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 668525.22
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Transferências Fundo a Fundo de Recursos do SUS | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 668525.22
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados à Assistência Social | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 4781.2
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Demais Vinculações Decorrentes de Transferências | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 643015.02
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 643015.02
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Demais Vinculações Legais | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 3395.5
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos de Alienação de Bens/Ativos | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 480
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 2915.5
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | TOTAL DOS RECURSOS VINCULADOS AO RPPS (III) | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 55151.54
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | Recursos Vinculados ao RPPS - Taxa de Administração | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 55151.54
-RGF-Anexo 05 | RestosAPagarEmpenhadosENaoLiquidadosDoExercicio | TOTAL (IV) = (I + II + III) | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO (h) | 2216368.08
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | TOTAL DOS RECURSOS NÃO VINCULADOS (I) | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 12255007.75
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Não Vinculados de Impostos | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 11729036.6
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outros Recursos não Vinculados | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 525971.15
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | TOTAL DOS RECURSOS VINCULADOS (EXCETO AO RPPS) (II) | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 13594223.73
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 2017397.77
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Transferências do FUNDEB | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 980605.22
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outros Recursos Vinculados à Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 1036792.55
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 6020778.88
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Transferências Fundo a Fundo de Recursos do SUS | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 6005222.23
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outros Recursos Vinculados à Saúde | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 15556.65
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados à Assistência Social | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 256873.22
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Demais Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 4778894.54
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Transferências de Convênios e Instrumentos Congêneres (exceto Educação | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 626774.97
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outras Vinculações Decorrentes de Transferências | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 4152119.57
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Demais Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 665976.18
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos de Alienação de Bens/Ativos | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 3458.17
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados a Fundos (exceto Educação, Saúde, Assistência e Pr | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 336498.87
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Outras Vinculações Legais | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 326019.14
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Extraorçamentários | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | -145696.86
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | TOTAL DOS RECURSOS VINCULADOS AO RPPS (III) | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 2785963.96
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados ao RPPS - Fundo em Capitalização (Plano Previdenci | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 2607262.23
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | Recursos Vinculados ao RPPS - Taxa de Administração | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 178701.73
-RGF-Anexo 05 | DisponibilidadeDeCaixaLiquidaAposRP | TOTAL (IV) = (I + II + III) | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) (i) = (g - h) | 28635195.44
-RGF-Anexo 06 | ReceitaCorrenteLiquida | Receita Corrente Líquida | VALOR ATÉ O SEMESTRE DE REFERÊNCIA | 67241450.55
-RGF-Anexo 06 | ReceitaCorrenteLiquidaAjustadaParaCalculoDosLimitesDeEndividamentoDemonstrativoSimplificado | Receita Corrente Líquida Ajustada para Cálculo dos Limites de Endivida | VALOR ATÉ O SEMESTRE DE REFERÊNCIA | 66566450.55
-RGF-Anexo 06 | ReceitaCorrenteLiquidaAjustada | Receita Corrente Líquida Ajustada para Cálculo dos Limites da Despesa  | VALOR ATÉ O SEMESTRE DE REFERÊNCIA | 64532450.55
-RGF-Anexo 06 | DespesaTotalComPessoalDemonstrativoSimplificado | Despesa Total com Pessoal - DTP | VALOR | 25792382.48
-RGF-Anexo 06 | DespesaTotalComPessoalDemonstrativoSimplificado | Despesa Total com Pessoal - DTP | % SOBRE A RCL AJUSTADA | 39.97
-RGF-Anexo 06 | LimiteMaximoDespesaComPessoalDemonstrativoSimplificado | Limite Máximo (incisos I, II e III do art. 20 da LRF) - <%> | VALOR | 34847523.3
-RGF-Anexo 06 | LimiteMaximoDespesaComPessoalDemonstrativoSimplificado | Limite Máximo (incisos I, II e III do art. 20 da LRF) - <%> | % SOBRE A RCL AJUSTADA | 54
-RGF-Anexo 06 | LimitePrudencialDespesaComPessoalDemonstrativoSimplificado | Limite Prudencial (parágrafo único art. 22 da LRF) - <%> | VALOR | 33105147.14
-RGF-Anexo 06 | LimitePrudencialDespesaComPessoalDemonstrativoSimplificado | Limite Prudencial (parágrafo único art. 22 da LRF) - <%> | % SOBRE A RCL AJUSTADA | 51.3
-RGF-Anexo 06 | LimiteDeAlertaDespesaComPessoalDemonstrativoSimplificado | Limite de Alerta (inciso II do §1º do art. 59 da LRF) - <%> | VALOR | 31362770.97
-RGF-Anexo 06 | LimiteDeAlertaDespesaComPessoalDemonstrativoSimplificado | Limite de Alerta (inciso II do §1º do art. 59 da LRF) - <%> | % SOBRE A RCL AJUSTADA | 48.6
-RGF-Anexo 06 | DividaConsolidadaLiquidaDemonstrativoSimplificado | Dívida Consolidada Líquida | VALOR ATÉ O SEMESTRE DE REFERÊNCIA | -28453777.24
-RGF-Anexo 06 | ValorTotalRestosAPagarDemonstrativoSimplificado | Valor Total | RESTOS A PAGAR EMPENHADOS E NÃO LIQUIDADOS DO EXERCÍCIO | 2216368.08
-RGF-Anexo 06 | ValorTotalRestosAPagarDemonstrativoSimplificado | Valor Total | DISPONIBILIDADE DE CAIXA LÍQUIDA (APÓS A INSCRIÇÃO EM RESTOS A PAGAR NÃO PROCESSADOS DO EXERCÍCIO) | 28635195.44
++ F=ftp://ftp.datasus.gov.br/dissemin/publicos
++ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
++ echo '== SIM/CID10/DORES/'
+== SIM/CID10/DORES/
++ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES/
++ grep -E 'BA|BR'
++ tail -6
+DOBR2019.dbc
+DOBR2020.dbc
+DOBR2021.dbc
+DOBR2022.dbc
+DOBR2023.dbc
+DOBR2024.dbc
++ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
++ echo '== SIM/PRELIM/DORES/'
+== SIM/PRELIM/DORES/
++ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/PRELIM/DORES/
++ grep -E 'BA|BR'
++ tail -6
+DOBA2025.dbc
+DOBA2026.dbc
+DOBR2025.dbc
+DOBR2026.dbc
++ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
++ echo '== SINASC/1996_/Dados/DNRES/'
+== SINASC/1996_/Dados/DNRES/
++ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SINASC/1996_/Dados/DNRES/
++ grep -E 'BA|BR'
++ tail -6
+DNBR2019.dbc
+DNBR2020.dbc
+DNBR2021.dbc
+DNBR2022.dbc
+DNBR2023.dbc
+DNBR2024.dbc
++ for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/
++ echo '== SINASC/PRELIM/DNRES/'
+== SINASC/PRELIM/DNRES/
++ curl -s --max-time 60 --list-only ftp://ftp.datasus.gov.br/dissemin/publicos/SINASC/PRELIM/DNRES/
++ grep -E 'BA|BR'
++ tail -6
+DNBA2025.dbc
+DNBA2026.dbc
+DNBR2025.dbc
+DNBR2026.dbc
++ pip install -q pyreaddbc
++ tail -2
++ python -c 'import pyreaddbc;print('\''pyreaddbc ok'\'')'
+pyreaddbc ok
++ curl -s --max-time 120 https://servicodados.ibge.gov.br/api/v3/agregados
++ python3 -c $'\nimport json,sys\nfor p in json.load(sys.stdin):\n  if \'Censo Demogr\' in p[\'nome\'] and \'2022\' in p[\'nome\']:\n    for a in p[\'agregados\']:\n      n=a[\'nome\'].lower()\n      if any(k in n for k in [\'esgot\',\'abastecimento de\',\'lixo\',\'banheiro\',\'sanit\']): print(p[\'nome\'],\'|\',a[\'id\'],a[\'nome\'])\n'
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+    for p in json.load(sys.stdin):
+             ~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
