@@ -1,13 +1,12 @@
-python3 - <<'P'
-import json,urllib.request,urllib.parse,collections
-API="https://apidatalake.tesouro.gov.br/ords/siconfi/tt"
-def api(p,**q):
-    u=API+p+"?"+urllib.parse.urlencode(q)
-    with urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"contas-publicas"}),timeout=90) as r: return json.load(r)
-for cod,tipo,per,n in ((2933307,"RGF","Q",3),(3108909,"RGF Simplificado","S",2)):
-    it=api("/rgf",an_exercicio=2025,in_periodicidade=per,nr_periodo=n,co_tipo_demonstrativo=tipo,co_esfera="M",co_poder="E",id_ente=cod).get("items",[])
-    print("==",cod,tipo,len(it),collections.Counter(i["anexo"] for i in it))
-    for i in it:
-        if i["anexo"] in ("RGF-Anexo 02","RGF-Anexo 05","RGF-Anexo 06"):
-            print(i["anexo"],"|",i.get("cod_conta"),"|",(i.get("conta") or "")[:70],"|",i.get("coluna"),"|",i.get("valor"))
-P
+set -x
+F=ftp://ftp.datasus.gov.br/dissemin/publicos
+for d in SIM/CID10/DORES/ SIM/PRELIM/DORES/ SINASC/1996_/Dados/DNRES/ SINASC/PRELIM/DNRES/; do echo "== $d"; curl -s --max-time 60 --list-only $F/$d | grep -E "BA|BR" | tail -6; done
+pip install -q pyreaddbc 2>&1 | tail -2; python -c "import pyreaddbc;print('pyreaddbc ok')"
+curl -s --max-time 120 "https://servicodados.ibge.gov.br/api/v3/agregados" | python3 -c "
+import json,sys
+for p in json.load(sys.stdin):
+  if 'Censo Demogr' in p['nome'] and '2022' in p['nome']:
+    for a in p['agregados']:
+      n=a['nome'].lower()
+      if any(k in n for k in ['esgot','abastecimento de','lixo','banheiro','sanit']): print(p['nome'],'|',a['id'],a['nome'])
+"
