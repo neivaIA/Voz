@@ -80,6 +80,8 @@ jobs:
             ~/.cache/huggingface
           key: ${{ env.CHAVE_CACHE }}
           fail-on-cache-miss: true
+      - name: Segmentador do tokenizador (baixa do GitHub; tenta de novo se a rede falhar)
+        run: for i in 1 2 3 4 5 6 7 8; do ~/venv/bin/python -c "import spacy_pkuseg; spacy_pkuseg.pkuseg()" >/dev/null 2>&1 && exit 0; echo "tentativa $i falhou"; sleep $((i*5)); done; exit 1
       - run: ~/venv/bin/python gerar.py "${{ needs.planejar.outputs.pedido }}" "${{ matrix.id }}" "${{ matrix.seed }}"
       - if: always()
         uses: actions/upload-artifact@v4
