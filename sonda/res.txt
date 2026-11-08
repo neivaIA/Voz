@@ -1,58 +1,172 @@
-== t/6805/n6/2927408/v/all/p/all
-[
-  {
-    "NC": "Nível Territorial (Código)",
-    "NN": "Nível Territorial",
-    "MC": "Unidade de Medida (Código)",
-    "MN": "Unidade de Medida",
-    "V": "Valor",
-    "D1C": "Município (Código)",
-    "D1N": "Município",
-    "D2C": "Variável (Código)",
-    "D2N": "Variável",
-    "D3C": "Ano (Código)",
-    "D3N": "Ano",
-    "D4C": "Tipo de esgotamento sanitário (Código)",
-    "D4N": "Tipo de esgotamento sanitário"
-  },
-  {
-    "NC": "6",
-    "NN": "Município",
-    "MC": "1020",
-    "MN": "Unidades",
-    "V": "958575",
-    "D1C": "2927408",
-    "D1N": "Salvador (BA)",
-    "D2C": "381",
-    "D2N": "Domicílios particulares permanentes ocupados",
-    "D3C": "2022",
-    "D3N": "2022",
-    "D4C": "46292",
-    "D4N": "Total"
-  },
-  {
-    "NC": "6",
-    "NN": "Município",
-    "MC": "2",
-    "MN": "Percentual",
-    "V": "100.00",
-    "D1C": "2927408",
-    "D1N": "Salvador (BA)",
-    "D2C": "1000381",
-    "D2N": "Domicílios particulares permanentes ocupados - percentual do total geral",
-    "D3C": "2022",
-    "D3N": "2022",
-    "D4C": "46292",
-    "D4N": "Total"
-  }
-]
-== t/6805/n6/2927408/v/all/p/all/c999/all
-Parâmetro C999 (Classificação) incompatível com a tabela
-== t/6803/n6/2927408/v/all/p/all/c999/all
-Parâmetro C999 (Classificação) incompatível com a tabela
-== t/6892/n6/2927408/v/all/p/all/c999/all
-Parâmetro C999 (Classificação) incompatível com a tabela
-== t/6804/n6/2927408/v/all/p/all/c999/all
-Parâmetro C999 (Classificação) incompatível com a tabela
-== t/6806/n6/2927408/v/all/p/all/c999/all
-Parâmetro C999 (Classificação) incompatível com a tabela
+href="Agregados_por_Bairro_csv/"
+href="Agregados_por_Bairro_xlsx/"
+href="Agregados_por_Distrito_csv/"
+href="Agregados_por_Distrito_xlsx/"
+href="Agregados_por_Municipio_csv/"
+href="Agregados_por_Municipio_xlsx/"
+href="Agregados_por_Setor_csv/"
+href="Agregados_por_Setor_xlsx/"
+href="Agregados_por_SubDistrito_csv/"
+href="Agregados_por_SubDistrito_xlsx/"
+href="dicionario_de_dados_agregados_por_setores_censitarios_20260520.xlsx"
+href="malha_com_atributos/"
+-- Agregados_por_Bairro_csv/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_bairros_alfabetizacao_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_basico_BR_20260520.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_cor_ou_raca_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_demografia_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_domicilios_indigenas_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_domicilios_quilombolas_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_obitos_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_parentesco_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_pessoas_indigenas_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_pessoas_quilombolas_BR.zip">Agregados_por_bairro..&gt;  
+-- Agregados_por_Bairro_xlsx/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_bairros_alfabetizacao_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_basico_BR_20260520.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_cor_ou_raca_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_demografia_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_domicilios_indigenas_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_domicilios_quilombolas_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_obitos_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_parentesco_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_pessoas_indigenas_BR.zip">Agregados_por_bairro..&gt;  
+href="Agregados_por_bairros_pessoas_quilombolas_BR.zip">Agregados_por_bairro..&gt;  
+-- Agregados_por_Distrito_csv/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_distritos_alfabetizacao_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_basico_BR_20260520.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_cor_ou_raca_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_demografia_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_domicilios_indigenas_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_domicilios_quilombolas_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_obitos_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_parentesco_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_pessoas_indigenas_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_pessoas_quilombolas_BR.zip">Agregados_por_distri..&gt;  
+-- Agregados_por_Distrito_xlsx/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_distritos_alfabetizacao_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_basico_BR_20260520.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_cor_ou_raca_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_demografia_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_domicilios_indigenas_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_domicilios_quilombolas_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_obitos_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_parentesco_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_pessoas_indigenas_BR.zip">Agregados_por_distri..&gt;  
+href="Agregados_por_distritos_pessoas_quilombolas_BR.zip">Agregados_por_distri..&gt;  
+-- Agregados_por_Municipio_csv/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_municipios_alfabetizacao_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_basico_BR_20260520.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_cor_ou_raca_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_demografia_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_domicilios_indigenas_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_domicilios_quilombolas_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_obitos_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_parentesco_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_pessoas_indigenas_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_pessoas_quilombolas_BR.zip">Agregados_por_munici..&gt;  
+-- Agregados_por_Municipio_xlsx/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_municipios_alfabetizacao_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_basico_BR_20260520.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_cor_ou_raca_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_demografia_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_domicilios_indigenas_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_domicilios_quilombolas_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_obitos_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_parentesco_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_pessoas_indigenas_BR.zip">Agregados_por_munici..&gt;  
+href="Agregados_por_municipios_pessoas_quilombolas_BR.zip">Agregados_por_munici..&gt;  
+-- Agregados_por_Setor_csv/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_setores_alfabetizacao_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_basico_BR_20260520.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_cor_ou_raca_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_demografia_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_domicilios_indigenas_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_domicilios_quilombolas_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_obitos_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_parentesco_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_pessoas_indigenas_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_pessoas_quilombolas_BR.zip">Agregados_por_setore..&gt;  
+-- Agregados_por_Setor_xlsx/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_setores_alfabetizacao_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_basico_BR_20260520.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_cor_ou_raca_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_demografia_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_domicilios_indigenas_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_domicilios_quilombolas_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_obitos_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_parentesco_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_pessoas_indigenas_BR.zip">Agregados_por_setore..&gt;  
+href="Agregados_por_setores_pessoas_quilombolas_BR.zip">Agregados_por_setore..&gt;  
+-- Agregados_por_SubDistrito_csv/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_subdistritos_alfabetizacao_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_basico_BR_20260520.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_cor_ou_raca_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_demografia_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_domicilios_indigenas_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_domicilios_quilombolas_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_obitos_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_parentesco_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_pessoas_indigenas_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_pessoas_quilombolas_BR.zip">Agregados_por_subdis..&gt;  
+-- Agregados_por_SubDistrito_xlsx/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Agregados_por_subdistritos_alfabetizacao_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_basico_BR_20260520.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_caracteristicas_domicilio1_BR_20261021.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_caracteristicas_domicilio2_BR_20250417.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_caracteristicas_domicilio3_BR_20250417.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_cor_ou_raca_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_demografia_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_domicilios_indigenas_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_domicilios_quilombolas_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_obitos_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_parentesco_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_pessoas_indigenas_BR.zip">Agregados_por_subdis..&gt;  
+href="Agregados_por_subdistritos_pessoas_quilombolas_BR.zip">Agregados_por_subdis..&gt;  
+-- malha_com_atributos/
+href="/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/">Parent Directory         
+href="Dicionario_de_dados_malha_agregados.ods">Dicionario_de_dados_..&gt;  
+href="Dicionario_de_dados_malha_agregados.xlsx">Dicionario_de_dados_..&gt;  
+href="bairros/">bairros/                 
+href="distritos/">distritos/               
+href="setores/">setores/                 
+href="setores_Indigenas/">setores_Indigenas/       
+href="setores_Quilombolas/">setores_Quilombolas/     
+href="subdistritos/">subdistritos/            
