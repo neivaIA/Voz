@@ -1,2 +1,3 @@
-A="https://apisidra.ibge.gov.br/values"
-for q in "t/6805/n6/2927408/v/all/p/all" "t/6805/n6/2927408/v/all/p/all/c999/all" "t/6803/n6/2927408/v/all/p/all/c999/all" "t/6892/n6/2927408/v/all/p/all/c999/all" "t/6804/n6/2927408/v/all/p/all/c999/all" "t/6806/n6/2927408/v/all/p/all/c999/all"; do echo "== $q"; curl -sS --max-time 40 -A "Mozilla/5.0" "$A/$q" | head -c 1500; echo; done
+B="https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/"
+ls_(){ curl -sS --max-time 40 -A "Mozilla/5.0" "$1" | grep -oE 'href="[^"?/][^"]*"' | grep -v http; }
+ls_ $B; for d in $(ls_ $B | grep '/"' | sed 's/href="//;s/"//'); do echo "-- $d"; curl -sS --max-time 40 -A "Mozilla/5.0" "$B$d" | grep -oE 'href="[^"?][^"]*"[^<]*<[^<]*<[^<]*' | grep -v http | sed 's/<[^>]*>/ /g' | head -30; done
