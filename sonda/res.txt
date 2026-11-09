@@ -1,9 +1,36 @@
-<head><script>try{history.replaceState(null,"","/#rankings-pessoal-mais")}catch(e){}
-<title>Ranking · Gasto com pessoal · Contas Públicas
-og:title" content="Ranking · Gasto com pessoal · Contas Públicas
-og:description" content="427 de 5.468 prefeituras passaram do limite de 54% da receita com pessoal em 2025. Veja onde a sua cidade está, com dados oficiais.
-og:image" content="https://www.contaspublicasbrasil.com.br/api/og?ranking=pessoal
-pessoal 200 image/png 47005
-saude 200 image/png 44101
-bebes 200 image/png 47765
-cidade 200
+/ 200 22053B 0.456312s
+   cache-control: public, max-age=0, must-revalidate
+   content-encoding: br
+   x-vercel-cache: MISS
+/rankings.js 200 9057B 0.415654s
+   cache-control: public, max-age=0, must-revalidate
+   content-encoding: br
+   x-vercel-cache: MISS
+/cidade.js 200 15127B 0.420788s
+   cache-control: public, max-age=0, must-revalidate
+   content-encoding: br
+   x-vercel-cache: MISS
+/data/rankings-t/saude.json 200 154922B 0.359257s
+   cache-control: public, max-age=300, stale-while-revalidate=86400
+   content-encoding: br
+   x-vercel-cache: MISS
+/data/arrecadacao/uf/BA.json 200 21250B 0.183779s
+   cache-control: public, max-age=300, stale-while-revalidate=86400
+   content-encoding: br
+   x-vercel-cache: MISS
+/data/rankings.json 200 510739B 0.430268s
+   cache-control: public, max-age=300, stale-while-revalidate=86400
+   content-encoding: br
+   x-vercel-cache: MISS
+/cidade/2933307 200 22040B 0.544836s
+   cache-control: public, max-age=0
+   content-encoding: br
+   x-vercel-cache: MISS
+/rankings/pessoal-mais 200 22053B 0.422887s
+   cache-control: public, max-age=0
+   content-encoding: br
+   x-vercel-cache: MISS
+/api/og?ranking=bebes 200 46839B 1.394222s
+   cache-control: public, immutable, no-transform, max-age=31536000, public
+   x-vercel-cache: MISS
+2
