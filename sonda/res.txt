@@ -1,36 +1,21 @@
-/ 200 22053B 0.456312s
-   cache-control: public, max-age=0, must-revalidate
-   content-encoding: br
-   x-vercel-cache: MISS
-/rankings.js 200 9057B 0.415654s
-   cache-control: public, max-age=0, must-revalidate
-   content-encoding: br
-   x-vercel-cache: MISS
-/cidade.js 200 15127B 0.420788s
-   cache-control: public, max-age=0, must-revalidate
-   content-encoding: br
-   x-vercel-cache: MISS
-/data/rankings-t/saude.json 200 154922B 0.359257s
-   cache-control: public, max-age=300, stale-while-revalidate=86400
-   content-encoding: br
-   x-vercel-cache: MISS
-/data/arrecadacao/uf/BA.json 200 21250B 0.183779s
-   cache-control: public, max-age=300, stale-while-revalidate=86400
-   content-encoding: br
-   x-vercel-cache: MISS
-/data/rankings.json 200 510739B 0.430268s
-   cache-control: public, max-age=300, stale-while-revalidate=86400
-   content-encoding: br
-   x-vercel-cache: MISS
-/cidade/2933307 200 22040B 0.544836s
-   cache-control: public, max-age=0
-   content-encoding: br
-   x-vercel-cache: MISS
-/rankings/pessoal-mais 200 22053B 0.422887s
-   cache-control: public, max-age=0
-   content-encoding: br
-   x-vercel-cache: MISS
-/api/og?ranking=bebes 200 46839B 1.394222s
-   cache-control: public, immutable, no-transform, max-age=31536000, public
-   x-vercel-cache: MISS
-2
+/api/tse?e=6258&uf=br 200 3233B 0.606754s
+   cache-control: public
+   content-type: application/json; charset=utf-8
+{ "ele" : "6258", "t" : "2", "f" : "o", "sup" : "n", "tpabr" : "br", "cdabr" : "br", "dg" : "25/10/2026", "hg" : "23:27:02", "idg" : "4241309", "dt" : "25/10/2026", "ht" : "23:26:38", "dv" : "s", "tf" : "s", "and" : "f", "esae" : "n", "mnae" : [  ], "carg" : [ 
+{ "cd" : "1", "nmn" : "Presidente", "nmm" : "Presidente", "nmf" : "Presidente", "nv" : "1", "fed" : [ 
+{ "n" : "101", "sg" : "13-PT/65-PC
+
+/api/tse?e=6257&uf=br 200 9349B 0.376360s
+   cache-control: public
+   content-type: application/json; charset=utf-8
+{ "ele" : "6257", "t" : "1", "f" : "o", "sup" : "n", "tpabr" : "br", "cdabr" : "br", "dg" : "05/10/2026", "hg" : "12:51:47", "idg" : "2837531", "dt" : "05/10/2026", "ht" : "12:51:05", "dv" : "s", "tf" : "s", "and" : "f", "esae" : "n", "mnae" : [  ], "carg" : [ 
+{ "cd" : "1", "nmn" : "Presidente", "nmm" : "Presidente", "nmf" : "Presidente", "nv" : "1", "fed" : [ 
+{ "n" : "101", "sg" : "PT/PC do B/
+
+/api/og?ranking=pessoal 200 45767B 1.536045s
+   cache-control: public, max-age=3600
+   content-type: image/png
+IHDR
+O@{\
+IDATx
+
