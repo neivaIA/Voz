@@ -1,11 +1,7 @@
-/ 200 22263B
-/cidade.js 200 15866B
-/tabs.js 200 2265B
-/rankings.js 200 9057B
-/data/rankings-t/bebes.json 200 180567B
-/data/arrecadacao/uf/SP.json 200 32777B
-/cidade/3550308 200 22330B
-/rankings/saude-menos 200 22360B
-/api/og?ranking=saude 200 44101B
-/api/og?cod=2933307 200 47765B
-sumario: 1  tabs: 1
+tabs: 1
+"tf":"s"
+"pst":"100,00"
+"psa":"100,00"
+/ 200
+/cidade/2933307 200
+/rankings/bebes-tmi 200
