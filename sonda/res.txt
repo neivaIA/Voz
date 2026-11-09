@@ -1,7 +1,43 @@
-tabs: 1
-"tf":"s"
-"pst":"100,00"
-"psa":"100,00"
-/ 200
-/cidade/2933307 200
-/rankings/bebes-tmi 200
+/cidade/2933307 200 0.267496s
+/cidade/3550308 200 0.553488s
+/cidade/5300108 200 0.529458s
+/cidade/1100015 200 0.599099s
+/cidade/4314902 200 0.424682s
+/cidade/2927408 200 0.470312s
+/cidade/9999999 200 0.284062s
+/cidade/abc 200 0.211623s
+/api/og?cod=2933307 200 1.079929s 47765B
+/api/og?cod=5300108 200 0.558871s 47765B
+/api/og?cod=9999999 200 0.591552s 47765B
+/rankings/saude 200 0.334474s
+   og saude 200 0.332013s 44101B
+/rankings/educacao 200 0.268836s
+   og educacao 200 0.509964s 47845B
+/rankings/fundeb 200 0.296713s
+   og fundeb 200 0.312071s 51227B
+/rankings/pessoal 200 0.288932s
+   og pessoal 200 0.392539s 45767B
+/rankings/ideb 200 0.421296s
+   og ideb 200 0.342299s 49961B
+/rankings/campanhas 200 0.287863s
+   og campanhas 200 0.556622s 52881B
+/rankings/divida 200 0.138651s
+   og divida 200 0.439500s 43826B
+/rankings/bebes 200 0.239183s
+   og bebes 200 0.307692s 46839B
+/rankings/saneamento 200 0.185920s
+   og saneamento 200 0.361694s 46297B
+/rankings/contratos 200 0.249009s
+   og contratos 200 0.299088s 53325B
+/rankings/xyz 200 0.113267s
+   og xyz 200 0.470812s 47765B
+/api/og 200 0.322934s
+POST /api/acessos 200 0.648971s
+{"total":3921}
+GET /api/acessos 200
+{"total":3921}
+/sitemap.xml 404
+/robots.txt 404
+/favicon.ico 404
+/manifest.json 404
+/nao-existe 404
