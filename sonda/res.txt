@@ -1,21 +1,11 @@
-/api/tse?e=6258&uf=br 200 3233B 0.606754s
-   cache-control: public
-   content-type: application/json; charset=utf-8
-{ "ele" : "6258", "t" : "2", "f" : "o", "sup" : "n", "tpabr" : "br", "cdabr" : "br", "dg" : "25/10/2026", "hg" : "23:27:02", "idg" : "4241309", "dt" : "25/10/2026", "ht" : "23:26:38", "dv" : "s", "tf" : "s", "and" : "f", "esae" : "n", "mnae" : [  ], "carg" : [ 
-{ "cd" : "1", "nmn" : "Presidente", "nmm" : "Presidente", "nmf" : "Presidente", "nv" : "1", "fed" : [ 
-{ "n" : "101", "sg" : "13-PT/65-PC
-
-/api/tse?e=6257&uf=br 200 9349B 0.376360s
-   cache-control: public
-   content-type: application/json; charset=utf-8
-{ "ele" : "6257", "t" : "1", "f" : "o", "sup" : "n", "tpabr" : "br", "cdabr" : "br", "dg" : "05/10/2026", "hg" : "12:51:47", "idg" : "2837531", "dt" : "05/10/2026", "ht" : "12:51:05", "dv" : "s", "tf" : "s", "and" : "f", "esae" : "n", "mnae" : [  ], "carg" : [ 
-{ "cd" : "1", "nmn" : "Presidente", "nmm" : "Presidente", "nmf" : "Presidente", "nv" : "1", "fed" : [ 
-{ "n" : "101", "sg" : "PT/PC do B/
-
-/api/og?ranking=pessoal 200 45767B 1.536045s
-   cache-control: public, max-age=3600
-   content-type: image/png
-IHDR
-O@{\
-IDATx
-
+/ 200 22263B
+/cidade.js 200 15866B
+/tabs.js 200 2265B
+/rankings.js 200 9057B
+/data/rankings-t/bebes.json 200 180567B
+/data/arrecadacao/uf/SP.json 200 32777B
+/cidade/3550308 200 22330B
+/rankings/saude-menos 200 22360B
+/api/og?ranking=saude 200 44101B
+/api/og?cod=2933307 200 47765B
+sumario: 1  tabs: 1
