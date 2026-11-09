@@ -1,0 +1,13 @@
+{
+ "id": "n12",
+ "seed": 11,
+ "arq": "n12_s11.wav",
+ "ok": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 19.2,
+ "pausa": 0.0,
+ "f0_st": 3.78,
+ "dur": 6.66,
+ "txt": "A mortalidade infantil ficou em cerca de 14 por mil nascidos vivos.  Na Bahia, cerca de 15 e no Brasil, perto de 13."
+}

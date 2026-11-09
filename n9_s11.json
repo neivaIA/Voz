@@ -1,0 +1,15 @@
+{
+ "id": "n9",
+ "seed": 11,
+ "arq": "n9_s11.wav",
+ "ok": false,
+ "wer": 0.176,
+ "faltam": [
+  "com"
+ ],
+ "cps": 19.7,
+ "pausa": 0.06,
+ "f0_st": 5.01,
+ "dur": 5.44,
+ "txt": "Como pessoal, foram 46,7% da receita.  O limite da lei é 54%."
+}
