@@ -1,8 +1,9 @@
 {
  "tema": "barra-do-choca",
  "sementes": [
-  11,
-  22
+  33,
+  44,
+  55
  ],
  "vocabulario": "Barra do Choça, Vitória da Conquista, Bahia, prefeitura, Fundeb, União, IDEB, pré-natal, emendas parlamentares",
  "params": {
@@ -114,9 +115,13 @@
   },
   {
    "id": "n17",
-   "fala": "Já o esgoto ligado à rede chega a vinte e um por cento das casas. Na Bahia, são cinquenta e quatro.",
-   "leg": "Já o esgoto ligado à rede chega a 21% das casas. Na Bahia, são 54%.",
-   "fim": "pergunta"
+   "fala": "Já o esgoto ligado à rede chega a vinte e um por cento das casas da cidade. Na Bahia, são cinquenta e quatro.",
+   "leg": "Já o esgoto ligado à rede chega a 21% das casas da cidade. Na Bahia, são 54%.",
+   "fim": "pergunta",
+   "chaves": [
+    "esgoto",
+    "casas"
+   ]
   },
   {
    "id": "n18",
@@ -124,5 +129,8 @@
    "leg": "Em 2025, a cidade recebeu R$ 7,7 milhões em emendas parlamentares.",
    "fim": "pergunta"
   }
+ ],
+ "refazer": [
+  "n17"
  ]
 }
