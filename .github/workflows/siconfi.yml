@@ -1,0 +1,12 @@
+name: siconfi
+on: { push: { branches: [sonda], paths: [sonda/siconfi.py] } }
+permissions: { contents: read, actions: write }
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - run: cd sonda && python3 siconfi.py 2>&1 | tee out_log.txt; cp out_log.txt out/ || true
+      - uses: actions/upload-artifact@v4
+        with: { name: siconfi, path: sonda/out, retention-days: 1 }
