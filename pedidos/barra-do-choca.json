@@ -1,0 +1,128 @@
+{
+ "tema": "barra-do-choca",
+ "sementes": [
+  11,
+  22
+ ],
+ "vocabulario": "Barra do Choça, Vitória da Conquista, Bahia, prefeitura, Fundeb, União, IDEB, pré-natal, emendas parlamentares",
+ "params": {
+  "exaggeration": 0.55,
+  "cfg_weight": 0.35,
+  "temperature": 0.8
+ },
+ "frases": [
+  {
+   "id": "n1",
+   "fala": "Hoje a gente vai abrir as contas de Barra do Choça, vizinha de Vitória da Conquista, no sudoeste da Bahia.",
+   "leg": "Hoje a gente vai abrir as contas de Barra do Choça, vizinha de Vitória da Conquista, no sudoeste da Bahia.",
+   "fim": "ponto",
+   "chaves": [
+    "Choça",
+    "Conquista",
+    "Bahia"
+   ]
+  },
+  {
+   "id": "n2",
+   "fala": "São cerca de trinta e oito mil e quinhentos moradores.",
+   "leg": "São cerca de 38.500 moradores.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n3",
+   "fala": "Em dois mil e vinte e quatro, o prefeito foi eleito com quase setenta e três por cento dos votos válidos.",
+   "leg": "Em 2024, o prefeito foi eleito com 72,7% dos votos válidos.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n4",
+   "fala": "A campanha dele arrecadou quase duzentos e sessenta mil reais, e oitenta e cinco por cento vieram do fundo eleitoral, que é dinheiro público.",
+   "leg": "A campanha dele arrecadou quase R$ 260 mil, e 85% vieram do fundo eleitoral, que é dinheiro público.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n5",
+   "fala": "Em dois mil e vinte e cinco, entraram duzentos e trinta milhões de reais no caixa da prefeitura.",
+   "leg": "Em 2025, entraram R$ 230 milhões no caixa da prefeitura.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n6",
+   "fala": "Dá quase seis mil reais por morador, mais do que em Vitória da Conquista.",
+   "leg": "Dá quase R$ 6 mil por morador, mais do que em Vitória da Conquista.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n7",
+   "fala": "De cada cem reais, seis vêm de impostos e taxas da própria cidade.",
+   "leg": "De cada R$ 100, R$ 6 vêm de impostos e taxas da própria cidade.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n8",
+   "fala": "O resto chega de fora: sessenta e um da União, dez do estado, e vinte e três do Fundeb e outros repasses.",
+   "leg": "O resto chega de fora: R$ 61 da União, R$ 10 do estado e R$ 23 do Fundeb e outros repasses.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n9",
+   "fala": "Na hora de gastar, a educação levou quarenta e oito reais de cada cem, e a saúde, vinte e dois.",
+   "leg": "Na hora de gastar, a educação levou R$ 48 de cada R$ 100, e a saúde, R$ 22.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n10",
+   "fala": "A prefeitura aplicou vinte e dois vírgula sete por cento dos impostos em saúde. O mínimo é quinze.",
+   "leg": "A prefeitura aplicou 22,7% dos impostos em saúde. O mínimo é 15%.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n11",
+   "fala": "Na educação, foram vinte e sete vírgula seis por cento, e o mínimo é vinte e cinco.",
+   "leg": "Na educação, foram 27,6%, e o mínimo é 25%.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n12",
+   "fala": "O gasto com pessoal subiu de cerca de trinta pra quarenta por cento da receita. O limite da lei é cinquenta e quatro.",
+   "leg": "O gasto com pessoal subiu de cerca de 30% para 40% da receita. O limite da lei é 54%.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n13",
+   "fala": "E a dívida líquida ficou em trinta e dois por cento da receita, abaixo do limite de cento e vinte.",
+   "leg": "E a dívida líquida ficou em 32% da receita, abaixo do limite de 120%.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n14",
+   "fala": "Nas escolas da prefeitura, o IDEB dos anos iniciais foi de um vírgula nove, em dois mil e cinco, pra cinco vírgula um em dois mil e vinte e cinco.",
+   "leg": "Nas escolas da prefeitura, o IDEB dos anos iniciais foi de 1,9 em 2005 para 5,1 em 2025.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n15",
+   "fala": "A mortalidade infantil ficou em dezesseis vírgula cinco por mil nascidos vivos. Na Bahia, cerca de quinze, e no Brasil, perto de treze.",
+   "leg": "A mortalidade infantil ficou em 16,5 por mil nascidos vivos. Na Bahia, cerca de 15, e no Brasil, perto de 13.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n16",
+   "fala": "E oitenta e três por cento dos bebês tiveram mães com sete ou mais consultas de pré-natal.",
+   "leg": "E 83% dos bebês tiveram mães com 7 ou mais consultas de pré-natal.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n17",
+   "fala": "Já o esgoto ligado à rede chega a vinte e um por cento das casas. Na Bahia, são cinquenta e quatro.",
+   "leg": "Já o esgoto ligado à rede chega a 21% das casas. Na Bahia, são 54%.",
+   "fim": "pergunta"
+  },
+  {
+   "id": "n18",
+   "fala": "Em dois mil e vinte e cinco, a cidade recebeu sete vírgula sete milhões de reais em emendas parlamentares.",
+   "leg": "Em 2025, a cidade recebeu R$ 7,7 milhões em emendas parlamentares.",
+   "fim": "pergunta"
+  }
+ ]
+}
