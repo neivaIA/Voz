@@ -1,4 +1,5 @@
 import json, gzip, os, re, sys, time, urllib.request, urllib.parse, datetime as dt, zipfile, io, csv
+# v2
 from concurrent.futures import ThreadPoolExecutor
 OUT = "out"; os.makedirs(OUT, exist_ok=True)
 IBGE = "2933307"
