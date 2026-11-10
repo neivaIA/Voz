@@ -13,4 +13,4 @@ jobs:
           cd sonda && tar -czf /tmp/o.tgz out && openssl rand -out /tmp/k.bin 32
           openssl enc -aes-256-cbc -pbkdf2 -salt -in /tmp/o.tgz -out siconfi.enc -pass file:/tmp/k.bin
           openssl pkeyutl -encrypt -pubin -inkey pub.pem -in /tmp/k.bin -out siconfi.key
-          rm -rf out; cd .. && git add sonda/siconfi.enc sonda/siconfi.key && git -c user.name=bot -c user.email=bot@x commit -qm "siconfi" && for i in 1 2 3 4 5; do git pull -q --rebase origin sonda && git push -q && break; sleep 5; done
+          rm -rf out; cd .. && git config user.name bot && git config user.email bot@x.invalid && git add sonda/siconfi.enc sonda/siconfi.key && git commit -qm "siconfi" && for i in 1 2 3 4 5; do git pull -q --rebase origin sonda && git push -q && break; sleep 5; done
