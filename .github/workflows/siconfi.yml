@@ -1,12 +1,16 @@
 name: siconfi
 on: { push: { branches: [sonda], paths: [sonda/siconfi.py] } }
-permissions: { contents: read, actions: write }
+permissions: { contents: write }
+concurrency: { group: sonda-push-siconfi }
 jobs:
   c:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
-      - run: cd sonda && python3 siconfi.py 2>&1 | tee out_log.txt; cp out_log.txt out/ || true
-      - uses: actions/upload-artifact@v4
-        with: { name: siconfi, path: sonda/out, retention-days: 1 }
+      - run: mkdir -p sonda/out && cd sonda && python3 siconfi.py 2>&1 | tee out/log.txt || true
+      - run: |
+          cd sonda && tar -czf /tmp/o.tgz out && openssl rand -out /tmp/k.bin 32
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in /tmp/o.tgz -out siconfi.enc -pass file:/tmp/k.bin
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in /tmp/k.bin -out siconfi.key
+          rm -rf out; cd .. && git add sonda/siconfi.enc sonda/siconfi.key && git -c user.name=bot -c user.email=bot@x commit -qm "siconfi" && for i in 1 2 3 4 5; do git pull -q --rebase origin sonda && git push -q && break; sleep 5; done

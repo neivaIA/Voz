@@ -1,4 +1,5 @@
 import json, gzip, os, time, urllib.request, urllib.parse
+# v2
 os.makedirs("out", exist_ok=True)
 ENTES = {"2933307": "Vitória da Conquista", "2910800": "Feira de Santana", "2905701": "Camaçari", "2914802": "Itabuna", "2918407": "Juazeiro", "2927408": "Salvador", "2919207": "Lauro de Freitas", "2913606": "Ilhéus", "2906501": "Barra do Choça"}
 def get(u):
