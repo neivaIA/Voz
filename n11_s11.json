@@ -1,0 +1,13 @@
+{
+ "id": "n11",
+ "seed": 11,
+ "arq": "n11_s11.wav",
+ "ok": false,
+ "wer": 0.154,
+ "faltam": [],
+ "cps": 16.3,
+ "pausa": 0.58,
+ "f0_st": 5.0,
+ "dur": 5.09,
+ "txt": "Na educação foram 27,6% e o mínimo é 25%"
+}

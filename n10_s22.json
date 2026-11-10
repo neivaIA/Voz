@@ -1,0 +1,13 @@
+{
+ "id": "n10",
+ "seed": 22,
+ "arq": "n10_s22.wav",
+ "ok": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.7,
+ "pausa": 0.03,
+ "f0_st": 4.15,
+ "dur": 5.54,
+ "txt": "A prefeitura aplicou 22,7% dos impostos em saúde, o mínimo é 15."
+}

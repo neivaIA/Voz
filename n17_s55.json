@@ -1,0 +1,16 @@
+{
+ "id": "n17",
+ "seed": 55,
+ "arq": "n17_s55.wav",
+ "ok": false,
+ "wer": 0.143,
+ "faltam": [
+  "esgoto",
+  "ja"
+ ],
+ "cps": 20.3,
+ "pausa": 0.13,
+ "f0_st": 5.02,
+ "dur": 5.38,
+ "txt": "Jogos Gouto ligado à rede chega a 21% das casas da cidade.  Na Bahia são 54."
+}

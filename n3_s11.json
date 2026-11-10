@@ -1,0 +1,13 @@
+{
+ "id": "n3",
+ "seed": 11,
+ "arq": "n3_s11.wav",
+ "ok": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.8,
+ "pausa": 0.32,
+ "f0_st": 4.62,
+ "dur": 5.89,
+ "txt": "Em 2024, o prefeito foi eleito com quase 73% dos votos válidos."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "n12",
+ "seed": 11,
+ "arq": "n12_s11.wav",
+ "ok": false,
+ "wer": 0.25,
+ "faltam": [],
+ "cps": 19.0,
+ "pausa": 0.16,
+ "f0_st": 5.29,
+ "dur": 6.14,
+ "txt": "O gasto com o pessoal subiu de cerca de 30% para 40% da receita.  O limite da lei é 54%."
+}

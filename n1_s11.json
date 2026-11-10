@@ -1,0 +1,13 @@
+{
+ "id": "n1",
+ "seed": 11,
+ "arq": "n1_s11.wav",
+ "ok": false,
+ "wer": 0.15,
+ "faltam": [],
+ "cps": 21.0,
+ "pausa": 0.45,
+ "f0_st": 4.46,
+ "dur": 5.06,
+ "txt": "Hoje a gente vai abrir as contas de Barra do Choça, a vizinha de Vitória da Conquista,  no sud-oeste da Bahia."
+}

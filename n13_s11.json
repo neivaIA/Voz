@@ -1,0 +1,15 @@
+{
+ "id": "n13",
+ "seed": 11,
+ "arq": "n13_s11.wav",
+ "ok": false,
+ "wer": 0.118,
+ "faltam": [
+  "vinte"
+ ],
+ "cps": 16.2,
+ "pausa": 0.32,
+ "f0_st": 5.38,
+ "dur": 6.05,
+ "txt": "e a dívida líquida ficou em 32% da receita, abaixo do limite de 100 inches."
+}
