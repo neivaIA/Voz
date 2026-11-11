@@ -39,7 +39,8 @@ def meses(a, b):
     while d <= dt.date(*b):
         n = (d.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
         yield d.strftime("%Y%m%d"), (n - dt.timedelta(days=1)).strftime("%Y%m%d"); d = n
-JAN = list(meses((2023,1,1), (2026,11,30)))
+MES = list(meses((2021,1,1), (2026,11,30)))
+JAN = [(f"{a}0101", f"{a}1231") for a in range(2021, 2027)]
 # A. contratações publicadas no município, todas as modalidades
 def contratacoes(args):
     mod, (i, f) = args; res = []; p = 1
@@ -53,6 +54,7 @@ def contratacoes(args):
     return res
 jobs = [(m, j) for m in range(1, 15) for j in JAN]
 with ThreadPoolExecutor(16) as ex: cts = [r for rr in ex.map(contratacoes, jobs) for r in rr]
+cts = [c for c in cts if (c.get("orgaoEntidade") or {}).get("esferaId") == "M"]
 save("contratacoes", cts); log("contratacoes", len(cts)); etapa("a")
 orgs = sorted({c["orgaoEntidade"]["cnpj"] for c in cts if c.get("orgaoEntidade")})
 log("orgaos", orgs, [next(c["orgaoEntidade"]["razaoSocial"] for c in cts if c["orgaoEntidade"]["cnpj"] == o) for o in orgs])
@@ -67,9 +69,23 @@ def contratos(args):
         if p >= (d.get("totalPaginas") or 1): break
         p += 1
     return res
-with ThreadPoolExecutor(16) as ex: ctr = [r for rr in ex.map(contratos, [(o, j) for o in orgs for j in JAN]) for r in rr]
+with ThreadPoolExecutor(16) as ex: ctr = [r for rr in ex.map(contratos, [(o, j) for o in orgs for j in MES]) for r in rr]
 save("contratos", ctr); log("contratos", len(ctr)); etapa("b")
 its = []
+def itens(c):
+    cnpj = c["orgaoEntidade"]["cnpj"]; a = c["anoCompra"]; s = c["sequencialCompra"]
+    base = f"https://pncp.gov.br/api/pncp/v1/orgaos/{cnpj}/compras/{a}/{s}"
+    its = get(base + "/itens?pagina=1&tamanhoPagina=500") or []
+    out = []
+    for it in its if isinstance(its, list) else []:
+        r = None
+        if it.get("temResultado"):
+            r = get(f"{base}/itens/{it['numeroItem']}/resultados")
+        out.append({"i": it, "r": r})
+    return {"id": c["numeroControlePNCP"], "itens": out}
+# C2. itens só das compras municipais com valor
+its = list(ThreadPoolExecutor(12).map(itens, cts))
+save("itens", its); log("itens", sum(len(x["itens"]) for x in its)); etapa("i")
 # D. fornecedores (CNPJ)
 forn = set()
 for c in ctr:
@@ -115,3 +131,4 @@ if b:
         tse[nm] = [hdr] + rows; log("tse", nm, len(rows))
 save("tse", tse)
 log("FIM"); etapa("e")
+
