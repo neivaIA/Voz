@@ -1,0 +1,16 @@
+name: coleta2
+on: { push: { branches: [sonda], paths: [sonda/coleta2.py] } }
+permissions: { contents: write }
+concurrency: { group: sonda-push-coleta2 }
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir -p sonda/out && cd sonda && python3 coleta2.py 2>&1 | tee out/log.txt || true
+      - run: |
+          cd sonda && tar -czf /tmp/o.tgz out && openssl rand -out /tmp/k.bin 32
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in /tmp/o.tgz -out coleta2.enc -pass file:/tmp/k.bin
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in /tmp/k.bin -out coleta2.key
+          rm -rf out; cd .. && git config user.name bot && git config user.email bot@x.invalid && git add sonda/coleta2.enc sonda/coleta2.key && git commit -qm "coleta2" && for i in 1 2 3 4 5; do git pull -q --rebase origin sonda && git push -q && break; sleep 5; done
