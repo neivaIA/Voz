@@ -1,0 +1,11 @@
+name: coleta5
+on: { push: { branches: [sonda], paths: [sonda/coleta5.py] } }
+permissions: { contents: write }
+concurrency: { group: sonda-push-coleta5 }
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir -p sonda/out && cd sonda && python3 coleta5.py || true
