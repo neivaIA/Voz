@@ -1,0 +1,2 @@
+# Vozes da Microsoft via edge-tts (precisa de internet; sem licença comercial formal).
+edge-tts

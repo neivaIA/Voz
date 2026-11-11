@@ -1,0 +1,2 @@
+# Chatterbox Multilingual (MIT). No CPU, instale antes o torch CPU (o instalador já faz isso).
+chatterbox-tts

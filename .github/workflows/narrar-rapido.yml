@@ -1,0 +1,79 @@
+name: narrar-rapido
+# Reserva leve: o pedido inteiro numa máquina só, com voz.py (sem matriz de 20 tarefas).
+# Bom para Kokoro, Piper e edge (rápidos em CPU) e para quando a matriz do "narrar" estiver demorando.
+# Dispara: manualmente (Actions > narrar-rapido > Run workflow) ou por push de pedido com "modo": "rapido".
+on:
+  push:
+    branches: [main]
+    paths: ["pedidos/**.json"]
+  workflow_dispatch:
+    inputs:
+      pedido: { description: "caminho do pedido (ex.: pedidos/docinhos.json)", required: true }
+      motor: { description: "kokoro, piper, edge, chatterbox, chatterbox-ptbr ou auto", required: false, default: "kokoro" }
+      voz: { description: "voz (vazio = padrão do motor). Ex.: pf_dora, pm_alex, pt_BR-faber-medium, pt-BR-AntonioNeural", required: false, default: "" }
+
+permissions: { contents: write }
+concurrency: { group: "rapido-${{ github.event.inputs.pedido || github.sha }}", cancel-in-progress: true }
+
+env:
+  VERSAO_CACHE: v2-py311
+  HF_HUB_DOWNLOAD_TIMEOUT: "60"
+  PIP_DEFAULT_TIMEOUT: "60"
+
+jobs:
+  narrar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: m
+        env: { MOTOR_IN: "${{ github.event.inputs.motor }}", VOZ_IN: "${{ github.event.inputs.voz }}" }
+        run: |
+          P="${{ github.event.inputs.pedido }}"
+          if [ -z "$P" ]; then P=$(git diff-tree --root --no-commit-id --name-only -r HEAD -- pedidos | grep '\.json$' | tail -1); fi
+          python3 - "$P" >> "$GITHUB_OUTPUT" <<'EOF'
+          import json, os, sys
+          P = json.load(open(sys.argv[1]))
+          manual = bool(os.environ.get("MOTOR_IN"))
+          motor = os.environ.get("MOTOR_IN") or P.get("motor") or "kokoro"
+          voz = os.environ.get("VOZ_IN") or P.get("voz") or ""
+          print("pedido=" + sys.argv[1]); print("tema=" + P["tema"]); print("motor=" + motor); print("voz=" + voz)
+          print("rodar=" + ("sim" if manual or P.get("modo") == "rapido" else "nao"))
+          EOF
+      - if: steps.m.outputs.rodar == 'sim'
+        uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - if: steps.m.outputs.rodar == 'sim'
+        id: c
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/venv
+            ~/.cache/huggingface
+            ~/.cache/piper
+          key: venv-rapido-${{ steps.m.outputs.motor }}-${{ env.VERSAO_CACHE }}
+      - if: steps.m.outputs.rodar == 'sim'
+        name: Instala (só se não estiver no cache)
+        run: |
+          M="${{ steps.m.outputs.motor }}"; [ "$M" = "auto" ] && M=todos
+          if [ "${{ steps.c.outputs.cache-hit }}" != "true" ]; then
+            for i in 1 2 3; do bash scripts/instalar.sh "$M" ~/venv && break; sleep $((i*20)); done
+          else sudo apt-get -qq update && sudo apt-get -qq install -y espeak-ng >/dev/null; fi
+      - if: steps.m.outputs.rodar == 'sim'
+        name: Gera todas as frases
+        run: |
+          ARGS=(--motor "${{ steps.m.outputs.motor }}")
+          [ -n "${{ steps.m.outputs.voz }}" ] && ARGS+=(--voz "${{ steps.m.outputs.voz }}")
+          ~/venv/bin/python voz.py "${{ steps.m.outputs.pedido }}" "${ARGS[@]}" | tee log.txt
+      - if: steps.m.outputs.rodar == 'sim'
+        name: Publica no ramo saida-<pasta>
+        run: |
+          D=$(ls -d out/*/ | head -1); D=$(basename "$D"); B="saida-$D"
+          R="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"
+          mkdir saida && cd saida && git init -q -b "$B"
+          git fetch -q --depth 1 "$R" "$B" 2>/dev/null && git checkout -q FETCH_HEAD -- . 2>/dev/null || true
+          cp -r ../out/"$D"/. .
+          git add -A && git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "rapido $(date -u +%H:%M)" || true
+          for i in 1 2 3; do git push -qf "$R" "HEAD:$B" && break; sleep $((i*5)); done
+          echo "Publicado em $B"; cat resumo.md >> "$GITHUB_STEP_SUMMARY"

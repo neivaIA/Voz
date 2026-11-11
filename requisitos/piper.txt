@@ -1,0 +1,2 @@
+# Piper (OHF-Voice/piper1-gpl). Vozes baixadas do rhasspy/piper-voices na primeira vez.
+piper-tts

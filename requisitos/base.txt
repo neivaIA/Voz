@@ -1,0 +1,6 @@
+# conferência automática (transcrição + ritmo + entonação)
+numpy
+librosa
+num2words
+faster-whisper
+huggingface_hub

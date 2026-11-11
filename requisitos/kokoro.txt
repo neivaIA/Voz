@@ -1,0 +1,3 @@
+# Kokoro 82M (Apache-2.0). Precisa do espeak-ng no sistema (Linux: apt install espeak-ng; Windows: instalador .msi do espeak-ng).
+kokoro>=0.9.4
+soundfile

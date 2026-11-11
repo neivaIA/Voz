@@ -1,6 +1,8 @@
 name: narrar
 # Um pedido = um arquivo em pedidos/<tema>.json. Cada (frase x semente) vira uma tarefa em paralelo.
-# Resultado no ramo saida-<tema>: WAV de cada tomada + JSON com a conferência (transcrição, ritmo, pausas, entonação).
+# Resultado no ramo saida-<tema> (chatterbox) ou saida-<tema>-<motor> (outros motores):
+# WAV de cada tomada + JSON com a conferência (transcrição, ritmo, pausas, entonação).
+# Pedidos com "modo": "rapido" são feitos pelo workflow narrar-rapido (uma máquina só), não por este.
 on:
   push:
     branches: [main]
@@ -8,40 +10,59 @@ on:
   workflow_dispatch:
     inputs:
       pedido: { description: "caminho do pedido (ex.: pedidos/deputado.json)", required: true }
+      motor: { description: "força um motor: chatterbox, chatterbox-ptbr, kokoro, piper, edge (vazio = o do pedido)", required: false, default: "" }
 
 permissions: { contents: write }
-concurrency: { group: "narrar-${{ github.ref }}-${{ github.event.inputs.pedido || github.sha }}", cancel-in-progress: false }
+concurrency: { group: "narrar-${{ github.event.inputs.pedido || github.sha }}", cancel-in-progress: false }
 
 env:
-  CHAVE_CACHE: venv-cb-v1-py311
+  VERSAO_CACHE: v2-py311
+  HF_HUB_DOWNLOAD_TIMEOUT: "60"
+  HF_HUB_ETAG_TIMEOUT: "30"
+  PIP_DEFAULT_TIMEOUT: "60"
 
 jobs:
   planejar:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     outputs:
       matriz: ${{ steps.m.outputs.matriz }}
       pedido: ${{ steps.m.outputs.pedido }}
       tema: ${{ steps.m.outputs.tema }}
+      motor: ${{ steps.m.outputs.motor }}
+      voz: ${{ steps.m.outputs.voz }}
+      ramo: ${{ steps.m.outputs.ramo }}
+      pasta: ${{ steps.m.outputs.pasta }}
+      modo: ${{ steps.m.outputs.modo }}
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 2 }
       - id: m
+        env: { MOTOR_IN: "${{ github.event.inputs.motor }}" }
         run: |
           P="${{ github.event.inputs.pedido }}"
           if [ -z "$P" ]; then P=$(git diff-tree --root --no-commit-id --name-only -r HEAD -- pedidos | grep '\.json$' | tail -1); fi
           echo "pedido=$P" >> "$GITHUB_OUTPUT"
           python3 - "$P" >> "$GITHUB_OUTPUT" <<'EOF'
-          import json, sys
+          import json, os, sys
           P = json.load(open(sys.argv[1]))
+          motor = os.environ.get("MOTOR_IN") or P.get("motor") or "chatterbox"
           ids = P.get("refazer") or [f["id"] for f in P["frases"]]
           seeds = P.get("sementes", [11, 22])
-          print("tema=" + P["tema"])
+          pasta = P["tema"] if motor == "chatterbox" else f"{P['tema']}-{motor}"
+          modo = "rapido" if (P.get("modo") == "rapido" and not os.environ.get("MOTOR_IN")) else "matriz"
+          print("tema=" + P["tema"]); print("motor=" + motor); print("voz=" + (P.get("voz") or ""))
+          print("pasta=" + pasta); print("ramo=saida-" + pasta); print("modo=" + modo)
           print("matriz=" + json.dumps({"include": [{"id": i, "seed": s} for i in ids for s in seeds]}))
           EOF
 
   preparar:
+    needs: planejar
+    if: needs.planejar.outputs.modo == 'matriz'
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - id: c
@@ -50,21 +71,20 @@ jobs:
           path: |
             ~/venv
             ~/.cache/huggingface
-          key: ${{ env.CHAVE_CACHE }}
+            ~/.cache/piper
+          key: venv-${{ needs.planejar.outputs.motor }}-${{ env.VERSAO_CACHE }}
           lookup-only: true
       - if: steps.c.outputs.cache-hit != 'true'
+        name: Instala o motor e baixa os modelos (só na primeira vez de cada motor)
         run: |
-          python -m venv ~/venv
-          ~/venv/bin/pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          ~/venv/bin/pip install -q chatterbox-tts faster-whisper librosa num2words
-          ~/venv/bin/python -c "from chatterbox.mtl_tts import ChatterboxMultilingualTTS as M; M.from_pretrained(device='cpu')"
-          ~/venv/bin/python -c "from faster_whisper import WhisperModel as W; W('small', device='cpu', compute_type='int8')"
+          for i in 1 2 3; do bash scripts/instalar.sh "${{ needs.planejar.outputs.motor }}" ~/venv && break; echo "instalação falhou ($i)"; sleep $((i*20)); done
+          for i in 1 2 3; do ~/venv/bin/python scripts/aquecer.py "${{ needs.planejar.outputs.motor }}" "${{ needs.planejar.outputs.voz }}" && break; echo "aquecimento falhou ($i)"; sleep $((i*20)); done
           ~/venv/bin/pip cache purge || true
 
   gerar:
     needs: [planejar, preparar]
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     strategy:
       fail-fast: false
       max-parallel: 20
@@ -78,27 +98,39 @@ jobs:
           path: |
             ~/venv
             ~/.cache/huggingface
-          key: ${{ env.CHAVE_CACHE }}
+            ~/.cache/piper
+          key: venv-${{ needs.planejar.outputs.motor }}-${{ env.VERSAO_CACHE }}
           fail-on-cache-miss: true
-      - name: Segmentador do tokenizador (baixa do GitHub; tenta de novo se a rede falhar)
+      - if: contains(fromJson('["kokoro","piper"]'), needs.planejar.outputs.motor)
+        run: sudo apt-get -qq update && sudo apt-get -qq install -y espeak-ng >/dev/null
+      - if: startsWith(needs.planejar.outputs.motor, 'chatterbox')
+        name: Segmentador do tokenizador (baixa do GitHub; tenta de novo se a rede falhar)
         run: for i in 1 2 3 4 5 6 7 8; do ~/venv/bin/python -c "import spacy_pkuseg; spacy_pkuseg.pkuseg()" >/dev/null 2>&1 && exit 0; echo "tentativa $i falhou"; sleep $((i*5)); done; exit 1
-      - run: ~/venv/bin/python gerar.py "${{ needs.planejar.outputs.pedido }}" "${{ matrix.id }}" "${{ matrix.seed }}"
+      - name: Gera e confere a tomada (até 3 tentativas)
+        timeout-minutes: 15
+        run: |
+          for i in 1 2 3; do
+            timeout 360 ~/venv/bin/python gerar.py "${{ needs.planejar.outputs.pedido }}" "${{ matrix.id }}" "${{ matrix.seed }}" "${{ needs.planejar.outputs.motor }}" && exit 0
+            echo "tentativa $i falhou"; sleep $((i*10))
+          done; exit 1
       - if: always()
         uses: actions/upload-artifact@v4
-        with: { name: "t-${{ matrix.id }}-${{ matrix.seed }}", path: out, if-no-files-found: ignore }
+        with: { name: "t-${{ matrix.id }}-${{ matrix.seed }}", path: out, if-no-files-found: ignore, retention-days: 3 }
 
   publicar:
     needs: [planejar, gerar]
-    if: always() && needs.planejar.result == 'success'
+    if: always() && needs.planejar.result == 'success' && needs.planejar.outputs.modo == 'matriz'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/download-artifact@v4
         with: { pattern: "t-*", path: novo, merge-multiple: true }
       - run: |
-          T="${{ needs.planejar.outputs.tema }}"; B="saida-$T"
+          D="${{ needs.planejar.outputs.pasta }}"; B="${{ needs.planejar.outputs.ramo }}"
           R="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"
           mkdir saida && cd saida && git init -q -b "$B"
           git fetch -q --depth 1 "$R" "$B" && git checkout -q FETCH_HEAD -- . 2>/dev/null || true
-          cp -r ../novo/"$T"/. . 2>/dev/null || true
-          git add -A && git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "tomadas $(date -u +%H:%M)" && git push -qf "$R" "HEAD:$B"
-          ls | head -50
+          cp -r ../novo/"$D"/. . 2>/dev/null || true
+          git add -A && git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "tomadas $(date -u +%H:%M)" || true
+          for i in 1 2 3; do git push -qf "$R" "HEAD:$B" && break; sleep $((i*5)); done
+          ls | head -60
