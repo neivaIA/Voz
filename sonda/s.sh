@@ -1,13 +1,3 @@
-sleep 30
-pip install -q playwright >/dev/null 2>&1 && python -m playwright install --with-deps chromium >/dev/null 2>&1
-cat > c.py <<'P'
-from playwright.sync_api import sync_playwright
-with sync_playwright() as p:
-    b=p.chromium.launch();ctx=b.new_context(viewport={"width":390,"height":844},accept_downloads=True)
-    for c in ("2933307","1720002"):
-        pg=ctx.new_page();pg.goto("https://www.contaspublicasbrasil.com.br/#cidade-"+c);pg.wait_for_timeout(6000)
-        with pg.expect_download() as dw: pg.click("#cdImagem")
-        dw.value.save_as(f"sonda/card_{c}.png");print("ok",c)
-    b.close()
-P
-python c.py
+for u in "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=8&codigoMunicipioIbge=2933307&pagina=1&tamanhoPagina=50" "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&codigoMunicipioIbge=2933307&pagina=1&tamanhoPagina=50" "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20251231&codigoModalidadeContratacao=6&codigoMunicipioIbge=2933307&pagina=1&tamanhoPagina=50" "https://pncp.gov.br/api/consulta/v1/contratos?dataInicial=20250101&dataFinal=20250131&cnpjOrgao=14239578000100&pagina=1&tamanhoPagina=500" "https://brasilapi.com.br/api/cnpj/v1/22052064000179" "https://minhareceita.org/22052064000179"; do
+  echo "== $u"; curl -s -o /tmp/r -w "%{http_code} %{time_total}s\n" --max-time 120 "$u"; head -c 400 /tmp/r | python3 -c "import sys;t=sys.stdin.read();print(t.replace('\n',' ')[:400])"; python3 -c "
+import json;d=json.load(open('/tmp/r'));print('totalRegistros',d.get('totalRegistros'),'totalPaginas',d.get('totalPaginas'))" 2>/dev/null; done
