@@ -1,0 +1,17 @@
+{
+ "tema": "docinhos",
+ "sementes": [11, 22],
+ "vocabulario": "docinhos, convidados, sobremesas, Jaci, fatias, centímetros",
+ "params": {"exaggeration": 0.58, "cfg_weight": 0.35, "temperature": 0.8},
+ "frases": [
+  {"id": "n1", "fala": "Vai fazer festa e não sabe quantos docinhos encomendar?", "leg": "Vai fazer festa e não sabe quantos docinhos encomendar?", "fim": "pergunta"},
+  {"id": "n2", "fala": "Olha só, a conta é mais simples do que parece.", "leg": "Olha só, a conta é mais simples do que parece.", "fim": "ponto"},
+  {"id": "n3", "fala": "Pra cada convidado, separa de seis a dez docinhos.", "leg": "Para cada convidado, separe de 6 a 10 docinhos.", "fim": "ponto", "chaves": ["seis", "dez"]},
+  {"id": "n4", "fala": "Seis se tiver outras sobremesas na mesa, e dez se o doce for a estrela.", "leg": "6 se tiver outras sobremesas na mesa, e 10 se o doce for a estrela.", "fim": "ponto", "chaves": ["seis", "dez"]},
+  {"id": "n5", "fala": "Então, numa festa com trinta convidados,", "leg": "Então, numa festa com 30 convidados,", "fim": "virgula", "chaves": ["trinta"]},
+  {"id": "n6", "fala": "você vai precisar de cento e oitenta a trezentos docinhos.", "leg": "você vai precisar de 180 a 300 docinhos.", "fim": "pergunta", "chaves": ["cento", "oitenta", "trezentos"]},
+  {"id": "n7", "fala": "E o bolo? A conta é uma fatia por pessoa.", "leg": "E o bolo? A conta é uma fatia por pessoa.", "fim": "ponto"},
+  {"id": "n8", "fala": "Um bolo de vinte e dois centímetros serve trinta fatias, na medida certa.", "leg": "Um bolo de 22 cm serve 30 fatias, na medida certa.", "fim": "pergunta", "chaves": ["vinte", "dois", "trinta"]},
+  {"id": "n9", "fala": "Manda uma mensagem com quantos convidados vão ser, que a Jací calcula pra você!", "leg": "Manda quantos convidados vão ser, que a Jaci calcula para você! @jacidocesvca", "fim": "ponto", "chaves": ["Jaci"]}
+ ]
+}
