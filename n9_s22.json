@@ -1,0 +1,15 @@
+{
+ "id": "n9",
+ "seed": 22,
+ "arq": "n9_s22.wav",
+ "motor": "kokoro",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.1,
+ "pausa": 0.19,
+ "f0_st": 2.6,
+ "dur": 4.61,
+ "txt": "Manda uma mensagem com quantos convidados vão ser, que a Jaci calcula pra você"
+}

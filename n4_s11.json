@@ -1,0 +1,17 @@
+{
+ "id": "n4",
+ "seed": 11,
+ "arq": "n4_s11.wav",
+ "motor": "kokoro",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.214,
+ "faltam": [
+  "dez"
+ ],
+ "cps": 17.3,
+ "pausa": 0.13,
+ "f0_st": 2.39,
+ "dur": 4.1,
+ "txt": "Seis se tiver outras sobremesas na mesa e desce o doce fora a estrela."
+}

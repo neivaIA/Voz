@@ -1,0 +1,17 @@
+{
+ "id": "n6",
+ "seed": 11,
+ "arq": "n6_s11.wav",
+ "motor": "kokoro",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.111,
+ "faltam": [
+  "cento"
+ ],
+ "cps": 16.9,
+ "pausa": 0.0,
+ "f0_st": 3.02,
+ "dur": 3.42,
+ "txt": "Você vai precisar de 100 e 80 a 300 docinhos."
+}

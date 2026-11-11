@@ -1,0 +1,15 @@
+{
+ "id": "n1",
+ "seed": 11,
+ "arq": "n1_s11.wav",
+ "motor": "kokoro",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.125,
+ "faltam": [],
+ "cps": 16.7,
+ "pausa": 0.0,
+ "f0_st": 3.03,
+ "dur": 3.3,
+ "txt": "Vai fazer festa e não sabe quantos docinhos emcomendar"
+}
