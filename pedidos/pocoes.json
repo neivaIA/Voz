@@ -1,8 +1,9 @@
 {
  "tema": "pocoes",
  "sementes": [
-  11,
-  22
+  33,
+  44,
+  55
  ],
  "vocabulario": "Poções, Dona Nilda, Vitória da Conquista, Jequié, Bahia, prefeitura, Fundeb, União, IDEB, pré-natal, emendas parlamentares",
  "params": {
@@ -198,5 +199,8 @@
     "milhões"
    ]
   }
+ ],
+ "refazer": [
+  "n17"
  ]
 }
