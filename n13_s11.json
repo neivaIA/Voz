@@ -1,0 +1,13 @@
+{
+ "id": "n13",
+ "seed": 11,
+ "arq": "n13_s11.wav",
+ "ok": true,
+ "wer": 0.118,
+ "faltam": [],
+ "cps": 18.9,
+ "pausa": 0.19,
+ "f0_st": 4.84,
+ "dur": 5.34,
+ "txt": "e a dívida líquida chegou a 58% da receita, abaixo do limite de 120%."
+}

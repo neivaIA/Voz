@@ -1,0 +1,13 @@
+{
+ "id": "n12",
+ "seed": 11,
+ "arq": "n12_s11.wav",
+ "ok": false,
+ "wer": 0.074,
+ "faltam": [],
+ "cps": 22.2,
+ "pausa": 0.03,
+ "f0_st": 4.55,
+ "dur": 6.88,
+ "txt": "O gasto com pessoal ficou em 44% da receita, perto do que foi em 2024.  O limite da lei é 54%."
+}

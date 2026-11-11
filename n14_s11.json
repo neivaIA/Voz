@@ -1,0 +1,13 @@
+{
+ "id": "n14",
+ "seed": 11,
+ "arq": "n14_s11.wav",
+ "ok": true,
+ "wer": 0.032,
+ "faltam": [],
+ "cps": 19.0,
+ "pausa": 0.22,
+ "f0_st": 5.52,
+ "dur": 9.22,
+ "txt": "Nas escolas da Perfeitura, o IDEB dos anos iniciais foi de 3,1 em 2005 para 5,7 em 2025,  acima da Mediana da Bahia."
+}

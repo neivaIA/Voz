@@ -1,0 +1,15 @@
+{
+ "id": "n17",
+ "seed": 22,
+ "arq": "n17_s22.wav",
+ "ok": false,
+ "wer": 0.1,
+ "faltam": [
+  "casas"
+ ],
+ "cps": 17.9,
+ "pausa": 0.32,
+ "f0_st": 4.33,
+ "dur": 6.22,
+ "txt": "O esgoto ligado à rede chega a 68% das caças da cidade, na Bahia estão 54."
+}

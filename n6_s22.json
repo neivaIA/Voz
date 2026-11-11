@@ -1,0 +1,15 @@
+{
+ "id": "n6",
+ "seed": 22,
+ "arq": "n6_s22.wav",
+ "ok": false,
+ "wer": 0.133,
+ "faltam": [
+  "oitocentos"
+ ],
+ "cps": 19.1,
+ "pausa": 0.35,
+ "f0_st": 4.69,
+ "dur": 4.61,
+ "txt": "dá quase R$4.000.000 por morador mais do que em Vitória da Conquista."
+}

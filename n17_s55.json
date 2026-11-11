@@ -1,0 +1,16 @@
+{
+ "id": "n17",
+ "seed": 55,
+ "arq": "n17_s55.wav",
+ "ok": false,
+ "wer": 0.1,
+ "faltam": [
+  "esgoto",
+  "o"
+ ],
+ "cps": 20.9,
+ "pausa": 0.0,
+ "f0_st": 5.3,
+ "dur": 5.31,
+ "txt": "Os goto ligado à rede chega a 68% das casas da cidade.  Na Bahia são 54."
+}

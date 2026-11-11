@@ -1,0 +1,13 @@
+{
+ "id": "n15",
+ "seed": 22,
+ "arq": "n15_s22.wav",
+ "ok": true,
+ "wer": 0.045,
+ "faltam": [],
+ "cps": 16.8,
+ "pausa": 0.45,
+ "f0_st": 4.69,
+ "dur": 7.86,
+ "txt": "A mortalidade infantil ficou em 15,5x1000 nascidos vivos, na Bahia, cerca de 15, e no Brasil, perto de 13."
+}
