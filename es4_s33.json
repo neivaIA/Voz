@@ -1,0 +1,19 @@
+{
+ "id": "es4",
+ "seed": 33,
+ "arq": "es4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.167,
+ "faltam": [
+  "acajutiba",
+  "com",
+  "marcionilio"
+ ],
+ "cps": 16.0,
+ "pausa": 0.06,
+ "f0_st": 4.79,
+ "dur": 10.46,
+ "txt": "0,1%, Tabocas do Brejo Velho, Matina, Marcenilho Souza, Mansidão, Lagoa Real, Cotegipe, Candéal,  Bom Jesus da Serra, Baianópolis e a Cajotiba."
+}

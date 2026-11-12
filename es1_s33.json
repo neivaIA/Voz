@@ -1,0 +1,15 @@
+{
+ "id": "es1",
+ "seed": 33,
+ "arq": "es1_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.062,
+ "faltam": [],
+ "cps": 18.7,
+ "pausa": 0.26,
+ "f0_st": 4.95,
+ "dur": 4.7,
+ "txt": "Em quais cidades da Bahia quase nenhuma casa tem esboto ligado à rede? Hoje tem ranking."
+}

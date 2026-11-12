@@ -1,0 +1,19 @@
+{
+ "id": "es4",
+ "seed": 44,
+ "arq": "es4_s44.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.167,
+ "faltam": [
+  "marcionilio",
+  "souza",
+  "velho"
+ ],
+ "cps": 15.9,
+ "pausa": 0.26,
+ "f0_st": 5.32,
+ "dur": 10.48,
+ "txt": "com 0,1%.  Tabocas do Brejo Vélio, Matina, Márcia Janeiro-Sousa, Mansidão, Lagoa Real, Cotegipe, Candeal,  Bom Jesus da Serra, Baianópolis e Acajutiba."
+}

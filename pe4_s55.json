@@ -1,0 +1,22 @@
+{
+ "id": "pe4",
+ "seed": 55,
+ "arq": "pe4_s55.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.5,
+ "faltam": [
+  "biritinga",
+  "cabralia",
+  "do",
+  "inhambupe",
+  "itapetinga",
+  "ubaitaba"
+ ],
+ "cps": 15.4,
+ "pausa": 0.1,
+ "f0_st": 5.47,
+ "dur": 7.58,
+ "txt": "10º ao 4º lugar, Tanque Novo, Nova Canaã, Iambupe, Beritinga, Santa Cruz Cabralha, Obaitaba e Itapitinga."
+}

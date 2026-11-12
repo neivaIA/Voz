@@ -1,0 +1,18 @@
+{
+ "id": "id5",
+ "seed": 22,
+ "arq": "id5_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.118,
+ "faltam": [
+  "arcado",
+  "jambeiro"
+ ],
+ "cps": 14.2,
+ "pausa": 0.1,
+ "f0_st": 5.73,
+ "dur": 7.9,
+ "txt": "com 4,1, Pilão, Arquato e Pedrão  e com a menor nota, 4, Rafael Jumbeiro, Itapebi e Entre Rios."
+}

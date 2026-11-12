@@ -1,0 +1,15 @@
+{
+ "id": "ed2",
+ "seed": 11,
+ "arq": "ed2_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.8,
+ "pausa": 0.38,
+ "f0_st": 5.75,
+ "dur": 5.9,
+ "txt": "A Constituição manda cada prefeitura aplicar pelo menos 25% dos impostos na educação."
+}

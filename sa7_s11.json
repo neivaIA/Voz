@@ -1,0 +1,15 @@
+{
+ "id": "sa7",
+ "seed": 11,
+ "arq": "sa7_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.4,
+ "pausa": 0.35,
+ "f0_st": 4.6,
+ "dur": 7.78,
+ "txt": "Os números são os que as próprias prefeituras declararam ao Tesouro Nacional.  Quem fica abaixo do mínimo pode ter as contas reprovadas."
+}

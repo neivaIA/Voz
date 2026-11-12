@@ -1,0 +1,18 @@
+{
+ "id": "id4",
+ "seed": 22,
+ "arq": "id4_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.13,
+ "faltam": [
+  "inhambupe",
+  "itaju"
+ ],
+ "cps": 17.6,
+ "pausa": 0.13,
+ "f0_st": 4.64,
+ "dur": 8.29,
+ "txt": "com 4,3, Santa Luzia, Itajudo Colônia, Iambubi, Casa Nova e Aurelino Leal  com 4,2, São Félix e Pirai do Norte"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "id5",
+ "seed": 33,
+ "arq": "id5_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.176,
+ "faltam": [
+  "entre",
+  "jambeiro",
+  "rios"
+ ],
+ "cps": 15.6,
+ "pausa": 0.26,
+ "f0_st": 4.94,
+ "dur": 7.17,
+ "txt": "com 4,1 pilão arcado e pedrão e com a menor nota, 4 Rafael Jombeiro, Itapebi e Angry Hills."
+}

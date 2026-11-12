@@ -1,0 +1,19 @@
+{
+ "id": "sa4",
+ "seed": 22,
+ "arq": "sa4_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.316,
+ "faltam": [
+  "apuarema",
+  "capim",
+  "grosso"
+ ],
+ "cps": 18.7,
+ "pausa": 0.13,
+ "f0_st": 4.54,
+ "dur": 6.74,
+ "txt": "do Sétimo ao Corte e Lugar, Aporema, Capingroço, Encruzilhada e São José da Vitória, todas entre 14% e 15%."
+}

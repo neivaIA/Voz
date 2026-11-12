@@ -1,0 +1,20 @@
+{
+ "id": "ed4",
+ "seed": 22,
+ "arq": "ed4_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.278,
+ "faltam": [
+  "boa",
+  "jambeiro",
+  "nova",
+  "rio"
+ ],
+ "cps": 18.3,
+ "pausa": 0.0,
+ "f0_st": 4.15,
+ "dur": 6.4,
+ "txt": "Do décimo ao quarto lugar, Rede Contas, Blanova, Brejões, Planaltino, Ribeirão do Largo, Rafael Jombeiro e Urandi"
+}

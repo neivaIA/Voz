@@ -1,0 +1,17 @@
+{
+ "id": "id3",
+ "seed": 11,
+ "arq": "id3_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.133,
+ "faltam": [
+  "doze"
+ ],
+ "cps": 16.4,
+ "pausa": 0.45,
+ "f0_st": 4.86,
+ "dur": 5.38,
+ "txt": "Em 2025, todas as cidades ficaram com nota 4,3 ou menos."
+}

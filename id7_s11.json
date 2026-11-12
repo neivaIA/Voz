@@ -1,0 +1,15 @@
+{
+ "id": "id7",
+ "seed": 11,
+ "arq": "id7_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 19.0,
+ "pausa": 0.0,
+ "f0_st": 2.55,
+ "dur": 4.67,
+ "txt": "Os dados são do INEP, das provas de 2025 nas escolas das prefeituras."
+}

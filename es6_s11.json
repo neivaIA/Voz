@@ -1,0 +1,15 @@
+{
+ "id": "es6",
+ "seed": 11,
+ "arq": "es6_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.167,
+ "faltam": [],
+ "cps": 11.2,
+ "pausa": 0.35,
+ "f0_st": 1.95,
+ "dur": 3.22,
+ "txt": "no mapa às 51 cidades."
+}

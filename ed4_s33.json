@@ -1,0 +1,18 @@
+{
+ "id": "ed4",
+ "seed": 33,
+ "arq": "ed4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.167,
+ "faltam": [
+  "jambeiro",
+  "planaltino"
+ ],
+ "cps": 15.7,
+ "pausa": 0.32,
+ "f0_st": 4.47,
+ "dur": 7.44,
+ "txt": "do décimo ao quarto lugar Rio de Contas, Boa Nova, Brejões, Plano Altino, Ribeirão do Largo,  Rafael Jombeiro e Urandi."
+}

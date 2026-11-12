@@ -1,0 +1,15 @@
+{
+ "id": "id2",
+ "seed": 22,
+ "arq": "id2_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 20.8,
+ "pausa": 0.16,
+ "f0_st": 4.51,
+ "dur": 7.46,
+ "txt": "O IDEB mede a qualidade do ensino numa nota de 0 a 10.  Nos anos iniciais das escolas das prefeituras baianas, a nota do meio foi 5,4."
+}

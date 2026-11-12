@@ -1,0 +1,21 @@
+{
+ "id": "pe4",
+ "seed": 22,
+ "arq": "pe4_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.438,
+ "faltam": [
+  "biritinga",
+  "cabralia",
+  "inhambupe",
+  "itapetinga",
+  "ubaitaba"
+ ],
+ "cps": 17.5,
+ "pausa": 0.38,
+ "f0_st": 5.85,
+ "dur": 6.69,
+ "txt": "do Décimo ao Corte do Lugar, Tanque Novo, Nova Canaã, Iambupi, Beritinga, Santa Cruz Cabralha,  Obaitava e Itapitinga."
+}

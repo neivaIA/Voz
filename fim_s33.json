@@ -1,0 +1,17 @@
+{
+ "id": "fim",
+ "seed": 33,
+ "arq": "fim_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.35,
+ "faltam": [
+  "rankings"
+ ],
+ "cps": 20.0,
+ "pausa": 0.19,
+ "f0_st": 5.69,
+ "dur": 5.66,
+ "txt": "Quer saber onde a sua cidade está?  Os rancas completas estão no site contaspublicasbrasil.com.br"
+}

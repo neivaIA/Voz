@@ -1,0 +1,15 @@
+{
+ "id": "id6",
+ "seed": 44,
+ "arq": "id6_s44.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 13.3,
+ "pausa": 0.1,
+ "f0_st": 4.51,
+ "dur": 2.34,
+ "txt": "No mapa estão as 12 cidades."
+}

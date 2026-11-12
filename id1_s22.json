@@ -1,0 +1,15 @@
+{
+ "id": "id1",
+ "seed": 22,
+ "arq": "id1_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.167,
+ "faltam": [],
+ "cps": 18.0,
+ "pausa": 0.1,
+ "f0_st": 5.99,
+ "dur": 3.71,
+ "txt": "Quais cidades da Bahia tiveram IDEB mais baixo? Hoje tem Hunking!"
+}

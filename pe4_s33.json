@@ -1,0 +1,21 @@
+{
+ "id": "pe4",
+ "seed": 33,
+ "arq": "pe4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.312,
+ "faltam": [
+  "biritinga",
+  "cabralia",
+  "inhambupe",
+  "itapetinga",
+  "tanque"
+ ],
+ "cps": 19.9,
+ "pausa": 0.0,
+ "f0_st": 4.18,
+ "dur": 5.89,
+ "txt": "Do décimo ao quarto lugar, Tanqui Novo, Nova Canaã, Inyambupe, Beritinga, Santa Cruz Cabralha,  Ubaitaba e Itapitinga."
+}

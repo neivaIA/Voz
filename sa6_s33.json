@@ -1,0 +1,15 @@
+{
+ "id": "sa6",
+ "seed": 33,
+ "arq": "sa6_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 20.2,
+ "pausa": 0.03,
+ "f0_st": 5.08,
+ "dur": 2.98,
+ "txt": "No mapa estão as sete cidades que ficaram abaixo do mínimo."
+}

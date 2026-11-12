@@ -1,0 +1,15 @@
+{
+ "id": "sa2",
+ "seed": 11,
+ "arq": "sa2_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.067,
+ "faltam": [],
+ "cps": 14.4,
+ "pausa": 0.26,
+ "f0_st": 5.16,
+ "dur": 6.62,
+ "txt": "A Constituição manda cada prefeitura aplicar pelo menos 15% dos impostos em saúde.  Disquiade"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "pe3",
+ "seed": 11,
+ "arq": "pe3_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.053,
+ "faltam": [],
+ "cps": 17.7,
+ "pausa": 0.16,
+ "f0_st": 5.08,
+ "dur": 6.94,
+ "txt": "Em 2025, 74 cidades baionas chegaram ou passaram desse limite. É quase uma em cada cinco."
+}

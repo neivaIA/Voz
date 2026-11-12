@@ -1,0 +1,15 @@
+{
+ "id": "ed3",
+ "seed": 22,
+ "arq": "ed3_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.067,
+ "faltam": [],
+ "cps": 19.7,
+ "pausa": 0.03,
+ "f0_st": 5.98,
+ "dur": 4.93,
+ "txt": "Em 2025, 26 cidades baiana declararam ter ficado abaixo do mínimo."
+}

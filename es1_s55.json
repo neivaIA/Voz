@@ -1,0 +1,15 @@
+{
+ "id": "es1",
+ "seed": 55,
+ "arq": "es1_s55.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 23.3,
+ "pausa": 0.06,
+ "f0_st": 3.1,
+ "dur": 3.78,
+ "txt": "em quais cidades da Bahia quase nenhuma casa tem esgoto ligado à rede, hoje tem ranking."
+}

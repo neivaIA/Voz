@@ -1,0 +1,15 @@
+{
+ "id": "pe2",
+ "seed": 22,
+ "arq": "pe2_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.125,
+ "faltam": [],
+ "cps": 20.1,
+ "pausa": 0.48,
+ "f0_st": 4.38,
+ "dur": 7.7,
+ "txt": "A lei de responsabilidade fiscal diz que a perfeitura pode gastar no máximo 54% da receita com salários  e em cargos dos servidores."
+}

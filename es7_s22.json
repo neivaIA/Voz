@@ -1,0 +1,15 @@
+{
+ "id": "es7",
+ "seed": 22,
+ "arq": "es7_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.7,
+ "pausa": 0.0,
+ "f0_st": 2.97,
+ "dur": 3.9,
+ "txt": "Os dados são do Censo de 2022, o mais recente do IBGE."
+}

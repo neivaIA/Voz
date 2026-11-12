@@ -1,0 +1,15 @@
+{
+ "id": "es2",
+ "seed": 11,
+ "arq": "es2_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.2,
+ "pausa": 0.29,
+ "f0_st": 5.39,
+ "dur": 8.77,
+ "txt": "No Censo de 2022, 54% das casas da Bahia tinham esgoto ligado à rede, as outras usam fossa, vala  ou outras soluções."
+}

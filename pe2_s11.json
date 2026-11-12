@@ -1,0 +1,15 @@
+{
+ "id": "pe2",
+ "seed": 11,
+ "arq": "pe2_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.1,
+ "pausa": 0.35,
+ "f0_st": 4.92,
+ "dur": 8.58,
+ "txt": "A lei de responsabilidade fiscal diz que a prefeitura pode gastar no máximo 54% da receita com salários  e encargos dos servidores."
+}

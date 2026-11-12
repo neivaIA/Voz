@@ -1,0 +1,15 @@
+{
+ "id": "es6",
+ "seed": 55,
+ "arq": "es6_s55.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.143,
+ "faltam": [],
+ "cps": 15.6,
+ "pausa": 0.26,
+ "f0_st": 5.57,
+ "dur": 2.69,
+ "txt": "no mapa. Estão mais cinquenta e uma cidades."
+}

@@ -1,0 +1,18 @@
+{
+ "id": "id4",
+ "seed": 33,
+ "arq": "id4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.13,
+ "faltam": [
+  "inhambupe",
+  "itaju"
+ ],
+ "cps": 15.5,
+ "pausa": 0.45,
+ "f0_st": 5.07,
+ "dur": 9.44,
+ "txt": "com 4,3, Santa Luzia Itajudo Colônia, Iñambupi, Casa Nova e Aurelino Leal, com 4,2, São Félix e Piraí do Norte."
+}

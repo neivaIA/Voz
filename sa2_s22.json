@@ -1,0 +1,15 @@
+{
+ "id": "sa2",
+ "seed": 22,
+ "arq": "sa2_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.133,
+ "faltam": [],
+ "cps": 16.9,
+ "pausa": 0.38,
+ "f0_st": 5.68,
+ "dur": 5.62,
+ "txt": "A Constituição manda a cada perfeitura aplicar pelo menos 15% dos impostos em saúde."
+}

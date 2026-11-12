@@ -1,0 +1,18 @@
+{
+ "id": "fim",
+ "seed": 22,
+ "arq": "fim_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.35,
+ "faltam": [
+  "quer",
+  "rankings"
+ ],
+ "cps": 20.0,
+ "pausa": 0.1,
+ "f0_st": 5.26,
+ "dur": 5.64,
+ "txt": "Quero saber onde a sua cidade está. Os ronquinhos completos estão no site, ContasPublicasBrasil.com.br"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "ed6",
+ "seed": 11,
+ "arq": "ed6_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.2,
+ "pausa": 0.0,
+ "f0_st": 5.39,
+ "dur": 2.75,
+ "txt": "No mapa, as 26 cidades abaixo do mínimo."
+}

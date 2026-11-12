@@ -1,0 +1,20 @@
+{
+ "id": "id5",
+ "seed": 44,
+ "arq": "id5_s44.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.235,
+ "faltam": [
+  "entre",
+  "itapebi",
+  "jambeiro",
+  "rios"
+ ],
+ "cps": 16.3,
+ "pausa": 0.32,
+ "f0_st": 4.49,
+ "dur": 6.88,
+ "txt": "com 4,1, pilão arcado e pedrão, e com a menor nota, 4 Rafael Jombeiro, ITPB e NT-HILS."
+}

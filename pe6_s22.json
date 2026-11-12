@@ -1,0 +1,15 @@
+{
+ "id": "pe6",
+ "seed": 22,
+ "arq": "pe6_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.0,
+ "pausa": 0.13,
+ "f0_st": 5.05,
+ "dur": 3.33,
+ "txt": "no mapa, as 74 cidades que chegaram ao limite."
+}

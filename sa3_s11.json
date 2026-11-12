@@ -1,0 +1,15 @@
+{
+ "id": "sa3",
+ "seed": 11,
+ "arq": "sa3_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.095,
+ "faltam": [],
+ "cps": 19.7,
+ "pausa": 0.32,
+ "f0_st": 5.11,
+ "dur": 6.94,
+ "txt": "Em 2025, entre as 376 cidades de baianas que entregaram o balanço, sete ficaram abaixo do mínimo."
+}

@@ -1,0 +1,17 @@
+{
+ "id": "es1",
+ "seed": 22,
+ "arq": "es1_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.188,
+ "faltam": [
+  "hoje"
+ ],
+ "cps": 22.7,
+ "pausa": 0.0,
+ "f0_st": 4.8,
+ "dur": 3.87,
+ "txt": "Em quais cidades da Bahia, quarta nenhuma casa tem esgoto ligado à rede ou se tem ranking?"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "es3",
+ "seed": 11,
+ "arq": "es3_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 1.0,
+ "faltam": [
+  "cem"
+ ],
+ "cps": 8.7,
+ "pausa": 0.35,
+ "f0_st": 5.67,
+ "dur": 9.3,
+ "txt": "Mas em cinquenta e umas cidades, menos de uma casa em cada cento está ligada à rede.  O conto quente e o quente.  Estabe-se conto quente e conto deição, na vora ela."
+}

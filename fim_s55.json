@@ -1,0 +1,15 @@
+{
+ "id": "fim",
+ "seed": 55,
+ "arq": "fim_s55.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.1,
+ "faltam": [],
+ "cps": 17.4,
+ "pausa": 0.22,
+ "f0_st": 5.55,
+ "dur": 6.48,
+ "txt": "Quer saber onde a sua cidade está? Os rankings completos estão no site Contas Públicas Brasil.com.br"
+}

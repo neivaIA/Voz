@@ -1,0 +1,20 @@
+{
+ "id": "id5",
+ "seed": 11,
+ "arq": "id5_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.235,
+ "faltam": [
+  "arcado",
+  "itapebi",
+  "jambeiro",
+  "rios"
+ ],
+ "cps": 16.1,
+ "pausa": 0.29,
+ "f0_st": 6.37,
+ "dur": 6.98,
+ "txt": "com 4,1 pilão arcade pedrão e com a menor nota, 4 Rafael Jombeiro e Tapibi e Entre Heels."
+}

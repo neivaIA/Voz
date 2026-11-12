@@ -1,0 +1,17 @@
+{
+ "id": "pe1",
+ "seed": 11,
+ "arq": "pe1_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.364,
+ "faltam": [
+  "hoje"
+ ],
+ "cps": 19.1,
+ "pausa": 0.1,
+ "f0_st": 5.11,
+ "dur": 3.62,
+ "txt": "Quais perfeituras da Bahia mais gastam com o pessoal, ou se tem ranking?"
+}

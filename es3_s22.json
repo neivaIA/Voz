@@ -1,0 +1,15 @@
+{
+ "id": "es3",
+ "seed": 22,
+ "arq": "es3_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.062,
+ "faltam": [],
+ "cps": 18.3,
+ "pausa": 0.0,
+ "f0_st": 5.7,
+ "dur": 4.42,
+ "txt": "Mas em 51 cidades, menos de uma casa, em cada 100, está ligada à rede."
+}

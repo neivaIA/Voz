@@ -1,0 +1,15 @@
+{
+ "id": "sa1",
+ "seed": 22,
+ "arq": "sa1_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.5,
+ "pausa": 0.0,
+ "f0_st": 5.12,
+ "dur": 4.48,
+ "txt": "Quais prefeituras da Bahia aplicaram menos que o mínimo em saúde? Hoje tem ranking."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "id1",
+ "seed": 11,
+ "arq": "id1_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.083,
+ "faltam": [],
+ "cps": 19.6,
+ "pausa": 0.1,
+ "f0_st": 6.54,
+ "dur": 3.42,
+ "txt": "Quais cidades da Bahia tiveram um IDEB mais baixo? Hoje tem ranking!"
+}

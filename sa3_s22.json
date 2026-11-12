@@ -1,0 +1,17 @@
+{
+ "id": "sa3",
+ "seed": 22,
+ "arq": "sa3_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.19,
+ "faltam": [
+  "sete"
+ ],
+ "cps": 17.6,
+ "pausa": 0.06,
+ "f0_st": 5.38,
+ "dur": 7.78,
+ "txt": "Em 2025, entre as 376 cidades baianas que entregaram um balanço, setificaram abaixo do mínimo."
+}
