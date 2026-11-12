@@ -1,23 +1,32 @@
 python3 - <<'PY'
 import json,urllib.request,urllib.parse,time
+from concurrent.futures import ThreadPoolExecutor
+IDS=json.loads('''{"E": [2911857, 2928307, 2920700, 2905206, 2932606, 2925956, 2926657, 2924900, 2904308, 2903706, 2926707, 2923209, 2903953, 2900108, 2905156, 2919504, 2928208, 2909000, 2924702, 2901809, 2900504, 2902401, 2900405, 2903904, 2902807, 2924652, 2912202, 2915502, 2928505, 2903003, 2926301, 2901502, 2908200, 2914901, 2919108, 2919603, 2933307, 2929008, 2917003, 2901304, 2920205, 2931202, 2931301, 2932101, 2911907, 2922706, 2932903, 2930709, 2908507, 2909703, 2900306, 2928802, 2907103, 2915353, 2907509, 2913408, 2922250, 2921500, 2926400, 2908002, 2932804, 2919157, 2930808, 2910057, 2923407, 2926509, 2917334, 2929107, 2906709, 2918001, 2926608, 2905701, 2917359, 2911600, 2914703, 2915007, 2918704, 2906600, 2912400, 2925931, 2920106, 2914505, 2933604, 2906808, 2918407, 2928604, 2930204, 2921609, 2904100, 2911709, 2908309, 2909604, 2925105, 2929255, 2931053, 2915700, 2930105, 2931103, 2906204, 2914406, 2914109, 2902104, 2915106, 2924504, 2925402, 2927408, 2907905, 2920452, 2933406, 2906402, 2922508, 2930600, 2929909, 2910800, 2930501, 2902054, 2906006, 2902708, 2916906, 2922656, 2924058, 2922755, 2928703, 2905107, 2908101, 2917300, 2917607, 2918506, 2920304, 2923308, 2902252, 2929503, 2930402, 2914802, 2928406, 2921708, 2910701, 2910859, 2912004, 2918555, 2901155, 2913903, 2902609, 2909901, 2918803, 2919009, 2926905, 2906899, 2901106, 2905008, 2930154, 2916104, 2923605, 2927101, 2901007, 2919058, 2929800, 2933109, 2921005, 2929404, 2901700, 2909802, 2921054, 2914000, 2915601, 2921906, 2933000, 2925006, 2925303, 2918209, 2924108, 2907558, 2905404, 2930774, 2927309, 2900207, 2914604, 2927002, 2933257, 2914208, 2921401, 2927507, 2918753, 2926103, 2921807, 2904852, 2905503, 2911204, 2913606, 2917201, 2928950, 2902302, 2902658, 2918100, 2930766, 2903508, 2905602, 2918308, 2925600, 2903805, 2904050, 2913457, 2919801, 2922300, 2913002, 2920403, 2922805, 2910727, 2905305, 2912608, 2906857, 2910404, 2931004, 2931350, 2909208, 2916203, 2928059, 2913309, 2919405, 2904753, 2907608, 2933505, 2930907, 2930006, 2913101, 2914307, 2933174], "P": [2929602, 2910008, 2907806, 2916401, 2932200, 2927705, 2903607, 2913705, 2922706, 2931053, 2918803, 2926509, 2925931, 2923902, 2905602, 2902401], "S": [2900108, 2901809, 2900504, 2929354, 2910404, 2906873, 2901957, 2908606, 2933174, 2916302, 2923902, 2904209, 2902252, 2915809, 2914505, 2917102, 2928000, 2913606]}''')
 def api(p,**q):
   u="https://apidatalake.tesouro.gov.br/ords/siconfi/tt"+p+"?"+urllib.parse.urlencode(q)
   for k in range(5):
     try: return json.loads(urllib.request.urlopen(u,timeout=90).read())
     except Exception as e: time.sleep(3)
   return {}
-S=[2900108,2901809,2900504,2929354,2910404,2906873,2901957]
-E=[2911857,2928307,2920700,2905206,2932606,2925956,2926657,2924900,2904308,2903706,2926707,2923209]
-for lab,lst,anx,kw in (("SAUDE",S,"RREO-Anexo 12","PERCENTUAL"),("EDUC",E,"RREO-Anexo 08","PERCENTUAL")):
-  for c in lst:
-    out=[]
-    for tipo in ("RREO","RREO Simplificado"):
-      it=api("/rreo",an_exercicio=2025,nr_periodo=6,co_tipo_demonstrativo=tipo,no_anexo=anx,id_ente=c).get("items",[])
-      for i in it:
-        if kw in (i.get("conta") or "").upper() and i.get("valor") not in (None,0): out.append((tipo,i["conta"][:70],i["coluna"][:30],i["valor"]))
-      it14=api("/rreo",an_exercicio=2025,nr_periodo=6,co_tipo_demonstrativo=tipo,no_anexo="RREO-Anexo 14",id_ente=c).get("items",[])
-      for i in it14:
-        cc=(i.get("conta") or "").upper()
-        if ("SAÚDE" in cc or "MANUTENÇÃO" in cc or "ENSINO" in cc) and "%" in (i.get("coluna") or "")+(i.get("conta") or "") : out.append(("A14",tipo,i["conta"][:60],i["coluna"][:25],i["valor"]))
-    print(lab,c,json.dumps(out[:12],ensure_ascii=False))
+def a14(c):
+  r={}
+  for tipo in ("RREO","RREO Simplificado"):
+    for i in api("/rreo",an_exercicio=2025,nr_periodo=6,co_tipo_demonstrativo=tipo,no_anexo="RREO-Anexo 14",id_ente=c).get("items",[]):
+      if (i.get("coluna") or "").startswith("% Aplicado"):
+        cc=(i.get("conta") or "")
+        if "Manu" in cc: r["e"]=i["valor"]
+        if "Saúde" in cc: r["s"]=i["valor"]
+    if r: return c,tipo,r
+  return c,None,r
+def rgf(c):
+  for n in (3,2):
+    for tipo in ("RGF","RGF Simplificado"):
+      it=api("/rgf",an_exercicio=2025,in_periodicidade="Q",nr_periodo=n,co_tipo_demonstrativo=tipo,co_esfera="M",co_poder="E",no_anexo="RGF-Anexo 01",id_ente=c).get("items",[])
+      v=[i["valor"] for i in it if "DESPESA TOTAL COM PESSOAL - DTP" in (i.get("conta") or "").upper() and "%" in (i.get("coluna") or "")+(i.get("conta") or "") ]
+      w=[(i["conta"][:50],i["coluna"][:40],i["valor"]) for i in it if "% SOBRE A RCL" in ((i.get("coluna") or "")+(i.get("conta") or "")).upper()]
+      if it: return c,n,tipo,v[:3],w[:3]
+  return c,None
+with ThreadPoolExecutor(6) as ex:
+  for x in ex.map(a14,IDS["E"]+IDS["S"]): print("A14",json.dumps(x,ensure_ascii=False))
+  for x in ex.map(rgf,IDS["P"]): print("RGF",json.dumps(x,ensure_ascii=False))
 PY
