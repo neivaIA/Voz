@@ -1,0 +1,269 @@
+{
+ "tema": "rankings-ba",
+ "sementes": [
+  11,
+  22
+ ],
+ "vocabulario": "Bahia, IDEB, Tesouro Nacional, INEP, IBGE, Censo, Sapeaçu, Dário Meira, Cícero Dantas, Abaíra, Heliópolis, Caetité, Maraú, Elísio Medrado",
+ "params": {
+  "exaggeration": 0.55,
+  "cfg_weight": 0.35,
+  "temperature": 0.8
+ },
+ "frases": [
+  {
+   "id": "pe1",
+   "fala": "Quais prefeituras da Bahia mais gastam com pessoal? Hoje tem ranking.",
+   "leg": "Quais prefeituras da Bahia mais gastam com pessoal? Hoje tem ranking.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "pe2",
+   "fala": "A Lei de Responsabilidade Fiscal diz que a prefeitura pode gastar no máximo cinquenta e quatro por cento da receita com salários e encargos dos servidores.",
+   "leg": "A Lei de Responsabilidade Fiscal diz que a prefeitura pode gastar no máximo 54% da receita com salários e encargos dos servidores.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "pe3",
+   "fala": "Em dois mil e vinte e cinco, setenta e quatro cidades baianas chegaram ou passaram desse limite. É quase uma em cada cinco.",
+   "leg": "Em 2025, 74 cidades baianas chegaram ou passaram desse limite. É quase uma em cada cinco.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "pe4",
+   "fala": "Do décimo ao quarto lugar: Tanque Novo, Nova Canaã, Inhambupe, Biritinga, Santa Cruz Cabrália, Ubaitaba e Itapetinga.",
+   "leg": "Do 10º ao 4º lugar: Tanque Novo, Nova Canaã, Inhambupe, Biritinga, Santa Cruz Cabrália, Ubaitaba e Itapetinga.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "pe5",
+   "fala": "Em terceiro, Cícero Dantas, com quase sessenta e seis por cento. Em segundo, Dário Meira, com setenta e quatro. E em primeiro, Sapeaçu: quase setenta e oito por cento da receita foram para a folha.",
+   "leg": "Em 3º, Cícero Dantas, com quase 66%. Em 2º, Dário Meira, com 74%. E em 1º, Sapeaçu: quase 78% da receita foram para a folha.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "pe6",
+   "fala": "No mapa, as setenta e quatro cidades que chegaram ao limite.",
+   "leg": "No mapa, as 74 cidades que chegaram ao limite.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "pe7",
+   "fala": "Os números são os que as próprias prefeituras declararam ao Tesouro Nacional, e ainda podem ser corrigidos.",
+   "leg": "Os números são os que as próprias prefeituras declararam ao Tesouro Nacional, e ainda podem ser corrigidos.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "sa1",
+   "fala": "Quais prefeituras da Bahia aplicaram menos que o mínimo em saúde? Hoje tem ranking.",
+   "leg": "Quais prefeituras da Bahia aplicaram menos que o mínimo em saúde? Hoje tem ranking.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "sa2",
+   "fala": "A Constituição manda cada prefeitura aplicar pelo menos quinze por cento dos impostos em saúde.",
+   "leg": "A Constituição manda cada prefeitura aplicar pelo menos 15% dos impostos em saúde.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "sa3",
+   "fala": "Em dois mil e vinte e cinco, entre as trezentas e setenta e seis cidades baianas que entregaram o balanço, sete ficaram abaixo do mínimo.",
+   "leg": "Em 2025, entre as 376 cidades baianas que entregaram o balanço, 7 ficaram abaixo do mínimo.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "sa4",
+   "fala": "Do sétimo ao quarto lugar: Apuarema, Capim Grosso, Encruzilhada e São José da Vitória, todas entre catorze e quinze por cento.",
+   "leg": "Do 7º ao 4º lugar: Apuarema, Capim Grosso, Encruzilhada e São José da Vitória, todas entre 14% e 15%.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "sa5",
+   "fala": "Em terceiro, Érico Cardoso, com quase catorze por cento. Em segundo, Antônio Gonçalves, com onze. E em primeiro, Abaíra: menos de sete por cento dos impostos foram para a saúde.",
+   "leg": "Em 3º, Érico Cardoso, com quase 14%. Em 2º, Antônio Gonçalves, com 11%. E em 1º, Abaíra: menos de 7% dos impostos foram para a saúde.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "sa6",
+   "fala": "No mapa, as sete cidades que ficaram abaixo do mínimo.",
+   "leg": "No mapa, as 7 cidades que ficaram abaixo do mínimo.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "sa7",
+   "fala": "Os números são os que as próprias prefeituras declararam ao Tesouro Nacional. Quem fica abaixo do mínimo pode ter as contas reprovadas.",
+   "leg": "Os números são os que as próprias prefeituras declararam ao Tesouro Nacional. Quem fica abaixo do mínimo pode ter as contas reprovadas.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "ed1",
+   "fala": "Quais prefeituras da Bahia aplicaram menos que o mínimo em educação? Hoje tem ranking.",
+   "leg": "Quais prefeituras da Bahia aplicaram menos que o mínimo em educação? Hoje tem ranking.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "ed2",
+   "fala": "A Constituição manda cada prefeitura aplicar pelo menos vinte e cinco por cento dos impostos na educação.",
+   "leg": "A Constituição manda cada prefeitura aplicar pelo menos 25% dos impostos na educação.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "ed3",
+   "fala": "Em dois mil e vinte e cinco, vinte e seis cidades baianas declararam ter ficado abaixo do mínimo.",
+   "leg": "Em 2025, 26 cidades baianas declararam ter ficado abaixo do mínimo.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "ed4",
+   "fala": "Do décimo ao quarto lugar: Rio de Contas, Boa Nova, Brejões, Planaltino, Ribeirão do Largo, Rafael Jambeiro e Urandi.",
+   "leg": "Do 10º ao 4º lugar: Rio de Contas, Boa Nova, Brejões, Planaltino, Ribeirão do Largo, Rafael Jambeiro e Urandi.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "ed5",
+   "fala": "Em terceiro, Caetité, com quinze por cento. Em segundo, Maraú, com treze. E em primeiro, Heliópolis, que declarou só dois vírgula cinco por cento. É tão baixo que pode ser erro de preenchimento.",
+   "leg": "Em 3º, Caetité, com 15%. Em 2º, Maraú, com 13%. E em 1º, Heliópolis, que declarou só 2,5%. É tão baixo que pode ser erro de preenchimento.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "ed6",
+   "fala": "No mapa, as vinte e seis cidades abaixo do mínimo.",
+   "leg": "No mapa, as 26 cidades abaixo do mínimo.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "ed7",
+   "fala": "Os números são os que as próprias prefeituras declararam ao Tesouro Nacional, e ainda podem ser corrigidos.",
+   "leg": "Os números são os que as próprias prefeituras declararam ao Tesouro Nacional, e ainda podem ser corrigidos.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "id1",
+   "fala": "Quais cidades da Bahia tiveram o IDEB mais baixo? Hoje tem ranking.",
+   "leg": "Quais cidades da Bahia tiveram o IDEB mais baixo? Hoje tem ranking.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "id2",
+   "fala": "O IDEB mede a qualidade do ensino, numa nota de zero a dez. Nos anos iniciais das escolas das prefeituras baianas, a nota do meio foi cinco vírgula quatro.",
+   "leg": "O IDEB mede a qualidade do ensino, numa nota de 0 a 10. Nos anos iniciais das escolas das prefeituras baianas, a nota do meio foi 5,4.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "id3",
+   "fala": "Em dois mil e vinte e cinco, doze cidades ficaram com nota quatro vírgula três ou menos.",
+   "leg": "Em 2025, 12 cidades ficaram com nota 4,3 ou menos.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "id4",
+   "fala": "Com quatro vírgula três: Santa Luzia, Itaju do Colônia, Inhambupe, Casa Nova e Aurelino Leal. Com quatro vírgula dois: São Félix e Piraí do Norte.",
+   "leg": "Com 4,3: Santa Luzia, Itaju do Colônia, Inhambupe, Casa Nova e Aurelino Leal. Com 4,2: São Félix e Piraí do Norte.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "id5",
+   "fala": "Com quatro vírgula um: Pilão Arcado e Pedrão. E com a menor nota, quatro: Rafael Jambeiro, Itapebi e Entre Rios.",
+   "leg": "Com 4,1: Pilão Arcado e Pedrão. E com a menor nota, 4: Rafael Jambeiro, Itapebi e Entre Rios.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "id6",
+   "fala": "No mapa, as doze cidades.",
+   "leg": "No mapa, as 12 cidades.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "id7",
+   "fala": "Os dados são do INEP, das provas de dois mil e vinte e cinco nas escolas das prefeituras.",
+   "leg": "Os dados são do INEP, das provas de 2025 nas escolas das prefeituras.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "es1",
+   "fala": "Em quais cidades da Bahia quase nenhuma casa tem esgoto ligado à rede? Hoje tem ranking.",
+   "leg": "Em quais cidades da Bahia quase nenhuma casa tem esgoto ligado à rede? Hoje tem ranking.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "es2",
+   "fala": "No Censo de dois mil e vinte e dois, cinquenta e quatro por cento das casas da Bahia tinham esgoto ligado à rede. As outras usam fossa, vala ou outras soluções.",
+   "leg": "No Censo de 2022, 54% das casas da Bahia tinham esgoto ligado à rede. As outras usam fossa, vala ou outras soluções.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "es3",
+   "fala": "Mas em cinquenta e uma cidades, menos de uma casa em cada cem está ligada à rede.",
+   "leg": "Mas em 51 cidades, menos de uma casa em cada 100 está ligada à rede.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "es4",
+   "fala": "Com zero vírgula um por cento: Tabocas do Brejo Velho, Matina, Marcionílio Souza, Mansidão, Lagoa Real, Cotegipe, Candeal, Bom Jesus da Serra, Baianópolis e Acajutiba.",
+   "leg": "Com 0,1%: Tabocas do Brejo Velho, Matina, Marcionílio Souza, Mansidão, Lagoa Real, Cotegipe, Candeal, Bom Jesus da Serra, Baianópolis e Acajutiba.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "es5",
+   "fala": "E com zero por cento, segundo o Censo: Novo Horizonte, Feira da Mata e Elísio Medrado.",
+   "leg": "E com 0%, segundo o Censo: Novo Horizonte, Feira da Mata e Elísio Medrado.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "es6",
+   "fala": "No mapa, as cinquenta e uma cidades.",
+   "leg": "No mapa, as 51 cidades.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "es7",
+   "fala": "Os dados são do Censo de dois mil e vinte e dois, o mais recente do IBGE.",
+   "leg": "Os dados são do Censo de 2022, o mais recente do IBGE.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "fim",
+   "fala": "Quer saber onde a sua cidade está? Os rankings completos estão no site contas públicas brasil ponto com ponto br.",
+   "leg": "Quer saber onde a sua cidade está? Os rankings completos estão em contaspublicasbrasil.com.br.",
+   "fim": "ponto",
+   "chaves": [
+    "rankings"
+   ]
+  }
+ ]
+}
