@@ -1,8 +1,9 @@
 {
  "tema": "rankings-ba",
  "sementes": [
-  11,
-  22
+  33,
+  44,
+  55
  ],
  "vocabulario": "Bahia, IDEB, Tesouro Nacional, INEP, IBGE, Censo, Sapeaçu, Dário Meira, Cícero Dantas, Abaíra, Heliópolis, Caetité, Maraú, Elísio Medrado",
  "params": {
@@ -97,8 +98,8 @@
   },
   {
    "id": "sa6",
-   "fala": "No mapa, as sete cidades que ficaram abaixo do mínimo.",
-   "leg": "No mapa, as 7 cidades que ficaram abaixo do mínimo.",
+   "fala": "No mapa, estão as sete cidades que ficaram abaixo do mínimo.",
+   "leg": "No mapa, estão as 7 cidades que ficaram abaixo do mínimo.",
    "fim": "ponto",
    "chaves": []
   },
@@ -195,8 +196,8 @@
   },
   {
    "id": "id6",
-   "fala": "No mapa, as doze cidades.",
-   "leg": "No mapa, as 12 cidades.",
+   "fala": "No mapa, estão as doze cidades.",
+   "leg": "No mapa, estão as 12 cidades.",
    "fim": "ponto",
    "chaves": []
   },
@@ -244,8 +245,8 @@
   },
   {
    "id": "es6",
-   "fala": "No mapa, as cinquenta e uma cidades.",
-   "leg": "No mapa, as 51 cidades.",
+   "fala": "No mapa, estão as cinquenta e uma cidades.",
+   "leg": "No mapa, estão as 51 cidades.",
    "fim": "ponto",
    "chaves": []
   },
@@ -265,5 +266,17 @@
     "rankings"
    ]
   }
+ ],
+ "refazer": [
+  "pe4",
+  "ed4",
+  "es1",
+  "es4",
+  "es6",
+  "fim",
+  "id4",
+  "id5",
+  "sa6",
+  "id6"
  ]
 }
