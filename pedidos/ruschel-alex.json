@@ -1,0 +1,91 @@
+{
+ "tema": "ruschel-alex",
+ "motor": "kokoro",
+ "voz": "pm_alex",
+ "sementes": [
+  11,
+  22
+ ],
+ "vocabulario": "Alan Ruschel, Chapecoense, Chape, Medellín, Colômbia, Camp Nou, Barcelona, Juventude, Série B",
+ "params": {},
+ "frases": [
+  {
+   "id": "n1",
+   "fala": "Vinte e oito de novembro de dois mil e dezesseis. A Chapecoense voava pra maior final da sua história.",
+   "leg": "28 de novembro de 2016. A Chapecoense voava para a maior final da sua história.",
+   "fim": "ponto",
+   "chaves": [
+    "Chapecoense"
+   ]
+  },
+  {
+   "id": "n2",
+   "fala": "Perto de Medellín, na Colômbia, o avião caiu. Setenta e uma pessoas morreram.",
+   "leg": "Perto de Medellín, na Colômbia, o avião caiu. 71 pessoas morreram.",
+   "fim": "pergunta",
+   "chaves": [
+    "Medellín",
+    "Colômbia"
+   ]
+  },
+  {
+   "id": "n3",
+   "fala": "Só seis sobreviveram. E o lateral Alan Ruschel foi o primeiro a ser encontrado com vida.",
+   "leg": "Só 6 sobreviveram. E o lateral Alan Ruschel foi o primeiro a ser encontrado com vida.",
+   "fim": "ponto",
+   "chaves": [
+    "Ruschel"
+   ]
+  },
+  {
+   "id": "n4",
+   "fala": "Com a coluna fraturada, ele passou por cirurgia ainda na Colômbia.",
+   "leg": "Com a coluna fraturada, ele passou por cirurgia ainda na Colômbia.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n5",
+   "fala": "Dezoito dias depois do acidente, saiu do hospital andando, com as próprias pernas.",
+   "leg": "18 dias depois do acidente, saiu do hospital andando, com as próprias pernas.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n6",
+   "fala": "Mais três meses, e lá estava ele de novo, treinando com a bola.",
+   "leg": "Mais 3 meses, e lá estava ele de novo, treinando com a bola.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n7",
+   "fala": "Duzentos e cinquenta e dois dias depois da queda, ele voltou a jogar. No Camp Nou, contra o Barcelona.",
+   "leg": "252 dias depois da queda, ele voltou a jogar. No Camp Nou, contra o Barcelona.",
+   "fim": "ponto",
+   "chaves": [
+    "Camp Nou",
+    "Barcelona"
+   ]
+  },
+  {
+   "id": "n8",
+   "fala": "Depois, ainda foi campeão catarinense e da Série B pela Chape.",
+   "leg": "Depois, ainda foi campeão catarinense e da Série B pela Chape.",
+   "fim": "ponto"
+  },
+  {
+   "id": "n9",
+   "fala": "Dez anos depois, aos trinta e sete, ele segue em campo, pelo Juventude, o clube que o revelou.",
+   "leg": "10 anos depois, aos 37, ele segue em campo, pelo Juventude, o clube que o revelou.",
+   "fim": "ponto",
+   "chaves": [
+    "Juventude"
+   ]
+  },
+  {
+   "id": "n10",
+   "fala": "Uma história de superação, e de homenagem aos que não voltaram. Segue a página pra mais histórias!",
+   "leg": "Uma história de superação, e de homenagem aos que não voltaram. Segue a página para mais histórias!",
+   "fim": "ponto"
+  }
+ ],
+ "modo": "rapido"
+}
