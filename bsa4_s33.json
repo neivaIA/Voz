@@ -1,0 +1,20 @@
+{
+ "id": "bsa4",
+ "seed": 33,
+ "arq": "bsa4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.333,
+ "faltam": [
+  "brumado",
+  "eunapolis",
+  "juazeiro",
+  "maracas"
+ ],
+ "cps": 15.8,
+ "pausa": 0.16,
+ "f0_st": 5.12,
+ "dur": 5.94,
+ "txt": "do Décimo ao Quarto Lugar, Jaguarari, Joazeiro, Lamarão, Maracach, Eonopolis, Curaçá e Blumado"
+}

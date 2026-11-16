@@ -1,0 +1,15 @@
+{
+ "id": "bpe3",
+ "seed": 22,
+ "arq": "bpe3_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.8,
+ "pausa": 0.35,
+ "f0_st": 4.42,
+ "dur": 6.5,
+ "txt": "Em 2025, 53 cidades baianas gastaram menos de 40% da receita com pessoal."
+}

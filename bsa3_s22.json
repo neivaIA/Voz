@@ -1,0 +1,15 @@
+{
+ "id": "bsa3",
+ "seed": 22,
+ "arq": "bsa3_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.091,
+ "faltam": [],
+ "cps": 17.9,
+ "pausa": 0.0,
+ "f0_st": 5.87,
+ "dur": 7.7,
+ "txt": "Em 2025, 41 cidades baianas aplicaram 25% ou mais, e 8 chegaram ao doble do mínimo."
+}

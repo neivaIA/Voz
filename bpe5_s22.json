@@ -1,0 +1,17 @@
+{
+ "id": "bpe5",
+ "seed": 22,
+ "arq": "bpe5_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.1,
+ "faltam": [
+  "cardeal"
+ ],
+ "cps": 19.3,
+ "pausa": 0.06,
+ "f0_st": 5.08,
+ "dur": 9.7,
+ "txt": "Em terceiro, Salvador, com 29%.  Em segundo, Cardial da Silva, com 26%.  E em primeiro, Ibotirama, menos de 26% da receita foram para a folha."
+}

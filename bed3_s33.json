@@ -1,0 +1,15 @@
+{
+ "id": "bed3",
+ "seed": 33,
+ "arq": "bed3_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.0,
+ "pausa": 0.22,
+ "f0_st": 6.49,
+ "dur": 7.04,
+ "txt": "Em 2025, 35 cidades baianas aplicaram 30% ou mais dos impostos na educação."
+}

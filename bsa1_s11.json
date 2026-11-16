@@ -1,0 +1,15 @@
+{
+ "id": "bsa1",
+ "seed": 11,
+ "arq": "bsa1_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 16.4,
+ "pausa": 0.74,
+ "f0_st": 5.58,
+ "dur": 5.0,
+ "txt": "Quais prefeituras da Bahia mais investiram em saúde? Hoje tem ranking do lado bom."
+}

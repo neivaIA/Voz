@@ -1,0 +1,17 @@
+{
+ "id": "bes4",
+ "seed": 22,
+ "arq": "bes4_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.154,
+ "faltam": [
+  "jequie"
+ ],
+ "cps": 15.5,
+ "pausa": 0.29,
+ "f0_st": 3.87,
+ "dur": 6.4,
+ "txt": "do décimo ao corto lugar, Jacquer, Macarani, Sobradinho, Firmino Alves, Itabuna, Coaraci e Itororó."
+}

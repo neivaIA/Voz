@@ -1,0 +1,17 @@
+{
+ "id": "bed4",
+ "seed": 33,
+ "arq": "bed4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.043,
+ "faltam": [
+  "riachao"
+ ],
+ "cps": 18.8,
+ "pausa": 0.38,
+ "f0_st": 3.95,
+ "dur": 7.49,
+ "txt": "Do décimo ao quarto lugar são José da Vitória, Lajedão, Nova Redenção, Dário Meira, Formosa do Rio Preto e Aixão das Neves e Serra Dourada"
+}

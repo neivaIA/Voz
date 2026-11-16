@@ -1,0 +1,15 @@
+{
+ "id": "bpe5",
+ "seed": 11,
+ "arq": "bpe5_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.067,
+ "faltam": [],
+ "cps": 17.0,
+ "pausa": 0.19,
+ "f0_st": 5.41,
+ "dur": 11.01,
+ "txt": "em Terceiro, Salvador, com 29%, em Segundo, Cardeal da Silva, com 26% e em Primeiro, Ibotirama, menos  de 26% da receita foram para a folha."
+}

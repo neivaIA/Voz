@@ -1,0 +1,15 @@
+{
+ "id": "bpe6",
+ "seed": 11,
+ "arq": "bpe6_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 12.3,
+ "pausa": 0.19,
+ "f0_st": 6.38,
+ "dur": 3.49,
+ "txt": "No mapa estão as 53 cidades."
+}

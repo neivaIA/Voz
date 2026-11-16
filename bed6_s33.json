@@ -1,0 +1,15 @@
+{
+ "id": "bed6",
+ "seed": 33,
+ "arq": "bed6_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 14.8,
+ "pausa": 0.42,
+ "f0_st": 5.57,
+ "dur": 2.78,
+ "txt": "No mapa estão as 35 cidades."
+}

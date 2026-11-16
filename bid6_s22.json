@@ -1,0 +1,15 @@
+{
+ "id": "bid6",
+ "seed": 22,
+ "arq": "bid6_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 11.4,
+ "pausa": 0.16,
+ "f0_st": 4.08,
+ "dur": 2.98,
+ "txt": "No mapa estão as 70 cidades."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "bes6",
+ "seed": 33,
+ "arq": "bes6_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 15.2,
+ "pausa": 0.06,
+ "f0_st": 6.09,
+ "dur": 2.3,
+ "txt": "no mapa estão as 19 cidades."
+}

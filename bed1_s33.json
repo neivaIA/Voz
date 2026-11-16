@@ -1,0 +1,15 @@
+{
+ "id": "bed1",
+ "seed": 33,
+ "arq": "bed1_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 18.6,
+ "pausa": 0.06,
+ "f0_st": 4.72,
+ "dur": 4.58,
+ "txt": "Quais prefeituras da Bahia mais investiram em educação? Hoje tem ranking do lado bom."
+}

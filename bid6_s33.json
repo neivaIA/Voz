@@ -1,0 +1,17 @@
+{
+ "id": "bid6",
+ "seed": 33,
+ "arq": "bid6_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.667,
+ "faltam": [
+  "setenta"
+ ],
+ "cps": 11.0,
+ "pausa": 0.45,
+ "f0_st": 6.62,
+ "dur": 3.1,
+ "txt": "no mapa estão a sete ampla fidades."
+}

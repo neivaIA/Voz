@@ -1,0 +1,17 @@
+{
+ "id": "bid1",
+ "seed": 33,
+ "arq": "bid1_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.2,
+ "faltam": [
+  "hoje"
+ ],
+ "cps": 15.7,
+ "pausa": 0.26,
+ "f0_st": 5.36,
+ "dur": 4.96,
+ "txt": "Quais cidades da Bahia tiveram IDEB mais alto? Ou de tem ranking do lado bom?"
+}

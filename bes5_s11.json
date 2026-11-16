@@ -1,0 +1,17 @@
+{
+ "id": "bes5",
+ "seed": 11,
+ "arq": "bes5_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.103,
+ "faltam": [
+  "itapetinga"
+ ],
+ "cps": 19.2,
+ "pausa": 0.26,
+ "f0_st": 5.51,
+ "dur": 9.63,
+ "txt": "em Terceiro, Madre de Deus, com 92%, em Segundo, Itapitinga, com 94%  e em Primeiro, Salvador, com mais de 95% das casas ligadas."
+}

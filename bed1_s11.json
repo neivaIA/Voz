@@ -1,0 +1,15 @@
+{
+ "id": "bed1",
+ "seed": 11,
+ "arq": "bed1_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.071,
+ "faltam": [],
+ "cps": 21.6,
+ "pausa": 0.03,
+ "f0_st": 4.73,
+ "dur": 3.94,
+ "txt": "Quais perfeituras da Bahia mais investiram em educação? Hoje tem ranking do lado bom."
+}

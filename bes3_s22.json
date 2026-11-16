@@ -1,0 +1,15 @@
+{
+ "id": "bes3",
+ "seed": 22,
+ "arq": "bes3_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 19.5,
+ "pausa": 0.0,
+ "f0_st": 4.96,
+ "dur": 4.0,
+ "txt": "Dezenove cidades baianas passam de 80% das casas ligadas à rede."
+}

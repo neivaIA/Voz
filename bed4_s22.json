@@ -1,0 +1,18 @@
+{
+ "id": "bed4",
+ "seed": 22,
+ "arq": "bed4_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.087,
+ "faltam": [
+  "neves",
+  "riachao"
+ ],
+ "cps": 18.2,
+ "pausa": 0.13,
+ "f0_st": 3.32,
+ "dur": 7.73,
+ "txt": "Do décimo ao quarto lugar, São José da Vitória, Lajedão, Nova Redenção, Dário Meira, Formosa do Rio Preto, Reação das Nedes e Serra Dourada"
+}

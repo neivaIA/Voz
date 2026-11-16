@@ -1,0 +1,17 @@
+{
+ "id": "bid5",
+ "seed": 22,
+ "arq": "bid5_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.043,
+ "faltam": [
+  "novo"
+ ],
+ "cps": 18.4,
+ "pausa": 0.32,
+ "f0_st": 5.07,
+ "dur": 8.0,
+ "txt": "com 7,6 no horizonte, com 7,9 malhada de pedras e licínio de almeida, e em primeiro Itatim com 8,6."
+}

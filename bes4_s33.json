@@ -1,0 +1,18 @@
+{
+ "id": "bes4",
+ "seed": 33,
+ "arq": "bes4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.154,
+ "faltam": [
+  "itabuna",
+  "sobradinho"
+ ],
+ "cps": 16.1,
+ "pausa": 0.0,
+ "f0_st": 3.78,
+ "dur": 6.14,
+ "txt": "do décimo ao quarto lugar, Jequie, Macarani, Sogradinho, Firmino Alves, Itapuna, Coaraci e Itororó."
+}

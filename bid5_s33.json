@@ -1,0 +1,15 @@
+{
+ "id": "bid5",
+ "seed": 33,
+ "arq": "bid5_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 17.0,
+ "pausa": 0.1,
+ "f0_st": 5.09,
+ "dur": 8.67,
+ "txt": "com 7,6, Novo Horizonte, com 7,9, Malhada de Pedras e Licínio de Almeida e em primeiro Itatim com 8,6."
+}

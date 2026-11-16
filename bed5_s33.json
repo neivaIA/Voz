@@ -1,0 +1,17 @@
+{
+ "id": "bed5",
+ "seed": 33,
+ "arq": "bed5_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.094,
+ "faltam": [
+  "lourdes"
+ ],
+ "cps": 17.1,
+ "pausa": 0.1,
+ "f0_st": 6.66,
+ "dur": 12.18,
+ "txt": "em Terceiro, Correntina, com 36%, em Segundo, Campo Alegre de Lordes, com 37% e em Primeiro, Barra  do Rocha, quase 43% dos impostos foram para a educação."
+}

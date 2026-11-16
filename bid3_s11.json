@@ -1,0 +1,15 @@
+{
+ "id": "bid3",
+ "seed": 11,
+ "arq": "bid3_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 19.6,
+ "pausa": 0.16,
+ "f0_st": 5.4,
+ "dur": 5.76,
+ "txt": "Em 2025, 70 cidades chegaram à nota 6 ou mais, a meta nacional para os anos iniciais."
+}

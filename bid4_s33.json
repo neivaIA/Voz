@@ -1,0 +1,15 @@
+{
+ "id": "bid4",
+ "seed": 33,
+ "arq": "bid4_s33.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.1,
+ "faltam": [],
+ "cps": 17.9,
+ "pausa": 0.0,
+ "f0_st": 5.02,
+ "dur": 7.74,
+ "txt": "com nota 7, Pintadas, Mata de São João, Ibitiara e Ibipitanga, com 7,3 Quixabeira, com 7,5 Mortugaba e Jacaraci."
+}

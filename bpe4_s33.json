@@ -1,0 +1,18 @@
+{
+ "id": "bpe4",
+ "seed": 33,
+ "arq": "bpe4_s33.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.188,
+ "faltam": [
+  "desiderio",
+  "sao"
+ ],
+ "cps": 16.3,
+ "pausa": 0.58,
+ "f0_st": 4.3,
+ "dur": 6.69,
+ "txt": "do Décimo ao Quarta Lugar, Jussara, Glória, Sandezidério, Ibiquera, Brejolândia, a Cidade de  Saúde e Maraú."
+}

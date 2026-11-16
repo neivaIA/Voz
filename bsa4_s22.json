@@ -1,0 +1,18 @@
+{
+ "id": "bsa4",
+ "seed": 22,
+ "arq": "bsa4_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.167,
+ "faltam": [
+  "eunapolis",
+  "juazeiro"
+ ],
+ "cps": 16.2,
+ "pausa": 0.22,
+ "f0_st": 5.97,
+ "dur": 5.81,
+ "txt": "do décimo ao quarto lugar, Jaguarari, Joazeiro, Lamarão, Maracás, Eonápolis, Curaçá e Brumado."
+}

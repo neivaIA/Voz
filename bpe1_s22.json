@@ -1,0 +1,15 @@
+{
+ "id": "bpe1",
+ "seed": 22,
+ "arq": "bpe1_s22.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.071,
+ "faltam": [],
+ "cps": 16.2,
+ "pausa": 0.35,
+ "f0_st": 4.81,
+ "dur": 5.06,
+ "txt": "Quais prefeituras da Bahia gastam menos com o pessoal? Hoje tem ranking do lado bom."
+}

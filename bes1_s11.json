@@ -1,0 +1,15 @@
+{
+ "id": "bes1",
+ "seed": 11,
+ "arq": "bes1_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 20.2,
+ "pausa": 0.13,
+ "f0_st": 4.86,
+ "dur": 4.54,
+ "txt": "Em quais cidades da Bahia mais casas tem esgoto ligado à rede? Hoje tem ranking do lado bom."
+}
