@@ -1,0 +1,17 @@
+{
+ "id": "n2",
+ "seed": 22,
+ "arq": "n2_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.25,
+ "faltam": [
+  "dolfin"
+ ],
+ "cps": 17.6,
+ "pausa": 0.0,
+ "f0_st": 5.26,
+ "dur": 4.7,
+ "txt": "Olha só, a Infinitus Car aluga o BYD Dolphin Mini, 100% elétrico."
+}

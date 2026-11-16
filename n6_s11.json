@@ -1,0 +1,15 @@
+{
+ "id": "n6",
+ "seed": 11,
+ "arq": "n6_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.3,
+ "faltam": [],
+ "cps": 19.1,
+ "pausa": 0.03,
+ "f0_st": 5.87,
+ "dur": 3.71,
+ "txt": "E se precisar, tem assistência 24 horas, onde vocês te der."
+}

@@ -1,0 +1,17 @@
+{
+ "id": "n8",
+ "seed": 11,
+ "arq": "n8_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.143,
+ "faltam": [
+  "ta"
+ ],
+ "cps": 19.0,
+ "pausa": 0.0,
+ "f0_st": 5.07,
+ "dur": 3.74,
+ "txt": "está em Vitória da Conquista. Chama a gente no Zap e garante seu carro."
+}

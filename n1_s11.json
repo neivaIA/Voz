@@ -1,0 +1,15 @@
+{
+ "id": "n1",
+ "seed": 11,
+ "arq": "n1_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.0,
+ "faltam": [],
+ "cps": 20.6,
+ "pausa": 0.19,
+ "f0_st": 6.1,
+ "dur": 3.3,
+ "txt": "motorista de aplicativo, já pensou em rodar sem gastar com gasolina?"
+}

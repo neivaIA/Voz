@@ -1,0 +1,15 @@
+{
+ "id": "n3",
+ "seed": 11,
+ "arq": "n3_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.167,
+ "faltam": [],
+ "cps": 14.2,
+ "pausa": 0.29,
+ "f0_st": 5.08,
+ "dur": 5.93,
+ "txt": "versão GS 2027, zero quilômetro, com tecnologia e conforto."
+}

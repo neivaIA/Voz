@@ -1,0 +1,15 @@
+{
+ "id": "n4",
+ "seed": 11,
+ "arq": "n4_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.083,
+ "faltam": [],
+ "cps": 15.7,
+ "pausa": 0.67,
+ "f0_st": 3.8,
+ "dur": 4.51,
+ "txt": "A diária sai por R$ 200 e a semana por R$ 1.330."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "n5",
+ "seed": 11,
+ "arq": "n5_s11.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.333,
+ "faltam": [],
+ "cps": 10.9,
+ "pausa": 0.42,
+ "f0_st": 3.9,
+ "dur": 4.67,
+ "txt": "O seguro e a manutenção já estão incluzidos no valor.  O, E, I."
+}

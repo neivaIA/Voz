@@ -1,0 +1,17 @@
+{
+ "id": "n3",
+ "seed": 22,
+ "arq": "n3_s22.wav",
+ "motor": "chatterbox",
+ "ok": false,
+ "conferida": true,
+ "wer": 0.25,
+ "faltam": [
+  "versao"
+ ],
+ "cps": 15.4,
+ "pausa": 0.42,
+ "f0_st": 5.41,
+ "dur": 5.44,
+ "txt": "Dersang GS 2027, zero quilômetro, com tecnologia e conforto."
+}
