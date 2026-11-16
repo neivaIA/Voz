@@ -1,0 +1,17 @@
+{
+ "tema": "infinitus-car",
+ "sementes": [11, 22],
+ "vocabulario": "Infinitus Car, BYD Dolphin Mini, GS, zero quilômetro, Vitória da Conquista, caução, assistência, zap",
+ "params": {"exaggeration": 0.6, "cfg_weight": 0.35, "temperature": 0.8},
+ "frases": [
+  {"id": "n1", "fala": "Motorista de aplicativo, já pensou em rodar sem gastar com gasolina?", "leg": "Motorista de aplicativo, já pensou em rodar sem gastar com gasolina?", "fim": "pergunta"},
+  {"id": "n2", "fala": "Olha só, a Infínitus Car aluga o bê ípsilon dê Dólfin Mini, cem por cento elétrico.", "leg": "Olha só: a Infinitus Car aluga o BYD Dolphin Mini, 100% elétrico.", "fim": "ponto", "chaves": ["cem"]},
+  {"id": "n3", "fala": "Versão gê ésse, dois mil e vinte e sete, zero quilômetro, com tecnologia e conforto.", "leg": "Versão GS 2027, zero quilômetro, com tecnologia e conforto.", "fim": "ponto", "chaves": ["vinte", "sete", "zero"]},
+  {"id": "n4", "fala": "A diária sai por duzentos reais, e a semana por mil trezentos e trinta.", "leg": "A diária sai por R$ 200, e a semana por R$ 1.330.", "fim": "ponto", "chaves": ["duzentos", "trezentos", "trinta"]},
+  {"id": "n5", "fala": "O seguro e a manutenção já estão inclusos no valor.", "leg": "O seguro e a manutenção já estão inclusos no valor.", "fim": "ponto", "chaves": ["seguro", "manutenção"]},
+  {"id": "n6", "fala": "E se precisar, tem assistência vinte e quatro horas, onde você estiver.", "leg": "E se precisar, tem assistência 24 horas, onde você estiver.", "fim": "ponto", "chaves": ["vinte", "quatro"]},
+  {"id": "n7", "fala": "Pra começar, a caução é de mil seiscentos e vinte e cinco reais.", "leg": "Para começar, a caução é de R$ 1.625.", "fim": "ponto", "chaves": ["seiscentos", "vinte", "cinco"]},
+  {"id": "n8", "fala": "Tá em Vitória da Conquista? Chama a gente no zap e garante o seu carro!", "leg": "Está em Vitória da Conquista? Chama no WhatsApp e garanta o seu carro!", "fim": "ponto", "chaves": ["Vitória", "Conquista"]},
+  {"id": "n9", "fala": "Infínitus Car. Locar hoje, ir mais longe sempre.", "leg": "Infinitus Car. Locar hoje, ir mais longe sempre.", "fim": "ponto", "chaves": ["Car"]}
+ ]
+}
