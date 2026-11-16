@@ -1,13 +1,16 @@
 {
  "tema": "ruschel",
- "motor": "edge",
- "voz": "pt-BR-AntonioNeural",
+ "motor": "chatterbox",
+ "voz": "",
  "sementes": [
-  11
+  11,
+  22
  ],
  "vocabulario": "Alan Ruschel, Chapecoense, Chape, Medellín, Colômbia, Camp Nou, Barcelona, Juventude, Série B",
  "params": {
-  "rate": "-4%"
+  "exaggeration": 0.55,
+  "cfg_weight": 0.35,
+  "temperature": 0.8
  },
  "frases": [
   {
