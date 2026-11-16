@@ -1,0 +1,15 @@
+{
+ "id": "n1",
+ "seed": 11,
+ "arq": "n1_s11.wav",
+ "motor": "chatterbox",
+ "ok": true,
+ "conferida": true,
+ "wer": 0.062,
+ "faltam": [],
+ "cps": 18.6,
+ "pausa": 0.48,
+ "f0_st": 3.49,
+ "dur": 5.47,
+ "txt": "28 de novembro de 2016. A Chapecoense voava para a maior final da sua história."
+}
