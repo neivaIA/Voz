@@ -1,0 +1,191 @@
+{
+ "tema": "rankings-ba-bons",
+ "sementes": [
+  11,
+  22,
+  33
+ ],
+ "vocabulario": "Bahia, IDEB, Tesouro Nacional, INEP, IBGE, Ibotirama, Cardeal da Silva, Brejolândia, Ibiquera, Rodelas, Curaçá, Lamarão, Jaguarari, Barra do Rocha, Correntina, Lajedão, Itatim, Licínio de Almeida, Mortugaba, Jacaraci, Quixabeira, Ibipitanga, Ibitiara, Itororó, Coaraci, Macarani",
+ "params": {
+  "exaggeration": 0.55,
+  "cfg_weight": 0.35,
+  "temperature": 0.8
+ },
+ "frases": [
+  {
+   "id": "bpe1",
+   "fala": "Quais prefeituras da Bahia gastam menos com pessoal? Hoje tem ranking do lado bom.",
+   "leg": "Quais prefeituras da Bahia gastam menos com pessoal? Hoje tem ranking do lado bom.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "bpe3",
+   "fala": "Em dois mil e vinte e cinco, cinquenta e três cidades baianas gastaram menos de quarenta por cento da receita com pessoal.",
+   "leg": "Em 2025, 53 cidades baianas gastaram menos de 40% da receita com pessoal.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bpe4",
+   "fala": "Do décimo ao quarto lugar: Jussara, Glória, São Desidério, Ibiquera, Brejolândia, a cidade de Saúde, e Maraú.",
+   "leg": "Do 10º ao 4º lugar: Jussara, Glória, São Desidério, Ibiquera, Brejolândia, a cidade de Saúde, e Maraú.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bpe5",
+   "fala": "Em terceiro, Salvador, com vinte e nove por cento. Em segundo, Cardeal da Silva, com vinte e seis. E em primeiro, Ibotirama: menos de vinte e seis por cento da receita foram para a folha.",
+   "leg": "Em 3º, Salvador, com 29%. Em 2º, Cardeal da Silva, com 26%. E em 1º, Ibotirama: menos de 26% da receita foram para a folha.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bpe6",
+   "fala": "No mapa, estão as cinquenta e três cidades.",
+   "leg": "No mapa, estão as 53 cidades.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bsa1",
+   "fala": "Quais prefeituras da Bahia mais investiram em saúde? Hoje tem ranking do lado bom.",
+   "leg": "Quais prefeituras da Bahia mais investiram em saúde? Hoje tem ranking do lado bom.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "bsa3",
+   "fala": "Em dois mil e vinte e cinco, quarenta e uma cidades baianas aplicaram vinte e cinco por cento ou mais. E oito chegaram ao dobro do mínimo.",
+   "leg": "Em 2025, 41 cidades baianas aplicaram 25% ou mais. E 8 chegaram ao dobro do mínimo.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bsa4",
+   "fala": "Do décimo ao quarto lugar: Jaguarari, Juazeiro, Lamarão, Maracás, Eunápolis, Curaçá e Brumado.",
+   "leg": "Do 10º ao 4º lugar: Jaguarari, Juazeiro, Lamarão, Maracás, Eunápolis, Curaçá e Brumado.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bsa5",
+   "fala": "Em terceiro, Santa Maria da Vitória, com trinta e três por cento. Em segundo, Feira de Santana, com quase trinta e cinco. E em primeiro, Rodelas: trinta e sete por cento dos impostos foram para a saúde.",
+   "leg": "Em 3º, Santa Maria da Vitória, com 33%. Em 2º, Feira de Santana, com quase 35%. E em 1º, Rodelas: 37% dos impostos foram para a saúde.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bsa6",
+   "fala": "No mapa, estão as quarenta e uma cidades.",
+   "leg": "No mapa, estão as 41 cidades.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bed1",
+   "fala": "Quais prefeituras da Bahia mais investiram em educação? Hoje tem ranking do lado bom.",
+   "leg": "Quais prefeituras da Bahia mais investiram em educação? Hoje tem ranking do lado bom.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "bed3",
+   "fala": "Em dois mil e vinte e cinco, trinta e cinco cidades baianas aplicaram trinta por cento ou mais dos impostos na educação.",
+   "leg": "Em 2025, 35 cidades baianas aplicaram 30% ou mais dos impostos na educação.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bed4",
+   "fala": "Do décimo ao quarto lugar: São José da Vitória, Lajedão, Nova Redenção, Dário Meira, Formosa do Rio Preto, Riachão das Neves e Serra Dourada.",
+   "leg": "Do 10º ao 4º lugar: São José da Vitória, Lajedão, Nova Redenção, Dário Meira, Formosa do Rio Preto, Riachão das Neves e Serra Dourada.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bed5",
+   "fala": "Em terceiro, Correntina, com trinta e seis por cento. Em segundo, Campo Alegre de Lourdes, com trinta e sete. E em primeiro, Barra do Rocha: quase quarenta e três por cento dos impostos foram para a educação.",
+   "leg": "Em 3º, Correntina, com 36%. Em 2º, Campo Alegre de Lourdes, com 37%. E em 1º, Barra do Rocha: quase 43% dos impostos foram para a educação.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bed6",
+   "fala": "No mapa, estão as trinta e cinco cidades.",
+   "leg": "No mapa, estão as 35 cidades.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bid1",
+   "fala": "Quais cidades da Bahia tiveram o IDEB mais alto? Hoje tem ranking do lado bom.",
+   "leg": "Quais cidades da Bahia tiveram o IDEB mais alto? Hoje tem ranking do lado bom.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "bid3",
+   "fala": "Em dois mil e vinte e cinco, setenta cidades chegaram a nota seis ou mais, a meta nacional para os anos iniciais.",
+   "leg": "Em 2025, 70 cidades chegaram a nota 6 ou mais, a meta nacional para os anos iniciais.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bid4",
+   "fala": "Com nota sete: Pintadas, Mata de São João, Ibitiara e Ibipitanga. Com sete vírgula três, Quixabeira. Com sete e meio, Mortugaba e Jacaraci.",
+   "leg": "Com nota 7: Pintadas, Mata de São João, Ibitiara e Ibipitanga. Com 7,3, Quixabeira. Com 7,5, Mortugaba e Jacaraci.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bid5",
+   "fala": "Com sete vírgula seis, Novo Horizonte. Com sete vírgula nove, Malhada de Pedras e Licínio de Almeida. E em primeiro, Itatim, com oito vírgula seis!",
+   "leg": "Com 7,6, Novo Horizonte. Com 7,9, Malhada de Pedras e Licínio de Almeida. E em 1º, Itatim, com 8,6!",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bid6",
+   "fala": "No mapa, estão as setenta cidades.",
+   "leg": "No mapa, estão as 70 cidades.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bes1",
+   "fala": "Em quais cidades da Bahia mais casas têm esgoto ligado à rede? Hoje tem ranking do lado bom.",
+   "leg": "Em quais cidades da Bahia mais casas têm esgoto ligado à rede? Hoje tem ranking do lado bom.",
+   "fim": "pergunta",
+   "chaves": []
+  },
+  {
+   "id": "bes3",
+   "fala": "Dezenove cidades baianas passam de oitenta por cento das casas ligadas à rede.",
+   "leg": "19 cidades baianas passam de 80% das casas ligadas à rede.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bes4",
+   "fala": "Do décimo ao quarto lugar: Jequié, Macarani, Sobradinho, Firmino Alves, Itabuna, Coaraci e Itororó.",
+   "leg": "Do 10º ao 4º lugar: Jequié, Macarani, Sobradinho, Firmino Alves, Itabuna, Coaraci e Itororó.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bes5",
+   "fala": "Em terceiro, Madre de Deus, com noventa e dois por cento. Em segundo, Itapetinga, com noventa e quatro. E em primeiro, Salvador, com mais de noventa e cinco por cento das casas ligadas.",
+   "leg": "Em 3º, Madre de Deus, com 92%. Em 2º, Itapetinga, com 94%. E em 1º, Salvador, com mais de 95% das casas ligadas.",
+   "fim": "ponto",
+   "chaves": []
+  },
+  {
+   "id": "bes6",
+   "fala": "No mapa, estão as dezenove cidades.",
+   "leg": "No mapa, estão as 19 cidades.",
+   "fim": "ponto",
+   "chaves": []
+  }
+ ]
+}
